@@ -1,0 +1,2 @@
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\B4.EE.OmedMilat.UWP.csproj;x86
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.csproj;neutral
