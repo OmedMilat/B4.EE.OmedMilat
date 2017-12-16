@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SQLite;
+using System;
 
 namespace B4.EE.OmedMilat.Domain.Models
 {
-    class JarvisCommands
+    [Table(nameof(JarvisCommands))]
+    public class JarvisCommands
     {
+        public string Joke { get; set; }
     }
 }

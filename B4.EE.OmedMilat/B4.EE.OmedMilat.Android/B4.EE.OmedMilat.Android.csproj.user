@@ -3,5 +3,8 @@
   <PropertyGroup>
     <SelectedDevice>AVD_droid_N5_23_x86_apps_phone</SelectedDevice>
     <DefaultDevice>AVD_droid_N5_23_x86_apps_phone</DefaultDevice>
+    <ProjectView>ProjectFiles</ProjectView>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

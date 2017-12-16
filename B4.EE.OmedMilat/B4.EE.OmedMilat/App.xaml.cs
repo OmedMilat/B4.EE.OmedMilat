@@ -9,12 +9,25 @@ namespace B4.EE.OmedMilat
 {
     public partial class App : Application
     {
+        //static Repository database;
         public App()
         {
             InitializeComponent();
 
-            MainPage = new B4.EE.OmedMilat.Views.MainView();
+            MainPage = new Views.MainView();
         }
+
+        //public static Repository Database
+        //{
+        //    get
+        //    {
+        //        if(database == null)
+        //        {
+        //            database = new Repository(DependencyService.Get<IFileHelper>().GetLocalFilePath("Jarvis.db3")); 
+        //        }
+        //        return database;
+        //    }
+        //}
 
         protected override void OnStart()
         {

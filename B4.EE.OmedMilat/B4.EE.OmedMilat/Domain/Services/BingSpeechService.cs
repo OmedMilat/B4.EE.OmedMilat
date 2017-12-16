@@ -4,14 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Plugin.AudioRecorder;
 using Xamarin.Cognitive.BingSpeech;
-using Plugin.TextToSpeech;
+
 
 namespace B4.EE.OmedMilat.Domain.Services
 {
     public class BingSpeechService
     {
         string BingSpeechApiKey = "ede4874dde25467d93ceb8ff46bb48f2";
-        string SpeechResult = null;
+        static string SpeechResult = null;
         AudioRecorderService recorder;
         BingSpeechApiClient bingSpeechClient;
 
@@ -95,10 +95,9 @@ namespace B4.EE.OmedMilat.Domain.Services
             return SpeechResult;
         }
 
-        public async Task test()
+        public static string Result()
         {
-
-            await CrossTextToSpeech.Current.Speak(SpeechResult);
+             return SpeechResult;
         }
     }
 }
