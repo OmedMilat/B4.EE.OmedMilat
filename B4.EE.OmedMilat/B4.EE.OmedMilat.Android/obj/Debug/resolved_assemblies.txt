@@ -45,18 +45,17 @@ C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedM
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Linq.dll
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.ComponentModel.dll
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.IO.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Xml.XDocument.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Text.Encoding.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Threading.dll
@@ -66,5 +65,6 @@ C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedM
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Net.Primitives.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Net.Requests.dll
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.ComponentModel.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\Mono.Security.dll

@@ -28,6 +28,12 @@
     <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\B4.EE.OmedMilat.UWP.exe">
       <PackagePath>entrypoint\B4.EE.OmedMilat.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\kphillpotts.Lamp.Plugin\1.0.0.1\lib\win8\Lamp.Plugin.Abstractions.dll">
+      <PackagePath>Lamp.Plugin.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\kphillpotts.Lamp.Plugin\1.0.0.1\lib\win8\Lamp.Plugin.dll">
+      <PackagePath>Lamp.Plugin.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -430,8 +436,8 @@
     <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat.dll">
       <PackagePath>B4.EE.OmedMilat.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\jarvislogo.png">
+      <PackagePath>Assets\jarvislogo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -551,6 +557,9 @@
     <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\B4.EE.OmedMilat.UWP.xr.xml">
       <PackagePath>B4.EE.OmedMilat.UWP.xr.xml</PackagePath>

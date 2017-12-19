@@ -9,6 +9,10 @@ C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedM
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\AppxManifest.xml
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\B4.EE.OmedMilat.UWP.exe
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\B4.EE.OmedMilat.UWP.build.appxrecipe
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Lamp.Plugin.Abstractions.dll
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Lamp.Plugin.Abstractions.pdb
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Lamp.Plugin.dll
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Lamp.Plugin.pdb
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Microsoft.CSharp.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.Core.dll

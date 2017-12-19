@@ -16,6 +16,7 @@ namespace B4.EE.OmedMilat.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+            this.Window.AddFlags(WindowManagerFlags.Fullscreen | WindowManagerFlags.TurnScreenOn);
 
             base.OnCreate(bundle);
 

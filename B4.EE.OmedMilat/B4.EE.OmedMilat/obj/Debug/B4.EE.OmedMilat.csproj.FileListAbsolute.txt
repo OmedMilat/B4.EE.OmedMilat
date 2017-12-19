@@ -1,5 +1,7 @@
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat.pdb
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.Abstractions.dll
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Newtonsoft.Json.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\PCLStorage.Abstractions.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\PCLStorage.dll
@@ -14,6 +16,10 @@ C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedM
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.pdb
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.xml
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.Abstractions.pdb
+C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.Abstractions.xml
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Newtonsoft.Json.xml
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\PCLStorage.xml
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\PCLStorage.Abstractions.xml
@@ -33,9 +39,3 @@ C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedM
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.Views.MainView.xaml.g.cs
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.dll
 C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.pdb
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.Abstractions.dll
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.dll
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.pdb
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.xml
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.Abstractions.pdb
-C:\Users\qais187\Documents\School\HBO\Programmeren 5\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Lamp.Plugin.Abstractions.xml
