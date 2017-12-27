@@ -2,6 +2,22 @@ B4.EE.OmedMilat.Droid.MainActivity, B4.EE.OmedMilat.Android;md58069c65dc941f3e7b
 B4.EE.OmedMilat.Droid.MainActivity, B4.EE.OmedMilat.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58069c65dc941f3e7bbf5ce9950498087.MainActivity
 B4.EE.OmedMilat.Droid.MainActivity;md58069c65dc941f3e7bbf5ce9950498087.MainActivity
 b4.ee.omedmilat.droid.MainActivity;md58069c65dc941f3e7bbf5ce9950498087.MainActivity
+B4.EE.OmedMilat.Droid.MainApplication, B4.EE.OmedMilat.Android;md58069c65dc941f3e7bbf5ce9950498087.MainApplication
+B4.EE.OmedMilat.Droid.MainApplication, B4.EE.OmedMilat.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58069c65dc941f3e7bbf5ce9950498087.MainApplication
+B4.EE.OmedMilat.Droid.MainApplication;md58069c65dc941f3e7bbf5ce9950498087.MainApplication
+b4.ee.omedmilat.droid.MainApplication;md58069c65dc941f3e7bbf5ce9950498087.MainApplication
+B4.EE.OmedMilat.Droid.OpenAppAndroid, B4.EE.OmedMilat.Android;md58069c65dc941f3e7bbf5ce9950498087.OpenAppAndroid
+B4.EE.OmedMilat.Droid.OpenAppAndroid, B4.EE.OmedMilat.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58069c65dc941f3e7bbf5ce9950498087.OpenAppAndroid
+B4.EE.OmedMilat.Droid.OpenAppAndroid;md58069c65dc941f3e7bbf5ce9950498087.OpenAppAndroid
+b4.ee.omedmilat.droid.OpenAppAndroid;md58069c65dc941f3e7bbf5ce9950498087.OpenAppAndroid
+Plugin.Geolocator.GeolocationContinuousListener, Plugin.Geolocator;md55b25359b9c06cd45993aa2e770840148.GeolocationContinuousListener
+Plugin.Geolocator.GeolocationContinuousListener, Plugin.Geolocator, Version=3.0.3.0, Culture=neutral, PublicKeyToken=null;md55b25359b9c06cd45993aa2e770840148.GeolocationContinuousListener
+Plugin.Geolocator.GeolocationContinuousListener;md55b25359b9c06cd45993aa2e770840148.GeolocationContinuousListener
+plugin.geolocator.GeolocationContinuousListener;md55b25359b9c06cd45993aa2e770840148.GeolocationContinuousListener
+Plugin.Geolocator.GeolocationSingleListener, Plugin.Geolocator;md55b25359b9c06cd45993aa2e770840148.GeolocationSingleListener
+Plugin.Geolocator.GeolocationSingleListener, Plugin.Geolocator, Version=3.0.3.0, Culture=neutral, PublicKeyToken=null;md55b25359b9c06cd45993aa2e770840148.GeolocationSingleListener
+Plugin.Geolocator.GeolocationSingleListener;md55b25359b9c06cd45993aa2e770840148.GeolocationSingleListener
+plugin.geolocator.GeolocationSingleListener;md55b25359b9c06cd45993aa2e770840148.GeolocationSingleListener
 Plugin.TextToSpeech.TextToSpeech, Plugin.TextToSpeech;md50885d9cb34d6be2c92273875978a17d0.TextToSpeech
 Plugin.TextToSpeech.TextToSpeech, Plugin.TextToSpeech, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null;md50885d9cb34d6be2c92273875978a17d0.TextToSpeech
 Plugin.TextToSpeech.TextToSpeech;md50885d9cb34d6be2c92273875978a17d0.TextToSpeech

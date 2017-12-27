@@ -101,6 +101,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\OpenAppUWP.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -156,7 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\B4.EE.OmedMilat\B4.EE.OmedMilat.csproj">
-      <Project>{6ed5bc73-34cc-4438-9064-28c6fb9e53e4}</Project>
+      <Project>{02b86182-7d27-4051-86d0-4e80d0271501}</Project>
       <Name>B4.EE.OmedMilat</Name>
     </ProjectReference>
   </ItemGroup>

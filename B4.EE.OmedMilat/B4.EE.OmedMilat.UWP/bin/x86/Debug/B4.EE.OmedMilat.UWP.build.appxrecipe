@@ -79,6 +79,9 @@
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Newtonsoft.Json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\OpenWeatherMap\1.1.0\lib\netstandard1.1\OpenWeatherMap.dll">
+      <PackagePath>OpenWeatherMap.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\PCLStorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll">
       <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -411,6 +414,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Xam.Plugin.Geolocator\3.0.3\lib\UAP10\Plugin.Geolocator.Abstractions.dll">
+      <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Xam.Plugin.Geolocator\3.0.3\lib\UAP10\Plugin.Geolocator.dll">
+      <PackagePath>Plugin.Geolocator.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Xam.Plugins.TextToSpeech\3.0.1\lib\UAP10\Plugin.TextToSpeech.Abstractions.dll">
       <PackagePath>Plugin.TextToSpeech.Abstractions.dll</PackagePath>

@@ -8,7 +8,9 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="B4.EE.OmedMilat.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <application android:label="B4.EE.OmedMilat.Android" android:name="md58069c65dc941f3e7bbf5ce9950498087.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="B4.EE.OmedMilat" android:theme="@style/MainTheme" android:name="md58069c65dc941f3e7bbf5ce9950498087.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
