@@ -4,6 +4,7 @@
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "OpenWeatherMap": "1.1.0",
     "Plugin.AudioRecorder": "0.8.0",
+    "Plugin.MediaManager": "0.4.5",
     "sqlite-net-pcl": "1.4.118",
     "Xam.Plugin.Geolocator": "3.0.3",
     "Xam.Plugins.TextToSpeech": "3.0.1",

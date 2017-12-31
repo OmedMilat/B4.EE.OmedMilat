@@ -5,13 +5,7 @@
              BackgroundImage="jarvisbg.jpg">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Image>
-                <Image.Source>
-                    <OnPlatform x:TypeArguments="ImageSource">
-                        <On Platform="Android">jarvislogo.png</On>
-                        <On Platform="Windows">assets/jarvislogo.png</On>
-                    </OnPlatform>
-                </Image.Source>
+            <Image Source="{Binding Jarvislogo}">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding RecordAudio}"/>
                 </Image.GestureRecognizers>

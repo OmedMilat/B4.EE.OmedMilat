@@ -11,8 +11,8 @@
 namespace B4.EE.OmedMilat.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\qais187\\Documents\\School\\HBO\\Programmeren 5\\B4.EE.OmedMilat\\B4.EE.OmedMi" +
-        "lat\\B4.EE.OmedMilat\\Views\\MainView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\qais187\\Desktop\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\Views\\Ma" +
+        "inView.xaml")]
     public partial class MainView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

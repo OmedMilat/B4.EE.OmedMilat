@@ -1,11 +1,8 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
 using Android.Views;
-using Android.Widget;
 using Android.OS;
+using B4.EE.OmedMilat.Droid.Services;
 
 namespace B4.EE.OmedMilat.Droid
 {
@@ -19,9 +16,11 @@ namespace B4.EE.OmedMilat.Droid
             this.Window.AddFlags(WindowManagerFlags.Fullscreen | WindowManagerFlags.TurnScreenOn);
 
             base.OnCreate(bundle);
-
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
             Xamarin.Forms.DependencyService.Register<OpenAppAndroid>();
+            Xamarin.Forms.DependencyService.Register<SystemSetting>();
+            Xamarin.Forms.DependencyService.Register<OpenMedia>();
             LoadApplication(new App());
         }
     }

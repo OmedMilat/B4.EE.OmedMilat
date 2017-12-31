@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Plugin.AudioRecorder;
 using Xamarin.Cognitive.BingSpeech;
-
+using B4.EE.OmedMilat.ViewModels;
 
 namespace B4.EE.OmedMilat.Domain.Services
 {
@@ -81,8 +81,6 @@ namespace B4.EE.OmedMilat.Domain.Services
 
         public string ProcessResult(RecognitionResult recognitionResult)
         {
-
-
             if (recognitionResult != null && recognitionResult.Results.Any())
             {
                 var speechResult = recognitionResult.Results.First();

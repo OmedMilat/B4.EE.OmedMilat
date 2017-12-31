@@ -385,6 +385,17 @@
           "lib/netcore50/Plugin.AudioRecorder.dll": {}
         }
       },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        }
+      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2744,6 +2755,17 @@
         },
         "runtime": {
           "lib/netcore50/Plugin.AudioRecorder.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -5261,6 +5283,17 @@
         },
         "runtime": {
           "lib/netcore50/Plugin.AudioRecorder.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -7817,6 +7850,17 @@
           "lib/netcore50/Plugin.AudioRecorder.dll": {}
         }
       },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        }
+      },
       "runtime.any.System.Collections/4.0.11": {
         "type": "package",
         "dependencies": {
@@ -10341,6 +10385,17 @@
         },
         "runtime": {
           "lib/netcore50/Plugin.AudioRecorder.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -12903,6 +12958,17 @@
           "lib/netcore50/Plugin.AudioRecorder.dll": {}
         }
       },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        }
+      },
       "runtime.any.System.Collections/4.0.11": {
         "type": "package",
         "dependencies": {
@@ -15427,6 +15493,17 @@
         },
         "runtime": {
           "lib/netcore50/Plugin.AudioRecorder.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -18108,6 +18185,39 @@
         "lib/xamarinios10/Plugin.AudioRecorder.xml",
         "plugin.audiorecorder.0.8.0.nupkg.sha512",
         "plugin.audiorecorder.nuspec"
+      ]
+    },
+    "Plugin.MediaManager/0.4.5": {
+      "sha512": "cpTcuGY+HUDhz2spS4jlB8zmlVsULzbR+YYcxXanKnARUmXO7L66gC+MiJYhVfOEhg96EKYPGEGPuIPtzST3+A==",
+      "type": "package",
+      "path": "plugin.mediamanager/0.4.5",
+      "files": [
+        "lib/MonoAndroid/Plugin.MediaManager.Abstractions.dll",
+        "lib/MonoAndroid/Plugin.MediaManager.Abstractions.xml",
+        "lib/MonoAndroid/Plugin.MediaManager.dll",
+        "lib/MonoAndroid/Plugin.MediaManager.xml",
+        "lib/Xamarin.Mac/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.Mac/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.Mac/Plugin.MediaManager.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.xml",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.xml",
+        "lib/uap10.0/Plugin.MediaManager.Abstractions.dll",
+        "lib/uap10.0/Plugin.MediaManager.Abstractions.xml",
+        "lib/uap10.0/Plugin.MediaManager.XML",
+        "lib/uap10.0/Plugin.MediaManager.dll",
+        "lib/uap10.0/Plugin.MediaManager.pdb",
+        "lib/uap10.0/Properties/Plugin.MediaManager.UWP.rd.xml",
+        "plugin.mediamanager.0.4.5.nupkg.sha512",
+        "plugin.mediamanager.nuspec"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -24438,6 +24548,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
       "OpenWeatherMap >= 1.1.0",
       "Plugin.AudioRecorder >= 0.8.0",
+      "Plugin.MediaManager >= 0.4.5",
       "Xam.Plugin.Geolocator >= 3.0.3",
       "Xam.Plugins.TextToSpeech >= 3.0.1",
       "Xamarin.Cognitive.BingSpeech >= 1.0.3",
@@ -24452,12 +24563,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\qais187\\Documents\\School\\HBO\\Programmeren 5\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\B4.EE.OmedMilat.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\qais187\\Desktop\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\B4.EE.OmedMilat.UWP.csproj",
       "projectName": "B4.EE.OmedMilat.UWP",
-      "projectPath": "C:\\Users\\qais187\\Documents\\School\\HBO\\Programmeren 5\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\B4.EE.OmedMilat.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\qais187\\Documents\\School\\HBO\\Programmeren 5\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\project.json",
+      "projectPath": "C:\\Users\\qais187\\Desktop\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\B4.EE.OmedMilat.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\qais187\\Desktop\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\project.json",
       "packagesPath": "C:\\Users\\qais187\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qais187\\Documents\\School\\HBO\\Programmeren 5\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\obj\\",
+      "outputPath": "C:\\Users\\qais187\\Desktop\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\qais187\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -24470,8 +24581,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\qais187\\Documents\\School\\HBO\\Programmeren 5\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.csproj": {
-              "projectPath": "C:\\Users\\qais187\\Documents\\School\\HBO\\Programmeren 5\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.csproj"
+            "C:\\Users\\qais187\\Desktop\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.csproj": {
+              "projectPath": "C:\\Users\\qais187\\Desktop\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat\\B4.EE.OmedMilat.csproj"
             }
           }
         }
@@ -24482,6 +24593,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
       "OpenWeatherMap": "1.1.0",
       "Plugin.AudioRecorder": "0.8.0",
+      "Plugin.MediaManager": "0.4.5",
       "sqlite-net-pcl": "1.4.118",
       "Xam.Plugin.Geolocator": "3.0.3",
       "Xam.Plugins.TextToSpeech": "3.0.1",

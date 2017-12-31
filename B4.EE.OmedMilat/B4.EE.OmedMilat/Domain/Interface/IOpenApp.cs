@@ -10,7 +10,7 @@ namespace B4.EE.OmedMilat.Domain.Interface
 {
     public interface IOpenApp
     {
-        void OpenExternalApp(string appname);
+        Task OpenExternalApp(string appname);
         List<InstalledAppsInfo> AppInfo();
     }
 }
