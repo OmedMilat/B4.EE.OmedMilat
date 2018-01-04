@@ -1,10 +1,11 @@
-﻿using B4.EE.OmedMilat.Domain.Interface;
-using B4.EE.OmedMilat.Domain.Models;
-using B4.EE.OmedMilat.Domain.Services;
+﻿using B4.EE.OmedMilat.Domain.Services;
+using B4.EE.OmedMilat.Views;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+
 
 namespace B4.EE.OmedMilat.ViewModels
 {
@@ -13,17 +14,18 @@ namespace B4.EE.OmedMilat.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
         public BingSpeechService bingSpeechService;
         public JarvisService jarvisService;
-        public MainViewModel()
-        {
+        INavigation navigation;
+
+        public MainViewModel(INavigation navigation)
+        {   
+            this.navigation = navigation;
             jarvislogo = "jarvislogo.png";
             bingSpeechService = new BingSpeechService();
-            jarvisService = new JarvisService();
-            
+            jarvisService = new JarvisService(); 
         }
         public void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         string jarvislogo;
@@ -37,12 +39,29 @@ namespace B4.EE.OmedMilat.ViewModels
             }
         }
 
+        public async Task VideoNextPage()
+        {
+            await navigation.PushAsync(new VideoView(JarvisService.videolink));
+        }
+
         public ICommand RecordAudio => new Command(
              async () =>
             {
                 Jarvislogo = "offlinejarvislogo.png";
-                //await bingSpeechService.RecordAudio();             
-                await jarvisService.Hall9000();
+
+                try
+                {
+                    await bingSpeechService.RecordAudio();
+                    await jarvisService.Commands();
+                }               
+
+                catch { }
+
+                if (jarvisService.Video() == true)
+                {
+                    await VideoNextPage();
+                    JarvisService.videobool = false;
+                }
                 Jarvislogo = "jarvislogo.png";
             });
 

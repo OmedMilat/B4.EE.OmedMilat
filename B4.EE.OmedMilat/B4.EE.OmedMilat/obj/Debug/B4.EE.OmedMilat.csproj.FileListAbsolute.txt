@@ -50,3 +50,13 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Deb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.Views.MainView.xaml.g.cs
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Plugin.MediaManager.Forms.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.Views.VideoView.xaml.g.cs
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Corcav.Behaviors.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Corcav.Behaviors.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Corcav.Behaviors.xml
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Acr.UserDialogs.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Acr.UserDialogs.Interface.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Splat.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Acr.UserDialogs.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Acr.UserDialogs.Interface.pdb

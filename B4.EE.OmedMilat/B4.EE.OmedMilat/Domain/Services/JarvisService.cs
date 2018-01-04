@@ -8,14 +8,16 @@ using Xamarin.Forms;
 using OpenWeatherMap;
 using Plugin.Geolocator;
 using System;
-using Plugin.MediaManager;
-using Plugin.MediaManager.Abstractions.Implementations;
+using B4.EE.OmedMilat.ViewModels;
+using B4.EE.OmedMilat.Views;
 
 namespace B4.EE.OmedMilat.Domain.Services
 {
     public class JarvisService
     {
         List<InstalledAppsInfo> apps = DependencyService.Get<IOpenApp>().AppInfo();
+        public static bool videobool;
+        public static string videolink;
         public async Task JarvisTalk(string message)
         {
             await CrossTextToSpeech.Current.Speak(message);
@@ -26,7 +28,7 @@ namespace B4.EE.OmedMilat.Domain.Services
             if (BingSpeechService.Result().StartsWith("open ") == true)
                 await OpenApp();
             else
-                if (BingSpeechService.Result().StartsWith("search ") == true)
+            if (BingSpeechService.Result().StartsWith("search ") == true)
             {
                 await SearchGoogle();
             }
@@ -71,16 +73,22 @@ namespace B4.EE.OmedMilat.Domain.Services
                     case "can you go away":
                         await Hall9000();
                         break;
+
+                    case "play video":
+                        videobool = true;
+                        Video();
+                        break;
                 }
         }
 
-        #region Tasks
+        #region Tasks   
+        public bool Video()
+        {
+            videolink = "https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4";
+            return videobool;
+        }
         public async Task Hall9000()
         {
-            //MediaFile file = new MediaFile();
-            //file.Type = Plugin.MediaManager.Abstractions.Enums.MediaFileType.Audio;
-            //file.Url = "file://hall9000.mp3";
-            //await CrossMediaManager.Current.Play("file://B4.EE.OmedMilat/B4.EE.OmedMilat.UWP/hall9000.mp3");
             //https://ia800806.us.archive.org/15/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3
             await DependencyService.Get<IMedia>().Playaudio();
         }
@@ -112,7 +120,7 @@ namespace B4.EE.OmedMilat.Domain.Services
             {
                 if (apps[i].Name.ToLower() == openapp)
                 {
-                    DependencyService.Get<IOpenApp>().OpenExternalApp(apps[i].PackageName);
+                    await DependencyService.Get<IOpenApp>().OpenExternalApp(apps[i].PackageName);
                     break;
                 }
             }

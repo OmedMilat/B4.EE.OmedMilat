@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using B4.EE.OmedMilat.Views;
 
 using Xamarin.Forms;
 
@@ -14,7 +11,7 @@ namespace B4.EE.OmedMilat
         {
             InitializeComponent();
 
-            MainPage = new Views.MainView();
+            MainPage = new NavigationPage(new MainView());
         }
 
         //public static Repository Database

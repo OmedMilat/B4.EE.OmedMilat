@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Plugin.AudioRecorder;
 using Xamarin.Cognitive.BingSpeech;
-using B4.EE.OmedMilat.ViewModels;
+using Acr.UserDialogs;
 
 namespace B4.EE.OmedMilat.Domain.Services
 {
@@ -14,6 +14,7 @@ namespace B4.EE.OmedMilat.Domain.Services
         static string SpeechResult = null;
         AudioRecorderService recorder;
         BingSpeechApiClient bingSpeechClient;
+        ToastConfig Toast;
 
         public BingSpeechService()
         {
@@ -55,6 +56,7 @@ namespace B4.EE.OmedMilat.Domain.Services
                 else //Stop button clicked
                 {
                     //stop the recording...
+                    SpeechResult = null;
                     await recorder.StopRecording();
                 }
             }
@@ -87,7 +89,11 @@ namespace B4.EE.OmedMilat.Domain.Services
 
                 SpeechResult = speechResult.Lexical;
             }
-
+            Toast = new ToastConfig(SpeechResult);
+            Toast.SetDuration(2000);
+            Toast.SetBackgroundColor(System.Drawing.Color.Black);
+            Toast.SetMessageTextColor(System.Drawing.Color.White);
+            UserDialogs.Instance.Toast(Toast);
             Debug.WriteLine(SpeechResult);
 
             return SpeechResult;

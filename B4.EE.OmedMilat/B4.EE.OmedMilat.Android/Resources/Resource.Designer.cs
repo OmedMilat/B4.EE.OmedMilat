@@ -26,10 +26,2153 @@ namespace B4.EE.OmedMilat.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::B4.EE.OmedMilat.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::B4.EE.OmedMilat.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::B4.EE.OmedMilat.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::B4.EE.OmedMilat.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::B4.EE.OmedMilat.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::B4.EE.OmedMilat.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::B4.EE.OmedMilat.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::B4.EE.OmedMilat.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::B4.EE.OmedMilat.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::PCLStorage.Resource.String.ApplicationName = global::B4.EE.OmedMilat.Droid.Resource.String.ApplicationName;
 			global::PCLStorage.Resource.String.Hello = global::B4.EE.OmedMilat.Droid.Resource.String.Hello;
 			global::Plugin.AudioRecorder.Resource.String.ApplicationName = global::B4.EE.OmedMilat.Droid.Resource.String.ApplicationName;
 			global::Plugin.AudioRecorder.Resource.String.Hello = global::B4.EE.OmedMilat.Droid.Resource.String.Hello;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_fade_in = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_fade_out = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_popup_enter = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_popup_exit = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_in_top = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.abc_slide_out_top = global::B4.EE.OmedMilat.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_bottom_sheet_slide_in = global::B4.EE.OmedMilat.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_bottom_sheet_slide_out = global::B4.EE.OmedMilat.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_fab_in = global::B4.EE.OmedMilat.Droid.Resource.Animation.design_fab_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_fab_out = global::B4.EE.OmedMilat.Droid.Resource.Animation.design_fab_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_snackbar_in = global::B4.EE.OmedMilat.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animation.design_snackbar_out = global::B4.EE.OmedMilat.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.MediaManager.Forms.Android.Resource.Animator.design_appbar_state_list_animator = global::B4.EE.OmedMilat.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarDivider = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarItemBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarSize = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionDropDownStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionMenuTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionProviderClass = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.actionViewClass = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::B4.EE.OmedMilat.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alertDialogTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.allowStacking = global::B4.EE.OmedMilat.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.alpha = global::B4.EE.OmedMilat.Droid.Resource.Attribute.alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.arrowHeadLength = global::B4.EE.OmedMilat.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.arrowShaftLength = global::B4.EE.OmedMilat.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.background = global::B4.EE.OmedMilat.Droid.Resource.Attribute.background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundSplit = global::B4.EE.OmedMilat.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundStacked = global::B4.EE.OmedMilat.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundTint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.backgroundTintMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.barLength = global::B4.EE.OmedMilat.Droid.Resource.Attribute.barLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_autoHide = global::B4.EE.OmedMilat.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_hideable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_overlapTop = global::B4.EE.OmedMilat.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_peekHeight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.behavior_skipCollapsed = global::B4.EE.OmedMilat.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.borderWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.bottomSheetDialogTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.bottomSheetStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonGravity = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonStyleSmall = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonTint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.buttonTintMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardBackgroundColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardCornerRadius = global::B4.EE.OmedMilat.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardElevation = global::B4.EE.OmedMilat.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardMaxElevation = global::B4.EE.OmedMilat.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::B4.EE.OmedMilat.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.checkboxStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.closeIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.closeItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapseContentDescription = global::B4.EE.OmedMilat.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapseIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::B4.EE.OmedMilat.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.color = global::B4.EE.OmedMilat.Droid.Resource.Attribute.color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorAccent = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorBackgroundFloating = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorButtonNormal = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlActivated = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlHighlight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorControlNormal = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorPrimary = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorPrimaryDark = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::B4.EE.OmedMilat.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.commitIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetEnd = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetEndWithActions = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetLeft = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetRight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetStart = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentInsetStartWithNavigation = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingBottom = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingLeft = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingRight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentPaddingTop = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.contentScrim = global::B4.EE.OmedMilat.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.controlBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterEnabled = global::B4.EE.OmedMilat.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterMaxLength = global::B4.EE.OmedMilat.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterOverflowTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.counterTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.customNavigationLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.defaultQueryHint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dialogTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.displayOptions = global::B4.EE.OmedMilat.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.divider = global::B4.EE.OmedMilat.Droid.Resource.Attribute.divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerHorizontal = global::B4.EE.OmedMilat.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dividerVertical = global::B4.EE.OmedMilat.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.drawableSize = global::B4.EE.OmedMilat.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.drawerArrowStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.editTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.elevation = global::B4.EE.OmedMilat.Droid.Resource.Attribute.elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.errorEnabled = global::B4.EE.OmedMilat.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.errorTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expanded = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expanded;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleGravity = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMargin = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.fabSize = global::B4.EE.OmedMilat.Droid.Resource.Attribute.fabSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.foregroundInsidePadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.gapBetweenBars = global::B4.EE.OmedMilat.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.goIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.goIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.headerLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.height = global::B4.EE.OmedMilat.Droid.Resource.Attribute.height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hideOnContentScroll = global::B4.EE.OmedMilat.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::B4.EE.OmedMilat.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintEnabled = global::B4.EE.OmedMilat.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.hintTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::B4.EE.OmedMilat.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.homeLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.icon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.iconifiedByDefault = global::B4.EE.OmedMilat.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.imageButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.initialActivityCount = global::B4.EE.OmedMilat.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.insetForeground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.isLightTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemIconTint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.itemTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.keylines = global::B4.EE.OmedMilat.Droid.Resource.Attribute.keylines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layoutManager = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_anchor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_anchorGravity = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_behavior = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_collapseMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_dodgeInsetEdges = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_insetEdge = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_keyline = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_scrollFlags = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::B4.EE.OmedMilat.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listMenuViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.logo = global::B4.EE.OmedMilat.Droid.Resource.Attribute.logo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.logoDescription = global::B4.EE.OmedMilat.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.maxButtonHeight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.measureWithLargestChild = global::B4.EE.OmedMilat.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteCloseDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteStopDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.menu = global::B4.EE.OmedMilat.Droid.Resource.Attribute.menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationContentDescription = global::B4.EE.OmedMilat.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.navigationMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.overlapAnchor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingBottomNoButtons = global::B4.EE.OmedMilat.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingEnd = global::B4.EE.OmedMilat.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingStart = global::B4.EE.OmedMilat.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.paddingTopNoTitle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelMenuListTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.panelMenuListWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleContentDescription = global::B4.EE.OmedMilat.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleDrawable = global::B4.EE.OmedMilat.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleEnabled = global::B4.EE.OmedMilat.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleTint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.passwordToggleTintMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupMenuStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupTheme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.popupWindowStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.preserveIconSpacing = global::B4.EE.OmedMilat.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.pressedTranslationZ = global::B4.EE.OmedMilat.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.progressBarPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.progressBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.queryBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.queryHint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.queryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.radioButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyleIndicator = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.ratingBarStyleSmall = global::B4.EE.OmedMilat.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.reverseLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.rippleColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.scrimAnimationDuration = global::B4.EE.OmedMilat.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::B4.EE.OmedMilat.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchHintIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.searchViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.seekBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.selectableItemBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::B4.EE.OmedMilat.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showAsAction = global::B4.EE.OmedMilat.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showDividers = global::B4.EE.OmedMilat.Droid.Resource.Attribute.showDividers;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showText = global::B4.EE.OmedMilat.Droid.Resource.Attribute.showText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.showTitle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.showTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spanCount = global::B4.EE.OmedMilat.Droid.Resource.Attribute.spanCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinBars = global::B4.EE.OmedMilat.Droid.Resource.Attribute.spinBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.spinnerStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.splitTrack = global::B4.EE.OmedMilat.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.srcCompat = global::B4.EE.OmedMilat.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.stackFromEnd = global::B4.EE.OmedMilat.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_above_anchor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_collapsed = global::B4.EE.OmedMilat.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.state_collapsible = global::B4.EE.OmedMilat.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.statusBarBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.statusBarScrim = global::B4.EE.OmedMilat.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subMenuArrow = global::B4.EE.OmedMilat.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.submitBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.subtitleTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.suggestionRowLayout = global::B4.EE.OmedMilat.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchMinWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.switchTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabBackground = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabContentStart = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabGravity = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabIndicatorColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMaxWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMinWidth = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingBottom = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingEnd = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingStart = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabPaddingTop = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tabTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAllCaps = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceListItem = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorError = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textColorError;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.textColorSearchUrl = global::B4.EE.OmedMilat.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.theme = global::B4.EE.OmedMilat.Droid.Resource.Attribute.theme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thickness = global::B4.EE.OmedMilat.Droid.Resource.Attribute.thickness;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTextPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.thumbTintMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMark = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tickMark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMarkTint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.tickMarkTintMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.title = global::B4.EE.OmedMilat.Droid.Resource.Attribute.title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleEnabled = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMargin = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginBottom = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginEnd = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginStart = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMarginTop = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleMargins = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextColor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.titleTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarId = global::B4.EE.OmedMilat.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.toolbarStyle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.track = global::B4.EE.OmedMilat.Droid.Resource.Attribute.track;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.trackTint = global::B4.EE.OmedMilat.Droid.Resource.Attribute.trackTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.trackTintMode = global::B4.EE.OmedMilat.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.useCompatPadding = global::B4.EE.OmedMilat.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.voiceIcon = global::B4.EE.OmedMilat.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionBar = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Attribute.windowNoTitle = global::B4.EE.OmedMilat.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::B4.EE.OmedMilat.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::B4.EE.OmedMilat.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::B4.EE.OmedMilat.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::B4.EE.OmedMilat.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Plugin.MediaManager.Forms.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::B4.EE.OmedMilat.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_btn_colored_text_material = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_color_highlight_material = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_hint_foreground_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_hint_foreground_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_primary_text_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_normal = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_search_url_text_selected = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_btn_checkable = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_default = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_edittext = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_seek_thumb = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_spinner = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_switch_thumb = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_tint_switch_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.abc_tint_switch_track = global::B4.EE.OmedMilat.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.accent_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.accent_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.accent_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_floating_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_floating_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.background_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.background_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.background_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.bright_foreground_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.button_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.button_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.button_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.button_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_dark_background = global::B4.EE.OmedMilat.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_light_background = global::B4.EE.OmedMilat.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_shadow_end_color = global::B4.EE.OmedMilat.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.cardview_shadow_start_color = global::B4.EE.OmedMilat.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_bottom_navigation_shadow_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_error = global::B4.EE.OmedMilat.Droid.Resource.Color.design_error;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_snackbar_background_color = global::B4.EE.OmedMilat.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_textinput_error_color_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_textinput_error_color_light = global::B4.EE.OmedMilat.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.design_tint_password_toggle = global::B4.EE.OmedMilat.Droid.Resource.Color.design_tint_password_toggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.dim_foreground_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.foreground_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.foreground_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.highlighted_text_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.highlighted_text_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_800 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_900 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_blue_grey_950 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_deep_teal_200 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_deep_teal_500 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_100 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_grey_100;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_300 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_grey_300;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_50 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_grey_50;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_600 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_grey_600;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_800 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_grey_800;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_850 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_grey_850;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.material_grey_900 = global::B4.EE.OmedMilat.Droid.Resource.Color.material_grey_900;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_action_color_filter = global::B4.EE.OmedMilat.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_icon_bg_color = global::B4.EE.OmedMilat.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.notification_material_background_media_default_color = global::B4.EE.OmedMilat.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_dark_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_dark_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_default_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_default_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.ripple_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.ripple_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_default_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::B4.EE.OmedMilat.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_elevation_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_corner_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_inset_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_control_padding_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dialog_title_divider_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_floating_window_z = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_progress_bar_height_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_search_view_preferred_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_switch_padding = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_menu_header_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::B4.EE.OmedMilat.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::B4.EE.OmedMilat.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_default_elevation = global::B4.EE.OmedMilat.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.cardview_default_radius = global::B4.EE.OmedMilat.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_appbar_elevation = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_elevation = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_margin = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_navigation_text_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_border_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_elevation = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_image_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_size_mini = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_size_normal = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_elevation = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_max_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_max_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_scrollable_min_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_text_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.design_tab_text_size_2line = global::B4.EE.OmedMilat.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::B4.EE.OmedMilat.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::B4.EE.OmedMilat.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::B4.EE.OmedMilat.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_alpha_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_alpha_material_light = global::B4.EE.OmedMilat.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::B4.EE.OmedMilat.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::B4.EE.OmedMilat.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::B4.EE.OmedMilat.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::B4.EE.OmedMilat.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::B4.EE.OmedMilat.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::B4.EE.OmedMilat.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::B4.EE.OmedMilat.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::B4.EE.OmedMilat.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_action_icon_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_action_text_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_big_circle_margin = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_content_margin_start = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_large_icon_height = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_large_icon_width = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_main_column_padding_top = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_media_narrow_margin = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_right_icon_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_right_side_padding_top = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_small_icon_background_padding = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_small_icon_size_as_large = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_subtext_size = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_top_pad = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.MediaManager.Forms.Android.Resource.Dimension.notification_top_pad_large_text = global::B4.EE.OmedMilat.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_control_background_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_dialog_material_background = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_edit_text_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_ab_back_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_clear_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_go_search_api_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_search_api_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_16dp = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_36dp = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_black_48dp = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_ratingbar_small_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_thumb_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_seekbar_track_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.abc_vector_test = global::B4.EE.OmedMilat.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_hide_password = global::B4.EE.OmedMilat.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.avd_show_password = global::B4.EE.OmedMilat.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_bottom_navigation_item_background = global::B4.EE.OmedMilat.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_fab_background = global::B4.EE.OmedMilat.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_ic_visibility = global::B4.EE.OmedMilat.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_ic_visibility_off = global::B4.EE.OmedMilat.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_password_eye = global::B4.EE.OmedMilat.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.design_snackbar_background = global::B4.EE.OmedMilat.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_audiotrack_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_audiotrack_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_dialog_close_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_dialog_close_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_00 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_01 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_02 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_03 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_04 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_05 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_06 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_07 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_08 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_09 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_10 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_11 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_12 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_13 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_14 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_collapse_15 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_00 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_01 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_02 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_03 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_04 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_05 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_06 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_07 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_08 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_09 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_10 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_11 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_12 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_13 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_14 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_group_expand_15 = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_pause_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_pause_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_play_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_play_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_media_play_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_stop_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_media_stop_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disabled_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_mr_button_grey = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_speaker_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_tv_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.ic_vol_type_tv_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connected_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connected_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connecting_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_connecting_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_button_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_button_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_button_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_close_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_close_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_material_background_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_dialog_material_background_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_group_collapse = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_group_collapse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_group_expand = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_group_expand;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_pause_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_pause_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_play_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_play_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_media_play_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_stop_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_media_stop_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::B4.EE.OmedMilat.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.navigation_empty_icon = global::B4.EE.OmedMilat.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_action_background = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low_normal = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_low_pressed = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_normal = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_bg_normal_pressed = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_icon_background = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_template_icon_low_bg = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notification_tile_bg = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::B4.EE.OmedMilat.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action0 = global::B4.EE.OmedMilat.Droid.Resource.Id.action0;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar = global::B4.EE.OmedMilat.Droid.Resource.Id.action_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_activity_content = global::B4.EE.OmedMilat.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_container = global::B4.EE.OmedMilat.Droid.Resource.Id.action_bar_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_root = global::B4.EE.OmedMilat.Droid.Resource.Id.action_bar_root;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_spinner = global::B4.EE.OmedMilat.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_subtitle = global::B4.EE.OmedMilat.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_bar_title = global::B4.EE.OmedMilat.Droid.Resource.Id.action_bar_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_container = global::B4.EE.OmedMilat.Droid.Resource.Id.action_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_context_bar = global::B4.EE.OmedMilat.Droid.Resource.Id.action_context_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_divider = global::B4.EE.OmedMilat.Droid.Resource.Id.action_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_image = global::B4.EE.OmedMilat.Droid.Resource.Id.action_image;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_menu_divider = global::B4.EE.OmedMilat.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_menu_presenter = global::B4.EE.OmedMilat.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_bar = global::B4.EE.OmedMilat.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_bar_stub = global::B4.EE.OmedMilat.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_mode_close_button = global::B4.EE.OmedMilat.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.action_text = global::B4.EE.OmedMilat.Droid.Resource.Id.action_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.actions = global::B4.EE.OmedMilat.Droid.Resource.Id.actions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.activity_chooser_view_content = global::B4.EE.OmedMilat.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.add = global::B4.EE.OmedMilat.Droid.Resource.Id.add;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.alertTitle = global::B4.EE.OmedMilat.Droid.Resource.Id.alertTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.all = global::B4.EE.OmedMilat.Droid.Resource.Id.all;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.always = global::B4.EE.OmedMilat.Droid.Resource.Id.always;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.auto = global::B4.EE.OmedMilat.Droid.Resource.Id.auto;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.beginning = global::B4.EE.OmedMilat.Droid.Resource.Id.beginning;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.bottom = global::B4.EE.OmedMilat.Droid.Resource.Id.bottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.buttonPanel = global::B4.EE.OmedMilat.Droid.Resource.Id.buttonPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.cancel_action = global::B4.EE.OmedMilat.Droid.Resource.Id.cancel_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.center = global::B4.EE.OmedMilat.Droid.Resource.Id.center;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.center_horizontal = global::B4.EE.OmedMilat.Droid.Resource.Id.center_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.center_vertical = global::B4.EE.OmedMilat.Droid.Resource.Id.center_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.checkbox = global::B4.EE.OmedMilat.Droid.Resource.Id.checkbox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.chronometer = global::B4.EE.OmedMilat.Droid.Resource.Id.chronometer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.clip_horizontal = global::B4.EE.OmedMilat.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.clip_vertical = global::B4.EE.OmedMilat.Droid.Resource.Id.clip_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.collapseActionView = global::B4.EE.OmedMilat.Droid.Resource.Id.collapseActionView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.contentPanel = global::B4.EE.OmedMilat.Droid.Resource.Id.contentPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.custom = global::B4.EE.OmedMilat.Droid.Resource.Id.custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.customPanel = global::B4.EE.OmedMilat.Droid.Resource.Id.customPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.decor_content_parent = global::B4.EE.OmedMilat.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.default_activity_button = global::B4.EE.OmedMilat.Droid.Resource.Id.default_activity_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_bottom_sheet = global::B4.EE.OmedMilat.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_action_area = global::B4.EE.OmedMilat.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_action_area_stub = global::B4.EE.OmedMilat.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_menu_item_text = global::B4.EE.OmedMilat.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.design_navigation_view = global::B4.EE.OmedMilat.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.disableHome = global::B4.EE.OmedMilat.Droid.Resource.Id.disableHome;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.edit_query = global::B4.EE.OmedMilat.Droid.Resource.Id.edit_query;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.end = global::B4.EE.OmedMilat.Droid.Resource.Id.end;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.end_padder = global::B4.EE.OmedMilat.Droid.Resource.Id.end_padder;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.enterAlways = global::B4.EE.OmedMilat.Droid.Resource.Id.enterAlways;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::B4.EE.OmedMilat.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.exitUntilCollapsed = global::B4.EE.OmedMilat.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.expand_activities_button = global::B4.EE.OmedMilat.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.expanded_menu = global::B4.EE.OmedMilat.Droid.Resource.Id.expanded_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill = global::B4.EE.OmedMilat.Droid.Resource.Id.fill;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill_horizontal = global::B4.EE.OmedMilat.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.fill_vertical = global::B4.EE.OmedMilat.Droid.Resource.Id.fill_vertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.@fixed = global::B4.EE.OmedMilat.Droid.Resource.Id.@fixed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.home = global::B4.EE.OmedMilat.Droid.Resource.Id.home;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.homeAsUp = global::B4.EE.OmedMilat.Droid.Resource.Id.homeAsUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.icon = global::B4.EE.OmedMilat.Droid.Resource.Id.icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.icon_group = global::B4.EE.OmedMilat.Droid.Resource.Id.icon_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.ifRoom = global::B4.EE.OmedMilat.Droid.Resource.Id.ifRoom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.image = global::B4.EE.OmedMilat.Droid.Resource.Id.image;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.info = global::B4.EE.OmedMilat.Droid.Resource.Id.info;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.item_touch_helper_previous_elevation = global::B4.EE.OmedMilat.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.largeLabel = global::B4.EE.OmedMilat.Droid.Resource.Id.largeLabel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.left = global::B4.EE.OmedMilat.Droid.Resource.Id.left;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.line1 = global::B4.EE.OmedMilat.Droid.Resource.Id.line1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.line3 = global::B4.EE.OmedMilat.Droid.Resource.Id.line3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.listMode = global::B4.EE.OmedMilat.Droid.Resource.Id.listMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.list_item = global::B4.EE.OmedMilat.Droid.Resource.Id.list_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.masked = global::B4.EE.OmedMilat.Droid.Resource.Id.masked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.media_actions = global::B4.EE.OmedMilat.Droid.Resource.Id.media_actions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.middle = global::B4.EE.OmedMilat.Droid.Resource.Id.middle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mini = global::B4.EE.OmedMilat.Droid.Resource.Id.mini;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_art = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_art;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_list = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_chooser_list;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_desc = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_icon = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_route_name = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_chooser_route_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_chooser_title = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_chooser_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_close = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_close;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_divider = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_control_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_playback_ctrl = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_subtitle = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_control_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_title = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_control_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_control_title_container = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_control_title_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_custom_control = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_custom_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_default_control = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_default_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_dialog_area = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_dialog_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_expandable_area = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_expandable_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_group_expand_collapse = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_media_main_control = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_media_main_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_name = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_playback_control = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_playback_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_title_bar = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_title_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_control = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_volume_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_group_list = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_volume_group_list;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_item_icon = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_volume_item_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.mr_volume_slider = global::B4.EE.OmedMilat.Droid.Resource.Id.mr_volume_slider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.multiply = global::B4.EE.OmedMilat.Droid.Resource.Id.multiply;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.navigation_header_container = global::B4.EE.OmedMilat.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.never = global::B4.EE.OmedMilat.Droid.Resource.Id.never;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.none = global::B4.EE.OmedMilat.Droid.Resource.Id.none;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.normal = global::B4.EE.OmedMilat.Droid.Resource.Id.normal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_background = global::B4.EE.OmedMilat.Droid.Resource.Id.notification_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_main_column = global::B4.EE.OmedMilat.Droid.Resource.Id.notification_main_column;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.notification_main_column_container = global::B4.EE.OmedMilat.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.parallax = global::B4.EE.OmedMilat.Droid.Resource.Id.parallax;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.parentPanel = global::B4.EE.OmedMilat.Droid.Resource.Id.parentPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.pin = global::B4.EE.OmedMilat.Droid.Resource.Id.pin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.progress_circular = global::B4.EE.OmedMilat.Droid.Resource.Id.progress_circular;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.progress_horizontal = global::B4.EE.OmedMilat.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.radio = global::B4.EE.OmedMilat.Droid.Resource.Id.radio;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.right = global::B4.EE.OmedMilat.Droid.Resource.Id.right;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.right_icon = global::B4.EE.OmedMilat.Droid.Resource.Id.right_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.right_side = global::B4.EE.OmedMilat.Droid.Resource.Id.right_side;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.screen = global::B4.EE.OmedMilat.Droid.Resource.Id.screen;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scroll = global::B4.EE.OmedMilat.Droid.Resource.Id.scroll;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollIndicatorDown = global::B4.EE.OmedMilat.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollIndicatorUp = global::B4.EE.OmedMilat.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollView = global::B4.EE.OmedMilat.Droid.Resource.Id.scrollView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.scrollable = global::B4.EE.OmedMilat.Droid.Resource.Id.scrollable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_badge = global::B4.EE.OmedMilat.Droid.Resource.Id.search_badge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_bar = global::B4.EE.OmedMilat.Droid.Resource.Id.search_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_button = global::B4.EE.OmedMilat.Droid.Resource.Id.search_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_close_btn = global::B4.EE.OmedMilat.Droid.Resource.Id.search_close_btn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_edit_frame = global::B4.EE.OmedMilat.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_go_btn = global::B4.EE.OmedMilat.Droid.Resource.Id.search_go_btn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_mag_icon = global::B4.EE.OmedMilat.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_plate = global::B4.EE.OmedMilat.Droid.Resource.Id.search_plate;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_src_text = global::B4.EE.OmedMilat.Droid.Resource.Id.search_src_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.search_voice_btn = global::B4.EE.OmedMilat.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.select_dialog_listview = global::B4.EE.OmedMilat.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.shortcut = global::B4.EE.OmedMilat.Droid.Resource.Id.shortcut;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.showCustom = global::B4.EE.OmedMilat.Droid.Resource.Id.showCustom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.showHome = global::B4.EE.OmedMilat.Droid.Resource.Id.showHome;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.showTitle = global::B4.EE.OmedMilat.Droid.Resource.Id.showTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.smallLabel = global::B4.EE.OmedMilat.Droid.Resource.Id.smallLabel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.snackbar_action = global::B4.EE.OmedMilat.Droid.Resource.Id.snackbar_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.snackbar_text = global::B4.EE.OmedMilat.Droid.Resource.Id.snackbar_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.snap = global::B4.EE.OmedMilat.Droid.Resource.Id.snap;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.spacer = global::B4.EE.OmedMilat.Droid.Resource.Id.spacer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.split_action_bar = global::B4.EE.OmedMilat.Droid.Resource.Id.split_action_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_atop = global::B4.EE.OmedMilat.Droid.Resource.Id.src_atop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_in = global::B4.EE.OmedMilat.Droid.Resource.Id.src_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.src_over = global::B4.EE.OmedMilat.Droid.Resource.Id.src_over;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.start = global::B4.EE.OmedMilat.Droid.Resource.Id.start;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.status_bar_latest_event_content = global::B4.EE.OmedMilat.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.submenuarrow = global::B4.EE.OmedMilat.Droid.Resource.Id.submenuarrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.submit_area = global::B4.EE.OmedMilat.Droid.Resource.Id.submit_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.tabMode = global::B4.EE.OmedMilat.Droid.Resource.Id.tabMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.text = global::B4.EE.OmedMilat.Droid.Resource.Id.text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.text2 = global::B4.EE.OmedMilat.Droid.Resource.Id.text2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textSpacerNoButtons = global::B4.EE.OmedMilat.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textSpacerNoTitle = global::B4.EE.OmedMilat.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.text_input_password_toggle = global::B4.EE.OmedMilat.Droid.Resource.Id.text_input_password_toggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textinput_counter = global::B4.EE.OmedMilat.Droid.Resource.Id.textinput_counter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.textinput_error = global::B4.EE.OmedMilat.Droid.Resource.Id.textinput_error;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.time = global::B4.EE.OmedMilat.Droid.Resource.Id.time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.title = global::B4.EE.OmedMilat.Droid.Resource.Id.title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.titleDividerNoCustom = global::B4.EE.OmedMilat.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.title_template = global::B4.EE.OmedMilat.Droid.Resource.Id.title_template;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.top = global::B4.EE.OmedMilat.Droid.Resource.Id.top;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.topPanel = global::B4.EE.OmedMilat.Droid.Resource.Id.topPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.touch_outside = global::B4.EE.OmedMilat.Droid.Resource.Id.touch_outside;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.transition_current_scene = global::B4.EE.OmedMilat.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.transition_scene_layoutid_cache = global::B4.EE.OmedMilat.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.up = global::B4.EE.OmedMilat.Droid.Resource.Id.up;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.useLogo = global::B4.EE.OmedMilat.Droid.Resource.Id.useLogo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.view_offset_helper = global::B4.EE.OmedMilat.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.visible = global::B4.EE.OmedMilat.Droid.Resource.Id.visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.volume_item_container = global::B4.EE.OmedMilat.Droid.Resource.Id.volume_item_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.withText = global::B4.EE.OmedMilat.Droid.Resource.Id.withText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Id.wrap_content = global::B4.EE.OmedMilat.Droid.Resource.Id.wrap_content;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::B4.EE.OmedMilat.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::B4.EE.OmedMilat.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.app_bar_elevation_anim_duration = global::B4.EE.OmedMilat.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.bottom_sheet_slide_duration = global::B4.EE.OmedMilat.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::B4.EE.OmedMilat.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::B4.EE.OmedMilat.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.hide_password_duration = global::B4.EE.OmedMilat.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::B4.EE.OmedMilat.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::B4.EE.OmedMilat.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::B4.EE.OmedMilat.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.show_password_duration = global::B4.EE.OmedMilat.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::B4.EE.OmedMilat.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.MediaManager.Forms.Android.Resource.Interpolator.mr_fast_out_slow_in = global::B4.EE.OmedMilat.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Interpolator.mr_linear_out_slow_in = global::B4.EE.OmedMilat.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_menu_layout = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_mode_bar = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_alert_dialog_title_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_dialog_title_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_content_include = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_simple = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_screen_toolbar = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_search_view = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.abc_select_dialog_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_bottom_navigation_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_bottom_sheet_dialog = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_snackbar = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_tab_icon = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_layout_tab_text = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_menu_item_action_area = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_header = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_separator = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_menu = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_navigation_menu_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.design_text_input_password_icon = global::B4.EE.OmedMilat.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_chooser_dialog = global::B4.EE.OmedMilat.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_chooser_list_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_controller_material_dialog_b = global::B4.EE.OmedMilat.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_controller_volume_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_playback_control = global::B4.EE.OmedMilat.Droid.Resource.Layout.mr_playback_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.mr_volume_control = global::B4.EE.OmedMilat.Droid.Resource.Layout.mr_volume_control;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_action = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_action_tombstone = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_media_action = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_media_cancel_action = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_custom = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_custom_big = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_icon_group = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_lines_media = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_media = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_media_custom = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.notification_template_part_time = global::B4.EE.OmedMilat.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_item_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::B4.EE.OmedMilat.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::B4.EE.OmedMilat.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.ApplicationName = global::B4.EE.OmedMilat.Droid.Resource.String.ApplicationName;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.Hello = global::B4.EE.OmedMilat.Droid.Resource.String.Hello;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_description = global::B4.EE.OmedMilat.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_description_format = global::B4.EE.OmedMilat.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::B4.EE.OmedMilat.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_bar_up_description = global::B4.EE.OmedMilat.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::B4.EE.OmedMilat.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_action_mode_done = global::B4.EE.OmedMilat.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::B4.EE.OmedMilat.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::B4.EE.OmedMilat.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_capital_off = global::B4.EE.OmedMilat.Droid.Resource.String.abc_capital_off;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_capital_on = global::B4.EE.OmedMilat.Droid.Resource.String.abc_capital_on;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_body_1_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_body_2_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_button_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_button_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_caption_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_caption_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_1_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_2_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_3_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_display_4_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_headline_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_headline_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_menu_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_menu_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_subhead_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_font_family_title_material = global::B4.EE.OmedMilat.Droid.Resource.String.abc_font_family_title_material;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_search_hint = global::B4.EE.OmedMilat.Droid.Resource.String.abc_search_hint;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_clear = global::B4.EE.OmedMilat.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_query = global::B4.EE.OmedMilat.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_search = global::B4.EE.OmedMilat.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_submit = global::B4.EE.OmedMilat.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_searchview_description_voice = global::B4.EE.OmedMilat.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::B4.EE.OmedMilat.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::B4.EE.OmedMilat.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::B4.EE.OmedMilat.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::B4.EE.OmedMilat.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.bottom_sheet_behavior = global::B4.EE.OmedMilat.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.character_counter_pattern = global::B4.EE.OmedMilat.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_button_content_description = global::B4.EE.OmedMilat.Droid.Resource.String.mr_button_content_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_connected = global::B4.EE.OmedMilat.Droid.Resource.String.mr_cast_button_connected;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_connecting = global::B4.EE.OmedMilat.Droid.Resource.String.mr_cast_button_connecting;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_cast_button_disconnected = global::B4.EE.OmedMilat.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_chooser_searching = global::B4.EE.OmedMilat.Droid.Resource.String.mr_chooser_searching;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_chooser_title = global::B4.EE.OmedMilat.Droid.Resource.String.mr_chooser_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_album_art = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_album_art;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_casting_screen = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_casting_screen;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_close_description = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_close_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_collapse_group = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_collapse_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_disconnect = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_disconnect;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_expand_group = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_expand_group;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_no_info_available = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_no_info_available;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_no_media_selected = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_pause = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_pause;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_play = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_play;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_stop = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_stop;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_stop_casting = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_stop_casting;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_controller_volume_slider = global::B4.EE.OmedMilat.Droid.Resource.String.mr_controller_volume_slider;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_system_route_name = global::B4.EE.OmedMilat.Droid.Resource.String.mr_system_route_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.mr_user_route_category_name = global::B4.EE.OmedMilat.Droid.Resource.String.mr_user_route_category_name;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.password_toggle_content_description = global::B4.EE.OmedMilat.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye = global::B4.EE.OmedMilat.Droid.Resource.String.path_password_eye;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye_mask_strike_through = global::B4.EE.OmedMilat.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_eye_mask_visible = global::B4.EE.OmedMilat.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.path_password_strike_through = global::B4.EE.OmedMilat.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.search_menu_title = global::B4.EE.OmedMilat.Droid.Resource.String.search_menu_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::B4.EE.OmedMilat.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::B4.EE.OmedMilat.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_CardView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_CardView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::B4.EE.OmedMilat.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView = global::B4.EE.OmedMilat.Droid.Resource.Style.CardView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView_Dark = global::B4.EE.OmedMilat.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.CardView_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.CardView_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V11_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V11_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V14_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V14_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V21_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_V21_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::B4.EE.OmedMilat.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Counter = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::B4.EE.OmedMilat.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_Design;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_Design_NoActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_MediaRouter;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::B4.EE.OmedMilat.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::B4.EE.OmedMilat.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ImageButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_NotificationActionText = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_NotificationActionText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_BottomNavigationView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::B4.EE.OmedMilat.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_background = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_divider = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_elevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_height = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_icon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_logo = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_title = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBarLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuItemView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMenuView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_background = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_height = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_showTitle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView_android_src = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_elevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomNavigationView_menu = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::B4.EE.OmedMilat.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ButtonBarLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_android_minHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_android_minWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardElevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_alpha = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ColorStateListItem_android_color = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::B4.EE.OmedMilat.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DesignTheme_textColorError = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::B4.EE.OmedMilat.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::B4.EE.OmedMilat.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::B4.EE.OmedMilat.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MediaRouteButton;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_buttonTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MediaRouteButton_buttonTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_id = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_title = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.MenuView_subMenuArrow = global::B4.EE.OmedMilat.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_background = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_elevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.NavigationView_menu = global::B4.EE.OmedMilat.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow = global::B4.EE.OmedMilat.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::B4.EE.OmedMilat.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_android_orientation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_layoutManager = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_reverseLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_spanCount = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_goIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_queryHint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Spinner;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_entries = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_track = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_trackTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabItem;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_icon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabItem_android_text = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_buttonGravity = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_logo = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_title = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMargin = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::B4.EE.OmedMilat.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View = global::B4.EE.OmedMilat.Droid.Resource.Styleable.View;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_android_focusable = global::B4.EE.OmedMilat.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_android_theme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_paddingEnd = global::B4.EE.OmedMilat.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_paddingStart = global::B4.EE.OmedMilat.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.View_theme = global::B4.EE.OmedMilat.Droid.Resource.Styleable.View_theme;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.MediaManager.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::B4.EE.OmedMilat.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Splat.Resource.String.library_name = global::B4.EE.OmedMilat.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::B4.EE.OmedMilat.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -214,6 +2357,42 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0x7f010080
 			public const int activityChooserViewStyle = 2130772096;
+			
+			// aapt resource value: 0x7f01015b
+			public const int ahBarColor = 2130772315;
+			
+			// aapt resource value: 0x7f010163
+			public const int ahBarLength = 2130772323;
+			
+			// aapt resource value: 0x7f010162
+			public const int ahBarWidth = 2130772322;
+			
+			// aapt resource value: 0x7f010160
+			public const int ahCircleColor = 2130772320;
+			
+			// aapt resource value: 0x7f01015f
+			public const int ahDelayMillis = 2130772319;
+			
+			// aapt resource value: 0x7f010161
+			public const int ahRadius = 2130772321;
+			
+			// aapt resource value: 0x7f01015c
+			public const int ahRimColor = 2130772316;
+			
+			// aapt resource value: 0x7f01015d
+			public const int ahRimWidth = 2130772317;
+			
+			// aapt resource value: 0x7f01015e
+			public const int ahSpinSpeed = 2130772318;
+			
+			// aapt resource value: 0x7f010158
+			public const int ahText = 2130772312;
+			
+			// aapt resource value: 0x7f010159
+			public const int ahTextColor = 2130772313;
+			
+			// aapt resource value: 0x7f01015a
+			public const int ahTextSize = 2130772314;
 			
 			// aapt resource value: 0x7f0100a4
 			public const int alertDialogButtonGroupStyle = 2130772132;
@@ -536,6 +2715,9 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f010125
 			public const int fabSize = 2130772261;
 			
+			// aapt resource value: 0x7f010152
+			public const int fastforward_increment = 2130772306;
+			
 			// aapt resource value: 0x7f01012a
 			public const int foregroundInsidePadding = 2130772266;
 			
@@ -821,8 +3003,14 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0100b4
 			public const int ratingBarStyleSmall = 2130772148;
 			
+			// aapt resource value: 0x7f010153
+			public const int resize_mode = 2130772307;
+			
 			// aapt resource value: 0x7f01000d
 			public const int reverseLayout = 2130771981;
+			
+			// aapt resource value: 0x7f010154
+			public const int rewind_increment = 2130772308;
 			
 			// aapt resource value: 0x7f010124
 			public const int rippleColor = 2130772260;
@@ -862,6 +3050,9 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0x7f010042
 			public const int showTitle = 2130772034;
+			
+			// aapt resource value: 0x7f010155
+			public const int show_timeout = 2130772309;
 			
 			// aapt resource value: 0x7f010040
 			public const int singleChoiceItemLayout = 2130772032;
@@ -1093,6 +3284,12 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0x7f010128
 			public const int useCompatPadding = 2130772264;
+			
+			// aapt resource value: 0x7f010156
+			public const int use_controller = 2130772310;
+			
+			// aapt resource value: 0x7f010157
+			public const int use_texture_view = 2130772311;
 			
 			// aapt resource value: 0x7f0100da
 			public const int voiceIcon = 2130772186;
@@ -2209,553 +4406,583 @@ namespace B4.EE.OmedMilat.Droid
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int hall9000 = 2130837595;
+			public const int exo_controls_fastforward = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_dark = 2130837596;
+			public const int exo_controls_next = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_audiotrack_light = 2130837597;
+			public const int exo_controls_pause = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_dark = 2130837598;
+			public const int exo_controls_play = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_dialog_close_light = 2130837599;
+			public const int exo_controls_previous = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_00 = 2130837600;
+			public const int exo_controls_rewind = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_01 = 2130837601;
+			public const int hall9000 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_02 = 2130837602;
+			public const int ic_audiotrack_dark = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_03 = 2130837603;
+			public const int ic_audiotrack_light = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_04 = 2130837604;
+			public const int ic_dialog_close_dark = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_05 = 2130837605;
+			public const int ic_dialog_close_light = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_06 = 2130837606;
+			public const int ic_errorstatus = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_07 = 2130837607;
+			public const int ic_group_collapse_00 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_08 = 2130837608;
+			public const int ic_group_collapse_01 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_09 = 2130837609;
+			public const int ic_group_collapse_02 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_10 = 2130837610;
+			public const int ic_group_collapse_03 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_11 = 2130837611;
+			public const int ic_group_collapse_04 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_12 = 2130837612;
+			public const int ic_group_collapse_05 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_13 = 2130837613;
+			public const int ic_group_collapse_06 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_14 = 2130837614;
+			public const int ic_group_collapse_07 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_15 = 2130837615;
+			public const int ic_group_collapse_08 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_00 = 2130837616;
+			public const int ic_group_collapse_09 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_01 = 2130837617;
+			public const int ic_group_collapse_10 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_02 = 2130837618;
+			public const int ic_group_collapse_11 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_03 = 2130837619;
+			public const int ic_group_collapse_12 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_04 = 2130837620;
+			public const int ic_group_collapse_13 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_05 = 2130837621;
+			public const int ic_group_collapse_14 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_06 = 2130837622;
+			public const int ic_group_collapse_15 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_07 = 2130837623;
+			public const int ic_group_expand_00 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_08 = 2130837624;
+			public const int ic_group_expand_01 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_09 = 2130837625;
+			public const int ic_group_expand_02 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_10 = 2130837626;
+			public const int ic_group_expand_03 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_11 = 2130837627;
+			public const int ic_group_expand_04 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_12 = 2130837628;
+			public const int ic_group_expand_05 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_13 = 2130837629;
+			public const int ic_group_expand_06 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_14 = 2130837630;
+			public const int ic_group_expand_07 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_15 = 2130837631;
+			public const int ic_group_expand_08 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_dark = 2130837632;
+			public const int ic_group_expand_09 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_pause_light = 2130837633;
+			public const int ic_group_expand_10 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_dark = 2130837634;
+			public const int ic_group_expand_11 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_play_light = 2130837635;
+			public const int ic_group_expand_12 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_dark = 2130837636;
+			public const int ic_group_expand_13 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_stop_light = 2130837637;
+			public const int ic_group_expand_14 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_dark = 2130837638;
+			public const int ic_group_expand_15 = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_00_light = 2130837639;
+			public const int ic_media_pause_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_dark = 2130837640;
+			public const int ic_media_pause_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_01_light = 2130837641;
+			public const int ic_media_play_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_dark = 2130837642;
+			public const int ic_media_play_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_02_light = 2130837643;
+			public const int ic_media_stop_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_dark = 2130837644;
+			public const int ic_media_stop_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_03_light = 2130837645;
+			public const int ic_mr_button_connected_00_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_dark = 2130837646;
+			public const int ic_mr_button_connected_00_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_04_light = 2130837647;
+			public const int ic_mr_button_connected_01_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_dark = 2130837648;
+			public const int ic_mr_button_connected_01_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_05_light = 2130837649;
+			public const int ic_mr_button_connected_02_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_dark = 2130837650;
+			public const int ic_mr_button_connected_02_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_06_light = 2130837651;
+			public const int ic_mr_button_connected_03_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_dark = 2130837652;
+			public const int ic_mr_button_connected_03_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_07_light = 2130837653;
+			public const int ic_mr_button_connected_04_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_dark = 2130837654;
+			public const int ic_mr_button_connected_04_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_08_light = 2130837655;
+			public const int ic_mr_button_connected_05_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_dark = 2130837656;
+			public const int ic_mr_button_connected_05_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_09_light = 2130837657;
+			public const int ic_mr_button_connected_06_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_dark = 2130837658;
+			public const int ic_mr_button_connected_06_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_10_light = 2130837659;
+			public const int ic_mr_button_connected_07_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_dark = 2130837660;
+			public const int ic_mr_button_connected_07_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_11_light = 2130837661;
+			public const int ic_mr_button_connected_08_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_dark = 2130837662;
+			public const int ic_mr_button_connected_08_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_12_light = 2130837663;
+			public const int ic_mr_button_connected_09_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_dark = 2130837664;
+			public const int ic_mr_button_connected_09_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_13_light = 2130837665;
+			public const int ic_mr_button_connected_10_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_dark = 2130837666;
+			public const int ic_mr_button_connected_10_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_14_light = 2130837667;
+			public const int ic_mr_button_connected_11_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_dark = 2130837668;
+			public const int ic_mr_button_connected_11_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_15_light = 2130837669;
+			public const int ic_mr_button_connected_12_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_dark = 2130837670;
+			public const int ic_mr_button_connected_12_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_16_light = 2130837671;
+			public const int ic_mr_button_connected_13_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_dark = 2130837672;
+			public const int ic_mr_button_connected_13_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_17_light = 2130837673;
+			public const int ic_mr_button_connected_14_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_dark = 2130837674;
+			public const int ic_mr_button_connected_14_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_18_light = 2130837675;
+			public const int ic_mr_button_connected_15_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_dark = 2130837676;
+			public const int ic_mr_button_connected_15_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_19_light = 2130837677;
+			public const int ic_mr_button_connected_16_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_dark = 2130837678;
+			public const int ic_mr_button_connected_16_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_20_light = 2130837679;
+			public const int ic_mr_button_connected_17_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_dark = 2130837680;
+			public const int ic_mr_button_connected_17_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_21_light = 2130837681;
+			public const int ic_mr_button_connected_18_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_dark = 2130837682;
+			public const int ic_mr_button_connected_18_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_22_light = 2130837683;
+			public const int ic_mr_button_connected_19_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connecting_00_dark = 2130837684;
+			public const int ic_mr_button_connected_19_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connecting_00_light = 2130837685;
+			public const int ic_mr_button_connected_20_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connecting_01_dark = 2130837686;
+			public const int ic_mr_button_connected_20_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connecting_01_light = 2130837687;
+			public const int ic_mr_button_connected_21_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connecting_02_dark = 2130837688;
+			public const int ic_mr_button_connected_21_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connecting_02_light = 2130837689;
+			public const int ic_mr_button_connected_22_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connecting_03_dark = 2130837690;
+			public const int ic_mr_button_connected_22_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connecting_03_light = 2130837691;
+			public const int ic_mr_button_connecting_00_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connecting_04_dark = 2130837692;
+			public const int ic_mr_button_connecting_00_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connecting_04_light = 2130837693;
+			public const int ic_mr_button_connecting_01_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connecting_05_dark = 2130837694;
+			public const int ic_mr_button_connecting_01_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connecting_05_light = 2130837695;
+			public const int ic_mr_button_connecting_02_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connecting_06_dark = 2130837696;
+			public const int ic_mr_button_connecting_02_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connecting_06_light = 2130837697;
+			public const int ic_mr_button_connecting_03_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connecting_07_dark = 2130837698;
+			public const int ic_mr_button_connecting_03_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_07_light = 2130837699;
+			public const int ic_mr_button_connecting_04_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_08_dark = 2130837700;
+			public const int ic_mr_button_connecting_04_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_08_light = 2130837701;
+			public const int ic_mr_button_connecting_05_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_09_dark = 2130837702;
+			public const int ic_mr_button_connecting_05_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_09_light = 2130837703;
+			public const int ic_mr_button_connecting_06_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_10_dark = 2130837704;
+			public const int ic_mr_button_connecting_06_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_10_light = 2130837705;
+			public const int ic_mr_button_connecting_07_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_11_dark = 2130837706;
+			public const int ic_mr_button_connecting_07_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_11_light = 2130837707;
+			public const int ic_mr_button_connecting_08_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_12_dark = 2130837708;
+			public const int ic_mr_button_connecting_08_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_12_light = 2130837709;
+			public const int ic_mr_button_connecting_09_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_13_dark = 2130837710;
+			public const int ic_mr_button_connecting_09_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_13_light = 2130837711;
+			public const int ic_mr_button_connecting_10_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_14_dark = 2130837712;
+			public const int ic_mr_button_connecting_10_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_14_light = 2130837713;
+			public const int ic_mr_button_connecting_11_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_15_dark = 2130837714;
+			public const int ic_mr_button_connecting_11_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_15_light = 2130837715;
+			public const int ic_mr_button_connecting_12_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_16_dark = 2130837716;
+			public const int ic_mr_button_connecting_12_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_16_light = 2130837717;
+			public const int ic_mr_button_connecting_13_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_17_dark = 2130837718;
+			public const int ic_mr_button_connecting_13_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_17_light = 2130837719;
+			public const int ic_mr_button_connecting_14_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_18_dark = 2130837720;
+			public const int ic_mr_button_connecting_14_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_18_light = 2130837721;
+			public const int ic_mr_button_connecting_15_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_19_dark = 2130837722;
+			public const int ic_mr_button_connecting_15_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_19_light = 2130837723;
+			public const int ic_mr_button_connecting_16_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_20_dark = 2130837724;
+			public const int ic_mr_button_connecting_16_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_20_light = 2130837725;
+			public const int ic_mr_button_connecting_17_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_21_dark = 2130837726;
+			public const int ic_mr_button_connecting_17_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_21_light = 2130837727;
+			public const int ic_mr_button_connecting_18_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_22_dark = 2130837728;
+			public const int ic_mr_button_connecting_18_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_22_light = 2130837729;
+			public const int ic_mr_button_connecting_19_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_disabled_dark = 2130837730;
+			public const int ic_mr_button_connecting_19_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_disabled_light = 2130837731;
+			public const int ic_mr_button_connecting_20_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_disconnected_dark = 2130837732;
+			public const int ic_mr_button_connecting_20_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_disconnected_light = 2130837733;
+			public const int ic_mr_button_connecting_21_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_grey = 2130837734;
+			public const int ic_mr_button_connecting_21_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_vol_type_speaker_dark = 2130837735;
+			public const int ic_mr_button_connecting_22_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_vol_type_speaker_group_dark = 2130837736;
+			public const int ic_mr_button_connecting_22_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_vol_type_speaker_group_light = 2130837737;
+			public const int ic_mr_button_disabled_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_vol_type_speaker_light = 2130837738;
+			public const int ic_mr_button_disabled_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_vol_type_tv_dark = 2130837739;
+			public const int ic_mr_button_disconnected_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_vol_type_tv_light = 2130837740;
+			public const int ic_mr_button_disconnected_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int icon = 2130837741;
+			public const int ic_mr_button_grey = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int jarvisbg = 2130837742;
+			public const int ic_successstatus = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int jarvislogo = 2130837743;
+			public const int ic_vol_type_speaker_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int mr_button_connected_dark = 2130837744;
+			public const int ic_vol_type_speaker_group_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int mr_button_connected_light = 2130837745;
+			public const int ic_vol_type_speaker_group_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int mr_button_connecting_dark = 2130837746;
+			public const int ic_vol_type_speaker_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int mr_button_connecting_light = 2130837747;
+			public const int ic_vol_type_tv_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int mr_button_dark = 2130837748;
+			public const int ic_vol_type_tv_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int mr_button_light = 2130837749;
+			public const int icon = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int mr_dialog_close_dark = 2130837750;
+			public const int jarvisbg = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int mr_dialog_close_light = 2130837751;
+			public const int jarvislogo = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int mr_dialog_material_background_dark = 2130837752;
+			public const int mr_button_connected_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int mr_dialog_material_background_light = 2130837753;
+			public const int mr_button_connected_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int mr_group_collapse = 2130837754;
+			public const int mr_button_connecting_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int mr_group_expand = 2130837755;
+			public const int mr_button_connecting_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int mr_media_pause_dark = 2130837756;
+			public const int mr_button_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int mr_media_pause_light = 2130837757;
+			public const int mr_button_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int mr_media_play_dark = 2130837758;
+			public const int mr_dialog_close_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int mr_media_play_light = 2130837759;
+			public const int mr_dialog_close_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int mr_media_stop_dark = 2130837760;
+			public const int mr_dialog_material_background_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int mr_media_stop_light = 2130837761;
+			public const int mr_dialog_material_background_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int mr_vol_type_audiotrack_dark = 2130837762;
+			public const int mr_group_collapse = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int mr_vol_type_audiotrack_light = 2130837763;
+			public const int mr_group_expand = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int navigation_empty_icon = 2130837764;
+			public const int mr_media_pause_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int notification_action_background = 2130837765;
+			public const int mr_media_pause_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int notification_bg = 2130837766;
+			public const int mr_media_play_dark = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int notification_bg_low = 2130837767;
+			public const int mr_media_play_light = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int notification_bg_low_normal = 2130837768;
+			public const int mr_media_stop_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int notification_bg_low_pressed = 2130837769;
+			public const int mr_media_stop_light = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int notification_bg_normal = 2130837770;
+			public const int mr_vol_type_audiotrack_dark = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int notification_bg_normal_pressed = 2130837771;
+			public const int mr_vol_type_audiotrack_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int notification_icon_background = 2130837772;
-			
-			// aapt resource value: 0x7f020110
-			public const int notification_template_icon_bg = 2130837776;
-			
-			// aapt resource value: 0x7f020111
-			public const int notification_template_icon_low_bg = 2130837777;
+			public const int navigation_empty_icon = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int notification_tile_bg = 2130837773;
+			public const int notification_action_background = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int notify_panel_notification_icon_bg = 2130837774;
+			public const int notification_bg = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int offlinejarvislogo = 2130837775;
+			public const int notification_bg_low = 2130837775;
+			
+			// aapt resource value: 0x7f020110
+			public const int notification_bg_low_normal = 2130837776;
+			
+			// aapt resource value: 0x7f020111
+			public const int notification_bg_low_pressed = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int notification_bg_normal = 2130837778;
+			
+			// aapt resource value: 0x7f020113
+			public const int notification_bg_normal_pressed = 2130837779;
+			
+			// aapt resource value: 0x7f020114
+			public const int notification_icon_background = 2130837780;
+			
+			// aapt resource value: 0x7f02011a
+			public const int notification_template_icon_bg = 2130837786;
+			
+			// aapt resource value: 0x7f02011b
+			public const int notification_template_icon_low_bg = 2130837787;
+			
+			// aapt resource value: 0x7f020115
+			public const int notification_tile_bg = 2130837781;
+			
+			// aapt resource value: 0x7f020116
+			public const int notify_panel_notification_icon_bg = 2130837782;
+			
+			// aapt resource value: 0x7f020117
+			public const int offlinejarvislogo = 2130837783;
+			
+			// aapt resource value: 0x7f020118
+			public const int roundedbg = 2130837784;
+			
+			// aapt resource value: 0x7f020119
+			public const int roundedbgdark = 2130837785;
 			
 			static Drawable()
 			{
@@ -2770,41 +4997,41 @@ namespace B4.EE.OmedMilat.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a009c
-			public const int action0 = 2131361948;
+			// aapt resource value: 0x7f0a00af
+			public const int action0 = 2131361967;
 			
-			// aapt resource value: 0x7f0a0064
-			public const int action_bar = 2131361892;
+			// aapt resource value: 0x7f0a0067
+			public const int action_bar = 2131361895;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int action_bar_activity_content = 2131361793;
 			
-			// aapt resource value: 0x7f0a0063
-			public const int action_bar_container = 2131361891;
+			// aapt resource value: 0x7f0a0066
+			public const int action_bar_container = 2131361894;
 			
-			// aapt resource value: 0x7f0a005f
-			public const int action_bar_root = 2131361887;
+			// aapt resource value: 0x7f0a0062
+			public const int action_bar_root = 2131361890;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int action_bar_spinner = 2131361794;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int action_bar_subtitle = 2131361858;
+			// aapt resource value: 0x7f0a0045
+			public const int action_bar_subtitle = 2131361861;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int action_bar_title = 2131361857;
+			// aapt resource value: 0x7f0a0044
+			public const int action_bar_title = 2131361860;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int action_container = 2131361945;
+			// aapt resource value: 0x7f0a00ac
+			public const int action_container = 2131361964;
 			
-			// aapt resource value: 0x7f0a0065
-			public const int action_context_bar = 2131361893;
+			// aapt resource value: 0x7f0a0068
+			public const int action_context_bar = 2131361896;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int action_divider = 2131361952;
+			// aapt resource value: 0x7f0a00b3
+			public const int action_divider = 2131361971;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int action_image = 2131361946;
+			// aapt resource value: 0x7f0a00ad
+			public const int action_image = 2131361965;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -2812,29 +5039,29 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_presenter = 2131361796;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int action_mode_bar = 2131361889;
+			// aapt resource value: 0x7f0a0064
+			public const int action_mode_bar = 2131361892;
 			
-			// aapt resource value: 0x7f0a0060
-			public const int action_mode_bar_stub = 2131361888;
+			// aapt resource value: 0x7f0a0063
+			public const int action_mode_bar_stub = 2131361891;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int action_mode_close_button = 2131361859;
+			// aapt resource value: 0x7f0a0046
+			public const int action_mode_close_button = 2131361862;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int action_text = 2131361947;
+			// aapt resource value: 0x7f0a00ae
+			public const int action_text = 2131361966;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int actions = 2131361961;
+			// aapt resource value: 0x7f0a00bb
+			public const int actions = 2131361979;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int activity_chooser_view_content = 2131361860;
+			// aapt resource value: 0x7f0a0047
+			public const int activity_chooser_view_content = 2131361863;
 			
 			// aapt resource value: 0x7f0a0019
 			public const int add = 2131361817;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int alertTitle = 2131361880;
+			// aapt resource value: 0x7f0a005b
+			public const int alertTitle = 2131361883;
 			
 			// aapt resource value: 0x7f0a003d
 			public const int all = 2131361853;
@@ -2851,11 +5078,11 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0028
 			public const int bottom = 2131361832;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int buttonPanel = 2131361867;
+			// aapt resource value: 0x7f0a004e
+			public const int buttonPanel = 2131361870;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int cancel_action = 2131361949;
+			// aapt resource value: 0x7f0a00b0
+			public const int cancel_action = 2131361968;
 			
 			// aapt resource value: 0x7f0a0030
 			public const int center = 2131361840;
@@ -2866,11 +5093,11 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0032
 			public const int center_vertical = 2131361842;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int checkbox = 2131361883;
+			// aapt resource value: 0x7f0a005e
+			public const int checkbox = 2131361886;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int chronometer = 2131361957;
+			// aapt resource value: 0x7f0a00b7
+			public const int chronometer = 2131361975;
 			
 			// aapt resource value: 0x7f0a0039
 			public const int clip_horizontal = 2131361849;
@@ -2881,47 +5108,50 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0024
 			public const int collapseActionView = 2131361828;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int contentPanel = 2131361870;
+			// aapt resource value: 0x7f0a0051
+			public const int contentPanel = 2131361873;
 			
-			// aapt resource value: 0x7f0a0055
-			public const int custom = 2131361877;
+			// aapt resource value: 0x7f0a008d
+			public const int control = 2131361933;
 			
-			// aapt resource value: 0x7f0a0054
-			public const int customPanel = 2131361876;
+			// aapt resource value: 0x7f0a0058
+			public const int custom = 2131361880;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int decor_content_parent = 2131361890;
+			// aapt resource value: 0x7f0a0057
+			public const int customPanel = 2131361879;
 			
-			// aapt resource value: 0x7f0a0047
-			public const int default_activity_button = 2131361863;
+			// aapt resource value: 0x7f0a0065
+			public const int decor_content_parent = 2131361893;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int design_bottom_sheet = 2131361910;
+			// aapt resource value: 0x7f0a004a
+			public const int default_activity_button = 2131361866;
+			
+			// aapt resource value: 0x7f0a0079
+			public const int design_bottom_sheet = 2131361913;
+			
+			// aapt resource value: 0x7f0a0080
+			public const int design_menu_item_action_area = 2131361920;
+			
+			// aapt resource value: 0x7f0a007f
+			public const int design_menu_item_action_area_stub = 2131361919;
+			
+			// aapt resource value: 0x7f0a007e
+			public const int design_menu_item_text = 2131361918;
 			
 			// aapt resource value: 0x7f0a007d
-			public const int design_menu_item_action_area = 2131361917;
-			
-			// aapt resource value: 0x7f0a007c
-			public const int design_menu_item_action_area_stub = 2131361916;
-			
-			// aapt resource value: 0x7f0a007b
-			public const int design_menu_item_text = 2131361915;
-			
-			// aapt resource value: 0x7f0a007a
-			public const int design_navigation_view = 2131361914;
+			public const int design_navigation_view = 2131361917;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int disableHome = 2131361810;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int edit_query = 2131361894;
+			// aapt resource value: 0x7f0a0069
+			public const int edit_query = 2131361897;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int end = 2131361825;
 			
-			// aapt resource value: 0x7f0a00af
-			public const int end_padder = 2131361967;
+			// aapt resource value: 0x7f0a00c1
+			public const int end_padder = 2131361985;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int enterAlways = 2131361834;
@@ -2932,11 +5162,14 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a002c
 			public const int exitUntilCollapsed = 2131361836;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int expand_activities_button = 2131361861;
+			// aapt resource value: 0x7f0a0048
+			public const int expand_activities_button = 2131361864;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int expanded_menu = 2131361882;
+			// aapt resource value: 0x7f0a005d
+			public const int expanded_menu = 2131361885;
+			
+			// aapt resource value: 0x7f0a0085
+			public const int ffwd = 2131361925;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int fill = 2131361851;
@@ -2947,8 +5180,17 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0033
 			public const int fill_vertical = 2131361843;
 			
+			// aapt resource value: 0x7f0a0041
+			public const int fit = 2131361857;
+			
 			// aapt resource value: 0x7f0a003f
 			public const int @fixed = 2131361855;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int fixed_height = 2131361858;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int fixed_width = 2131361859;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int home = 2131361797;
@@ -2956,47 +5198,59 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0013
 			public const int homeAsUp = 2131361811;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int icon = 2131361865;
+			// aapt resource value: 0x7f0a004c
+			public const int icon = 2131361868;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int icon_group = 2131361962;
+			// aapt resource value: 0x7f0a00bc
+			public const int icon_group = 2131361980;
 			
 			// aapt resource value: 0x7f0a0025
 			public const int ifRoom = 2131361829;
 			
-			// aapt resource value: 0x7f0a0046
-			public const int image = 2131361862;
+			// aapt resource value: 0x7f0a0049
+			public const int image = 2131361865;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int info = 2131361958;
+			// aapt resource value: 0x7f0a00b8
+			public const int info = 2131361976;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int largeLabel = 2131361908;
+			// aapt resource value: 0x7f0a0077
+			public const int largeLabel = 2131361911;
 			
 			// aapt resource value: 0x7f0a0034
 			public const int left = 2131361844;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int line1 = 2131361963;
+			// aapt resource value: 0x7f0a00bd
+			public const int line1 = 2131361981;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int line3 = 2131361965;
+			// aapt resource value: 0x7f0a00bf
+			public const int line3 = 2131361983;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int listMode = 2131361807;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int list_item = 2131361864;
+			// aapt resource value: 0x7f0a004b
+			public const int list_item = 2131361867;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int masked = 2131361971;
+			// aapt resource value: 0x7f0a0090
+			public const int loadingImage = 2131361936;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int media_actions = 2131361951;
+			// aapt resource value: 0x7f0a008e
+			public const int loadingProgressBar = 2131361934;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int loadingProgressWheel = 2131361937;
+			
+			// aapt resource value: 0x7f0a00c5
+			public const int masked = 2131361989;
+			
+			// aapt resource value: 0x7f0a00b2
+			public const int media_actions = 2131361970;
+			
+			// aapt resource value: 0x7f0a0088
+			public const int mediacontroller_progress = 2131361928;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int middle = 2131361826;
@@ -3004,89 +5258,92 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a003e
 			public const int mini = 2131361854;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int mr_art = 2131361931;
-			
-			// aapt resource value: 0x7f0a0080
-			public const int mr_chooser_list = 2131361920;
-			
-			// aapt resource value: 0x7f0a0083
-			public const int mr_chooser_route_desc = 2131361923;
-			
-			// aapt resource value: 0x7f0a0081
-			public const int mr_chooser_route_icon = 2131361921;
-			
-			// aapt resource value: 0x7f0a0082
-			public const int mr_chooser_route_name = 2131361922;
-			
-			// aapt resource value: 0x7f0a007f
-			public const int mr_chooser_title = 2131361919;
-			
-			// aapt resource value: 0x7f0a0088
-			public const int mr_close = 2131361928;
-			
-			// aapt resource value: 0x7f0a008e
-			public const int mr_control_divider = 2131361934;
-			
-			// aapt resource value: 0x7f0a0094
-			public const int mr_control_playback_ctrl = 2131361940;
-			
-			// aapt resource value: 0x7f0a0097
-			public const int mr_control_subtitle = 2131361943;
-			
-			// aapt resource value: 0x7f0a0096
-			public const int mr_control_title = 2131361942;
-			
-			// aapt resource value: 0x7f0a0095
-			public const int mr_control_title_container = 2131361941;
-			
-			// aapt resource value: 0x7f0a0089
-			public const int mr_custom_control = 2131361929;
-			
-			// aapt resource value: 0x7f0a008a
-			public const int mr_default_control = 2131361930;
-			
-			// aapt resource value: 0x7f0a0085
-			public const int mr_dialog_area = 2131361925;
-			
-			// aapt resource value: 0x7f0a0084
-			public const int mr_expandable_area = 2131361924;
-			
-			// aapt resource value: 0x7f0a0098
-			public const int mr_group_expand_collapse = 2131361944;
-			
-			// aapt resource value: 0x7f0a008c
-			public const int mr_media_main_control = 2131361932;
-			
-			// aapt resource value: 0x7f0a0087
-			public const int mr_name = 2131361927;
-			
-			// aapt resource value: 0x7f0a008d
-			public const int mr_playback_control = 2131361933;
-			
-			// aapt resource value: 0x7f0a0086
-			public const int mr_title_bar = 2131361926;
-			
-			// aapt resource value: 0x7f0a008f
-			public const int mr_volume_control = 2131361935;
-			
-			// aapt resource value: 0x7f0a0090
-			public const int mr_volume_group_list = 2131361936;
-			
-			// aapt resource value: 0x7f0a0092
-			public const int mr_volume_item_icon = 2131361938;
+			// aapt resource value: 0x7f0a009e
+			public const int mr_art = 2131361950;
 			
 			// aapt resource value: 0x7f0a0093
-			public const int mr_volume_slider = 2131361939;
+			public const int mr_chooser_list = 2131361939;
+			
+			// aapt resource value: 0x7f0a0096
+			public const int mr_chooser_route_desc = 2131361942;
+			
+			// aapt resource value: 0x7f0a0094
+			public const int mr_chooser_route_icon = 2131361940;
+			
+			// aapt resource value: 0x7f0a0095
+			public const int mr_chooser_route_name = 2131361941;
+			
+			// aapt resource value: 0x7f0a0092
+			public const int mr_chooser_title = 2131361938;
+			
+			// aapt resource value: 0x7f0a009b
+			public const int mr_close = 2131361947;
+			
+			// aapt resource value: 0x7f0a00a1
+			public const int mr_control_divider = 2131361953;
+			
+			// aapt resource value: 0x7f0a00a7
+			public const int mr_control_playback_ctrl = 2131361959;
+			
+			// aapt resource value: 0x7f0a00aa
+			public const int mr_control_subtitle = 2131361962;
+			
+			// aapt resource value: 0x7f0a00a9
+			public const int mr_control_title = 2131361961;
+			
+			// aapt resource value: 0x7f0a00a8
+			public const int mr_control_title_container = 2131361960;
+			
+			// aapt resource value: 0x7f0a009c
+			public const int mr_custom_control = 2131361948;
+			
+			// aapt resource value: 0x7f0a009d
+			public const int mr_default_control = 2131361949;
+			
+			// aapt resource value: 0x7f0a0098
+			public const int mr_dialog_area = 2131361944;
+			
+			// aapt resource value: 0x7f0a0097
+			public const int mr_expandable_area = 2131361943;
+			
+			// aapt resource value: 0x7f0a00ab
+			public const int mr_group_expand_collapse = 2131361963;
+			
+			// aapt resource value: 0x7f0a009f
+			public const int mr_media_main_control = 2131361951;
+			
+			// aapt resource value: 0x7f0a009a
+			public const int mr_name = 2131361946;
+			
+			// aapt resource value: 0x7f0a00a0
+			public const int mr_playback_control = 2131361952;
+			
+			// aapt resource value: 0x7f0a0099
+			public const int mr_title_bar = 2131361945;
+			
+			// aapt resource value: 0x7f0a00a2
+			public const int mr_volume_control = 2131361954;
+			
+			// aapt resource value: 0x7f0a00a3
+			public const int mr_volume_group_list = 2131361955;
+			
+			// aapt resource value: 0x7f0a00a5
+			public const int mr_volume_item_icon = 2131361957;
+			
+			// aapt resource value: 0x7f0a00a6
+			public const int mr_volume_slider = 2131361958;
 			
 			// aapt resource value: 0x7f0a001a
 			public const int multiply = 2131361818;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int navigation_header_container = 2131361913;
+			// aapt resource value: 0x7f0a007c
+			public const int navigation_header_container = 2131361916;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int never = 2131361830;
+			
+			// aapt resource value: 0x7f0a0086
+			public const int next = 2131361926;
 			
 			// aapt resource value: 0x7f0a0014
 			public const int none = 2131361812;
@@ -3094,23 +5351,29 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0010
 			public const int normal = 2131361808;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int notification_background = 2131361960;
+			// aapt resource value: 0x7f0a00ba
+			public const int notification_background = 2131361978;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int notification_main_column = 2131361954;
+			// aapt resource value: 0x7f0a00b5
+			public const int notification_main_column = 2131361973;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int notification_main_column_container = 2131361953;
+			// aapt resource value: 0x7f0a00b4
+			public const int notification_main_column_container = 2131361972;
 			
 			// aapt resource value: 0x7f0a0037
 			public const int parallax = 2131361847;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int parentPanel = 2131361869;
+			// aapt resource value: 0x7f0a0050
+			public const int parentPanel = 2131361872;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int pin = 2131361848;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int play = 2131361924;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int prev = 2131361922;
 			
 			// aapt resource value: 0x7f0a0006
 			public const int progress_circular = 2131361798;
@@ -3118,17 +5381,20 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a005d
-			public const int radio = 2131361885;
+			// aapt resource value: 0x7f0a0060
+			public const int radio = 2131361888;
+			
+			// aapt resource value: 0x7f0a0083
+			public const int rew = 2131361923;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int right = 2131361845;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int right_icon = 2131361959;
+			// aapt resource value: 0x7f0a00b9
+			public const int right_icon = 2131361977;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int right_side = 2131361955;
+			// aapt resource value: 0x7f0a00b6
+			public const int right_side = 2131361974;
 			
 			// aapt resource value: 0x7f0a001b
 			public const int screen = 2131361819;
@@ -3136,53 +5402,53 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a002d
 			public const int scroll = 2131361837;
 			
+			// aapt resource value: 0x7f0a0056
+			public const int scrollIndicatorDown = 2131361878;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int scrollIndicatorUp = 2131361874;
+			
 			// aapt resource value: 0x7f0a0053
-			public const int scrollIndicatorDown = 2131361875;
-			
-			// aapt resource value: 0x7f0a004f
-			public const int scrollIndicatorUp = 2131361871;
-			
-			// aapt resource value: 0x7f0a0050
-			public const int scrollView = 2131361872;
+			public const int scrollView = 2131361875;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int scrollable = 2131361856;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int search_badge = 2131361896;
-			
-			// aapt resource value: 0x7f0a0067
-			public const int search_bar = 2131361895;
-			
-			// aapt resource value: 0x7f0a0069
-			public const int search_button = 2131361897;
-			
-			// aapt resource value: 0x7f0a006e
-			public const int search_close_btn = 2131361902;
+			// aapt resource value: 0x7f0a006b
+			public const int search_badge = 2131361899;
 			
 			// aapt resource value: 0x7f0a006a
-			public const int search_edit_frame = 2131361898;
-			
-			// aapt resource value: 0x7f0a0070
-			public const int search_go_btn = 2131361904;
-			
-			// aapt resource value: 0x7f0a006b
-			public const int search_mag_icon = 2131361899;
+			public const int search_bar = 2131361898;
 			
 			// aapt resource value: 0x7f0a006c
-			public const int search_plate = 2131361900;
-			
-			// aapt resource value: 0x7f0a006d
-			public const int search_src_text = 2131361901;
+			public const int search_button = 2131361900;
 			
 			// aapt resource value: 0x7f0a0071
-			public const int search_voice_btn = 2131361905;
+			public const int search_close_btn = 2131361905;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int select_dialog_listview = 2131361906;
+			// aapt resource value: 0x7f0a006d
+			public const int search_edit_frame = 2131361901;
 			
-			// aapt resource value: 0x7f0a005c
-			public const int shortcut = 2131361884;
+			// aapt resource value: 0x7f0a0073
+			public const int search_go_btn = 2131361907;
+			
+			// aapt resource value: 0x7f0a006e
+			public const int search_mag_icon = 2131361902;
+			
+			// aapt resource value: 0x7f0a006f
+			public const int search_plate = 2131361903;
+			
+			// aapt resource value: 0x7f0a0070
+			public const int search_src_text = 2131361904;
+			
+			// aapt resource value: 0x7f0a0074
+			public const int search_voice_btn = 2131361908;
+			
+			// aapt resource value: 0x7f0a0075
+			public const int select_dialog_listview = 2131361909;
+			
+			// aapt resource value: 0x7f0a005f
+			public const int shortcut = 2131361887;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int showCustom = 2131361813;
@@ -3193,23 +5459,26 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0017
 			public const int showTitle = 2131361815;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int sliding_tabs = 2131361968;
+			// aapt resource value: 0x7f0a008b
+			public const int shutter = 2131361931;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int smallLabel = 2131361907;
+			// aapt resource value: 0x7f0a00c2
+			public const int sliding_tabs = 2131361986;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int snackbar_action = 2131361912;
+			// aapt resource value: 0x7f0a0076
+			public const int smallLabel = 2131361910;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int snackbar_text = 2131361911;
+			// aapt resource value: 0x7f0a007b
+			public const int snackbar_action = 2131361915;
+			
+			// aapt resource value: 0x7f0a007a
+			public const int snackbar_text = 2131361914;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int snap = 2131361838;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int spacer = 2131361868;
+			// aapt resource value: 0x7f0a004f
+			public const int spacer = 2131361871;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -3226,32 +5495,38 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0036
 			public const int start = 2131361846;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int status_bar_latest_event_content = 2131361950;
+			// aapt resource value: 0x7f0a00b1
+			public const int status_bar_latest_event_content = 2131361969;
 			
-			// aapt resource value: 0x7f0a005e
-			public const int submenuarrow = 2131361886;
+			// aapt resource value: 0x7f0a0061
+			public const int submenuarrow = 2131361889;
 			
-			// aapt resource value: 0x7f0a006f
-			public const int submit_area = 2131361903;
+			// aapt resource value: 0x7f0a0072
+			public const int submit_area = 2131361906;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int subtitles = 2131361932;
 			
 			// aapt resource value: 0x7f0a0011
 			public const int tabMode = 2131361809;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int text = 2131361966;
+			// aapt resource value: 0x7f0a00c0
+			public const int text = 2131361984;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int text2 = 2131361964;
+			// aapt resource value: 0x7f0a00be
+			public const int text2 = 2131361982;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int textSpacerNoButtons = 2131361874;
+			// aapt resource value: 0x7f0a0055
+			public const int textSpacerNoButtons = 2131361877;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int textSpacerNoTitle = 2131361873;
+			// aapt resource value: 0x7f0a0054
+			public const int textSpacerNoTitle = 2131361876;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int text_input_password_toggle = 2131361918;
+			// aapt resource value: 0x7f0a008f
+			public const int textViewStatus = 2131361935;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int text_input_password_toggle = 2131361921;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int textinput_counter = 2131361804;
@@ -3259,29 +5534,32 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a000d
 			public const int textinput_error = 2131361805;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int time = 2131361956;
+			// aapt resource value: 0x7f0a0089
+			public const int time = 2131361929;
 			
-			// aapt resource value: 0x7f0a004a
-			public const int title = 2131361866;
+			// aapt resource value: 0x7f0a0087
+			public const int time_current = 2131361927;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int titleDividerNoCustom = 2131361881;
+			// aapt resource value: 0x7f0a004d
+			public const int title = 2131361869;
 			
-			// aapt resource value: 0x7f0a0057
-			public const int title_template = 2131361879;
+			// aapt resource value: 0x7f0a005c
+			public const int titleDividerNoCustom = 2131361884;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int toolbar = 2131361969;
+			// aapt resource value: 0x7f0a005a
+			public const int title_template = 2131361882;
+			
+			// aapt resource value: 0x7f0a00c3
+			public const int toolbar = 2131361987;
 			
 			// aapt resource value: 0x7f0a0029
 			public const int top = 2131361833;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int topPanel = 2131361878;
+			// aapt resource value: 0x7f0a0059
+			public const int topPanel = 2131361881;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int touch_outside = 2131361909;
+			// aapt resource value: 0x7f0a0078
+			public const int touch_outside = 2131361912;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int transition_current_scene = 2131361802;
@@ -3295,14 +5573,17 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f0a0018
 			public const int useLogo = 2131361816;
 			
+			// aapt resource value: 0x7f0a008a
+			public const int video_frame = 2131361930;
+			
 			// aapt resource value: 0x7f0a000e
 			public const int view_offset_helper = 2131361806;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int visible = 2131361970;
+			// aapt resource value: 0x7f0a00c4
+			public const int visible = 2131361988;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int volume_item_container = 2131361937;
+			// aapt resource value: 0x7f0a00a4
+			public const int volume_item_container = 2131361956;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int withText = 2131361831;
@@ -3515,85 +5796,100 @@ namespace B4.EE.OmedMilat.Droid
 			public const int design_text_input_password_icon = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int mr_chooser_dialog = 2130903081;
+			public const int exo_playback_control_view = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int mr_chooser_list_item = 2130903082;
+			public const int exo_simple_player_view = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int mr_controller_material_dialog_b = 2130903083;
+			public const int loading = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int mr_controller_volume_item = 2130903084;
+			public const int loadingimage = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int mr_playback_control = 2130903085;
+			public const int loadingprogress = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_volume_control = 2130903086;
+			public const int mr_chooser_dialog = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_action = 2130903087;
+			public const int mr_chooser_list_item = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_action_tombstone = 2130903088;
+			public const int mr_controller_material_dialog_b = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_media_action = 2130903089;
+			public const int mr_controller_volume_item = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_media_cancel_action = 2130903090;
+			public const int mr_playback_control = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_big_media = 2130903091;
+			public const int mr_volume_control = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media_custom = 2130903092;
+			public const int notification_action = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_narrow = 2130903093;
+			public const int notification_action_tombstone = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media_narrow_custom = 2130903094;
+			public const int notification_media_action = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_custom_big = 2130903095;
+			public const int notification_media_cancel_action = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_icon_group = 2130903096;
+			public const int notification_template_big_media = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_lines_media = 2130903097;
+			public const int notification_template_big_media_custom = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_media = 2130903098;
+			public const int notification_template_big_media_narrow = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_media_custom = 2130903099;
+			public const int notification_template_big_media_narrow_custom = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_part_chronometer = 2130903100;
+			public const int notification_template_custom_big = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_part_time = 2130903101;
+			public const int notification_template_icon_group = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_item_material = 2130903102;
+			public const int notification_template_lines_media = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_multichoice_material = 2130903103;
+			public const int notification_template_media = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_singlechoice_material = 2130903104;
+			public const int notification_template_media_custom = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int support_simple_spinner_dropdown_item = 2130903105;
+			public const int notification_template_part_chronometer = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int Tabbar = 2130903106;
+			public const int notification_template_part_time = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int Toolbar = 2130903107;
+			public const int select_dialog_item_material = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int select_dialog_multichoice_material = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int select_dialog_singlechoice_material = 2130903109;
+			
+			// aapt resource value: 0x7f030046
+			public const int support_simple_spinner_dropdown_item = 2130903110;
+			
+			// aapt resource value: 0x7f030047
+			public const int Tabbar = 2130903111;
+			
+			// aapt resource value: 0x7f030048
+			public const int Toolbar = 2130903112;
 			
 			static Layout()
 			{
@@ -3608,11 +5904,11 @@ namespace B4.EE.OmedMilat.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b003f
-			public const int ApplicationName = 2131427391;
+			// aapt resource value: 0x7f0b0040
+			public const int ApplicationName = 2131427392;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int Hello = 2131427390;
+			// aapt resource value: 0x7f0b003f
+			public const int Hello = 2131427391;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int abc_action_bar_home_description = 2131427349;
@@ -3715,6 +6011,30 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0x7f0b0038
 			public const int character_counter_pattern = 2131427384;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int exo_controls_fastforward_description = 2131427393;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int exo_controls_next_description = 2131427394;
+			
+			// aapt resource value: 0x7f0b0043
+			public const int exo_controls_pause_description = 2131427395;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int exo_controls_play_description = 2131427396;
+			
+			// aapt resource value: 0x7f0b0045
+			public const int exo_controls_previous_description = 2131427397;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int exo_controls_rewind_description = 2131427398;
+			
+			// aapt resource value: 0x7f0b0047
+			public const int exo_controls_stop_description = 2131427399;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int library_name = 2131427390;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int mr_button_content_description = 2131427328;
@@ -3828,8 +6148,8 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f070170
 			public const int Animation_Design_BottomSheetDialog = 2131165552;
 			
-			// aapt resource value: 0x7f07018b
-			public const int AppCompatDialogStyle = 2131165579;
+			// aapt resource value: 0x7f070190
+			public const int AppCompatDialogStyle = 2131165584;
 			
 			// aapt resource value: 0x7f0700b2
 			public const int Base_AlertDialog_AppCompat = 2131165362;
@@ -4306,10 +6626,25 @@ namespace B4.EE.OmedMilat.Droid
 			public const int CardView_Light = 2131165187;
 			
 			// aapt resource value: 0x7f070189
-			public const int MainTheme = 2131165577;
+			public const int ExoMediaButton = 2131165577;
 			
 			// aapt resource value: 0x7f07018a
-			public const int MainTheme_Base = 2131165578;
+			public const int ExoMediaButton_FastForward = 2131165578;
+			
+			// aapt resource value: 0x7f07018b
+			public const int ExoMediaButton_Next = 2131165579;
+			
+			// aapt resource value: 0x7f07018c
+			public const int ExoMediaButton_Previous = 2131165580;
+			
+			// aapt resource value: 0x7f07018d
+			public const int ExoMediaButton_Rewind = 2131165581;
+			
+			// aapt resource value: 0x7f07018e
+			public const int MainTheme = 2131165582;
+			
+			// aapt resource value: 0x7f07018f
+			public const int MainTheme_Base = 2131165583;
 			
 			// aapt resource value: 0x7f07002d
 			public const int Platform_AppCompat = 2131165229;
@@ -5776,6 +8111,12 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 3
 			public const int AppCompatTheme_windowNoTitle = 3;
 			
+			public static int[] AspectRatioFrameLayout = new int[] {
+					2130772307};
+			
+			// aapt resource value: 0
+			public const int AspectRatioFrameLayout_resize_mode = 0;
+			
 			public static int[] BottomNavigationView = new int[] {
 					2130772024,
 					2130772267,
@@ -6378,6 +8719,20 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 4
 			public const int NavigationView_menu = 4;
 			
+			public static int[] PlaybackControlView = new int[] {
+					2130772306,
+					2130772308,
+					2130772309};
+			
+			// aapt resource value: 0
+			public const int PlaybackControlView_fastforward_increment = 0;
+			
+			// aapt resource value: 1
+			public const int PlaybackControlView_rewind_increment = 1;
+			
+			// aapt resource value: 2
+			public const int PlaybackControlView_show_timeout = 2;
+			
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
@@ -6397,6 +8752,56 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] ProgressWheel = new int[] {
+					2130772312,
+					2130772313,
+					2130772314,
+					2130772315,
+					2130772316,
+					2130772317,
+					2130772318,
+					2130772319,
+					2130772320,
+					2130772321,
+					2130772322,
+					2130772323};
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahBarColor = 3;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahBarLength = 11;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahBarWidth = 10;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahCircleColor = 8;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahDelayMillis = 7;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahRadius = 9;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahRimColor = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRimWidth = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahSpinSpeed = 6;
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahText = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahTextColor = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahTextSize = 2;
 			
 			public static int[] RecycleListView = new int[] {
 					2130772176,
@@ -6515,6 +8920,32 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
+			
+			public static int[] SimpleExoPlayerView = new int[] {
+					2130772306,
+					2130772307,
+					2130772308,
+					2130772309,
+					2130772310,
+					2130772311};
+			
+			// aapt resource value: 0
+			public const int SimpleExoPlayerView_fastforward_increment = 0;
+			
+			// aapt resource value: 1
+			public const int SimpleExoPlayerView_resize_mode = 1;
+			
+			// aapt resource value: 2
+			public const int SimpleExoPlayerView_rewind_increment = 2;
+			
+			// aapt resource value: 3
+			public const int SimpleExoPlayerView_show_timeout = 3;
+			
+			// aapt resource value: 4
+			public const int SimpleExoPlayerView_use_controller = 4;
+			
+			// aapt resource value: 5
+			public const int SimpleExoPlayerView_use_texture_view = 5;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,

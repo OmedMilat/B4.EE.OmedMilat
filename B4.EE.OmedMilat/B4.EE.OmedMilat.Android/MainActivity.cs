@@ -3,6 +3,9 @@ using Android.Content.PM;
 using Android.Views;
 using Android.OS;
 using B4.EE.OmedMilat.Droid.Services;
+using Plugin.MediaManager.Forms.Android;
+using Plugin.CurrentActivity;
+using Acr.UserDialogs;
 
 namespace B4.EE.OmedMilat.Droid
 {
@@ -14,14 +17,15 @@ namespace B4.EE.OmedMilat.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
             this.Window.AddFlags(WindowManagerFlags.Fullscreen | WindowManagerFlags.TurnScreenOn);
-
+            
             base.OnCreate(bundle);
+            VideoViewRenderer.Init();
+            UserDialogs.Init(this);
             global::Xamarin.Forms.Forms.Init(this, bundle);
-
             Xamarin.Forms.DependencyService.Register<OpenAppAndroid>();
             Xamarin.Forms.DependencyService.Register<SystemSetting>();
             Xamarin.Forms.DependencyService.Register<OpenMedia>();
-            LoadApplication(new App());
+            LoadApplication(new App()); 
         }
     }
 }

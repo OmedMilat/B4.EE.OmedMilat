@@ -12,8 +12,6 @@ namespace B4.EE.OmedMilat.Droid
 {
     class OpenAppAndroid : Activity, IOpenApp
     {
-
-
         public async Task OpenExternalApp(string appname)
         {
             await Task.Delay(0);

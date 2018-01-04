@@ -2,9 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="B4.EE.OmedMilat.Views.MainView"
+             NavigationPage.HasNavigationBar="False"
              BackgroundImage="jarvisbg.jpg">
+
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
             <Image Source="{Binding Jarvislogo}">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding RecordAudio}"/>
@@ -13,3 +15,4 @@
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+

@@ -99,7 +99,12 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "B4.EE.OmedMilat.Android.dll" comes first in this list. */
 		"B4.EE.OmedMilat.Android.dll",
-		"B4.EE.OmedMilat.dll",
+		"Acr.Support.Android.dll",
+		"Acr.UserDialogs.dll",
+		"Acr.UserDialogs.Interface.dll",
+		"AndHUD.dll",
+		"Corcav.Behaviors.dll",
+		"ExoPlayer.dll",
 		"FormsViewGroup.dll",
 		"Lamp.Plugin.Abstractions.dll",
 		"Lamp.Plugin.dll",
@@ -113,10 +118,13 @@ class MonoPackageManager_Resources {
 		"Plugin.Geolocator.dll",
 		"Plugin.MediaManager.Abstractions.dll",
 		"Plugin.MediaManager.dll",
+		"Plugin.MediaManager.Forms.Android.dll",
+		"Plugin.MediaManager.Forms.dll",
 		"Plugin.Permissions.Abstractions.dll",
 		"Plugin.Permissions.dll",
 		"Plugin.TextToSpeech.Abstractions.dll",
 		"Plugin.TextToSpeech.dll",
+		"Splat.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
@@ -144,6 +152,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"B4.EE.OmedMilat.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

@@ -16,7 +16,7 @@ namespace B4.EE.OmedMilat.Views
         public MainView()
         {
             InitializeComponent();
-            BindingContext = new MainViewModel();
+            BindingContext = new MainViewModel(this.Navigation);
         }
     }
 }
