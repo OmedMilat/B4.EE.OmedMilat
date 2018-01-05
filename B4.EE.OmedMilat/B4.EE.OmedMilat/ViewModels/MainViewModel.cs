@@ -1,6 +1,8 @@
 ﻿using B4.EE.OmedMilat.Domain.Services;
 using B4.EE.OmedMilat.Views;
+using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -17,11 +19,11 @@ namespace B4.EE.OmedMilat.ViewModels
         INavigation navigation;
 
         public MainViewModel(INavigation navigation)
-        {   
+        {
             this.navigation = navigation;
             jarvislogo = "jarvislogo.png";
             bingSpeechService = new BingSpeechService();
-            jarvisService = new JarvisService(); 
+            jarvisService = new JarvisService();
         }
         public void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
@@ -53,9 +55,12 @@ namespace B4.EE.OmedMilat.ViewModels
                 {
                     await bingSpeechService.RecordAudio();
                     await jarvisService.Commands();
-                }               
+                }
 
-                catch { }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex);
+                }
 
                 if (jarvisService.Video() == true)
                 {

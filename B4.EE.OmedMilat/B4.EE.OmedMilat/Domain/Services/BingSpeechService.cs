@@ -10,7 +10,7 @@ namespace B4.EE.OmedMilat.Domain.Services
 {
     public class BingSpeechService
     {
-        string BingSpeechApiKey = "ede4874dde25467d93ceb8ff46bb48f2";
+        string BingSpeechApiKey = "c1c38bbe75f14ee3b293cc774997a5e6";
         static string SpeechResult = null;
         AudioRecorderService recorder;
         BingSpeechApiClient bingSpeechClient;

@@ -16,11 +16,16 @@ namespace B4.EE.OmedMilat.Domain.Services
     public class JarvisService
     {
         List<InstalledAppsInfo> apps = DependencyService.Get<IOpenApp>().AppInfo();
+        Task<List<JarvisCommands>> jokes =  App.Database.GetAllCommads();
+        Random random = new Random();
+        
         public static bool videobool;
         public static string videolink;
+
         public async Task JarvisTalk(string message)
         {
             await CrossTextToSpeech.Current.Speak(message);
+             
         }
 
         public async Task Commands()
@@ -78,10 +83,19 @@ namespace B4.EE.OmedMilat.Domain.Services
                         videobool = true;
                         Video();
                         break;
+
+                    case "tell me a joke":
+                        await JarvisTalk(GetRandomJokes());
+                        break;
                 }
         }
 
         #region Tasks   
+        public string GetRandomJokes()
+        {
+            int rondom = random.Next(0, jokes.Result.Count);
+            return jokes.Result[rondom].Joke;
+        }
         public bool Video()
         {
             videolink = "https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4";
@@ -125,18 +139,18 @@ namespace B4.EE.OmedMilat.Domain.Services
                 }
             }
         }
-        public async Task OpenApp(string name)
-        {
-            if (Device.RuntimePlatform == Device.Android)
-            {
-                await DependencyService.Get<IOpenApp>().OpenExternalApp(name);
-            }
-            else if (Device.RuntimePlatform == Device.Windows)
-            {
-                //Device.OpenUri(new Uri(link));
-            }
+        //public async Task OpenApp(string name)
+        //{
+        //    if (Device.RuntimePlatform == Device.Android)
+        //    {
+        //        await DependencyService.Get<IOpenApp>().OpenExternalApp(name);
+        //    }
+        //    else if (Device.RuntimePlatform == Device.Windows)
+        //    {
+        //        //Device.OpenUri(new Uri(link));
+        //    }
 
-        }
+        //}
 
         public async Task GetWeather()
         {

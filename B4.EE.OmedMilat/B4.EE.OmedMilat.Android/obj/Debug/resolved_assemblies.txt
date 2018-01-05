@@ -59,6 +59,8 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\mscorlib.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.IO.Compression.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Xml.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Xml.Linq.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Runtime.dll
@@ -87,10 +89,9 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Threading.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Xml.XmlSerializer.dll
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Net.Primitives.dll
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Net.Requests.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\Mono.Security.dll

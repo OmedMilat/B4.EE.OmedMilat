@@ -484,10 +484,10 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
-      "sqlite-net-pcl/1.4.118": {
+      "sqlite-net-pcl/1.5.166-beta": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.5"
+          "SQLitePCLRaw.bundle_green": "1.1.8"
         },
         "compile": {
           "lib/netstandard1.1/SQLite-net.dll": {}
@@ -496,12 +496,12 @@
           "lib/netstandard1.1/SQLite-net.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.5": {
+      "SQLitePCLRaw.bundle_green/1.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5",
-          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
@@ -512,7 +512,7 @@
           "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -524,7 +524,7 @@
           "lib/uap10.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
         "type": "package",
         "build": {
           "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
@@ -544,11 +544,11 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -3243,10 +3243,10 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
-      "sqlite-net-pcl/1.4.118": {
+      "sqlite-net-pcl/1.5.166-beta": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.5"
+          "SQLitePCLRaw.bundle_green": "1.1.8"
         },
         "compile": {
           "lib/netstandard1.1/SQLite-net.dll": {}
@@ -3255,12 +3255,12 @@
           "lib/netstandard1.1/SQLite-net.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.5": {
+      "SQLitePCLRaw.bundle_green/1.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5",
-          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
@@ -3271,7 +3271,7 @@
           "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -3283,7 +3283,7 @@
           "lib/uap10.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
         "type": "package",
         "native": {
           "runtimes/win10-arm/native/e_sqlite3.dll": {}
@@ -3292,11 +3292,11 @@
           "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -5868,10 +5868,10 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
-      "sqlite-net-pcl/1.4.118": {
+      "sqlite-net-pcl/1.5.166-beta": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.5"
+          "SQLitePCLRaw.bundle_green": "1.1.8"
         },
         "compile": {
           "lib/netstandard1.1/SQLite-net.dll": {}
@@ -5880,12 +5880,12 @@
           "lib/netstandard1.1/SQLite-net.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.5": {
+      "SQLitePCLRaw.bundle_green/1.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5",
-          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
@@ -5896,7 +5896,7 @@
           "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -5908,7 +5908,7 @@
           "lib/uap10.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
         "type": "package",
         "native": {
           "runtimes/win10-arm/native/e_sqlite3.dll": {}
@@ -5917,11 +5917,11 @@
           "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -8466,10 +8466,10 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
-      "sqlite-net-pcl/1.4.118": {
+      "sqlite-net-pcl/1.5.166-beta": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.5"
+          "SQLitePCLRaw.bundle_green": "1.1.8"
         },
         "compile": {
           "lib/netstandard1.1/SQLite-net.dll": {}
@@ -8478,12 +8478,12 @@
           "lib/netstandard1.1/SQLite-net.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.5": {
+      "SQLitePCLRaw.bundle_green/1.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5",
-          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
@@ -8494,7 +8494,7 @@
           "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -8506,7 +8506,7 @@
           "lib/uap10.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
         "type": "package",
         "native": {
           "runtimes/win10-x64/native/e_sqlite3.dll": {}
@@ -8515,11 +8515,11 @@
           "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -11100,10 +11100,10 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
-      "sqlite-net-pcl/1.4.118": {
+      "sqlite-net-pcl/1.5.166-beta": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.5"
+          "SQLitePCLRaw.bundle_green": "1.1.8"
         },
         "compile": {
           "lib/netstandard1.1/SQLite-net.dll": {}
@@ -11112,12 +11112,12 @@
           "lib/netstandard1.1/SQLite-net.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.5": {
+      "SQLitePCLRaw.bundle_green/1.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5",
-          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
@@ -11128,7 +11128,7 @@
           "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -11140,7 +11140,7 @@
           "lib/uap10.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
         "type": "package",
         "native": {
           "runtimes/win10-x64/native/e_sqlite3.dll": {}
@@ -11149,11 +11149,11 @@
           "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -13698,10 +13698,10 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
-      "sqlite-net-pcl/1.4.118": {
+      "sqlite-net-pcl/1.5.166-beta": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.5"
+          "SQLitePCLRaw.bundle_green": "1.1.8"
         },
         "compile": {
           "lib/netstandard1.1/SQLite-net.dll": {}
@@ -13710,12 +13710,12 @@
           "lib/netstandard1.1/SQLite-net.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.5": {
+      "SQLitePCLRaw.bundle_green/1.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5",
-          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
@@ -13726,7 +13726,7 @@
           "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -13738,7 +13738,7 @@
           "lib/uap10.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
         "type": "package",
         "native": {
           "runtimes/win10-x86/native/e_sqlite3.dll": {}
@@ -13747,11 +13747,11 @@
           "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -16332,10 +16332,10 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
-      "sqlite-net-pcl/1.4.118": {
+      "sqlite-net-pcl/1.5.166-beta": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.5"
+          "SQLitePCLRaw.bundle_green": "1.1.8"
         },
         "compile": {
           "lib/netstandard1.1/SQLite-net.dll": {}
@@ -16344,12 +16344,12 @@
           "lib/netstandard1.1/SQLite-net.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.5": {
+      "SQLitePCLRaw.bundle_green/1.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.5",
-          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
@@ -16360,7 +16360,7 @@
           "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.5": {
+      "SQLitePCLRaw.core/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -16372,7 +16372,7 @@
           "lib/uap10.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
         "type": "package",
         "native": {
           "runtimes/win10-x86/native/e_sqlite3.dll": {}
@@ -16381,11 +16381,11 @@
           "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.5"
+          "SQLitePCLRaw.core": "1.1.8"
         },
         "compile": {
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -19766,26 +19766,26 @@
         "src/TypeForwardedSystemDrawing.cs"
       ]
     },
-    "sqlite-net-pcl/1.4.118": {
-      "sha512": "66wl2z26PpA/m+hY2UJudsHF3GpbbC8Scx9WvXC0MomQxrbclkb2jiavYsXH3AEXHsTAjKIWavmwKoRIPWsdAg==",
+    "sqlite-net-pcl/1.5.166-beta": {
+      "sha512": "a7VbroGBauEKY+UJeP1Z5UyrSHagigKgJGa5pVOyKDOI5/cPuCN2YUP4lhLReZdn73CrPqz2U7jsmZBoyZ0kXA==",
       "type": "package",
-      "path": "sqlite-net-pcl/1.4.118",
+      "path": "sqlite-net-pcl/1.5.166-beta",
       "files": [
         "lib/netstandard1.1/SQLite-net.deps.json",
         "lib/netstandard1.1/SQLite-net.dll",
         "lib/netstandard1.1/SQLite-net.pdb",
         "lib/netstandard1.1/SQLite-net.xml",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.pdb",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
-        "sqlite-net-pcl.1.4.118.nupkg.sha512",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
+        "sqlite-net-pcl.1.5.166-beta.nupkg.sha512",
         "sqlite-net-pcl.nuspec"
       ]
     },
-    "SQLitePCLRaw.bundle_green/1.1.5": {
-      "sha512": "rz+SPgp57CAWkEfCJmWqHXMd+fSqhgYmzOdjkSbCQ3OEG0I3+vUlycElvy5zTi0GAYg5pVrmRqbquotS0985CQ==",
+    "SQLitePCLRaw.bundle_green/1.1.8": {
+      "sha512": "He+XMpqLXzpvZtjVfeaqxXXQzq5H4OuDEdUYwXXOJ7rQHQiF8b8BQzS+kuxCdsaDnMsrksdFVmAeXx2nNcAsjw==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_green/1.1.5",
+      "path": "sqlitepclraw.bundle_green/1.1.8",
       "files": [
         "build/wp8/SQLitePCLRaw.bundle_green.targets",
         "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
@@ -19823,14 +19823,14 @@
         "lib/wp8/_._",
         "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
         "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_green.1.1.5.nupkg.sha512",
+        "sqlitepclraw.bundle_green.1.1.8.nupkg.sha512",
         "sqlitepclraw.bundle_green.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/1.1.5": {
-      "sha512": "NViT1KDYnPAQo7yoYmkAMWzT15ZjqbLTSZp9iTVwZDz7fBC5fQ9TYebOFUIxYxrD/RvBpYB8m9PtcL8x/QbKNg==",
+    "SQLitePCLRaw.core/1.1.8": {
+      "sha512": "JTvlAlVHeMW9QaTcu+3iLB9ZEGtceb+uM1MOlfyAnEocShSacHEzwPNsden7MlWb0QjPX3Y3sDMW0ymGhH8Jtg==",
       "type": "package",
-      "path": "sqlitepclraw.core/1.1.5",
+      "path": "sqlitepclraw.core/1.1.8",
       "files": [
         "lib/MonoAndroid/SQLitePCLRaw.core.dll",
         "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
@@ -19847,30 +19847,30 @@
         "lib/win8/SQLitePCLRaw.core.dll",
         "lib/win81/SQLitePCLRaw.core.dll",
         "lib/wpa81/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.1.1.5.nupkg.sha512",
+        "sqlitepclraw.core.1.1.8.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
-      "sha512": "FchuM2weo1w2FWQgy1ZSoAQNGaUzM7EKuvZDT9XpoUuyBdAhns7pzRHN3KBmx9abaHbKjjpitT6luC0VgWatMw==",
+    "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.8": {
+      "sha512": "T1W0POb+lSfLJvv1FCBcoCj53U6zEsSEzwwd8CpDiO4phHVJGuhf7no5N/DisTkti4Y7kmvy0JiBirYoVPDVVg==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3.v140/1.1.5",
+      "path": "sqlitepclraw.lib.e_sqlite3.v140/1.1.8",
       "files": [
         "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets",
         "runtimes/win10-arm/native/e_sqlite3.dll",
         "runtimes/win10-x64/native/e_sqlite3.dll",
         "runtimes/win10-x86/native/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.v140.1.1.5.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.v140.1.1.8.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.v140.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
-      "sha512": "2QAQ2ujc51ZTo7W9THPkjo+12FkhAwTCJJ9LwPRmH7BERO+2PL2OEc2kzQjG0s2QQdbRBfFPUxMwbyOQ1u42jA==",
+    "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.8": {
+      "sha512": "yiZEr4jdH3CRh9cSvUuNn9cAXgOmdWN2uKp7vNT9ISat6jLNO/FLzYgXH9HvU/Keic4gCvpGGapaQuEppb333Q==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3.uwp10/1.1.5",
+      "path": "sqlitepclraw.provider.e_sqlite3.uwp10/1.1.8",
       "files": [
         "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.uwp10.1.1.5.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.uwp10.1.1.8.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.uwp10.nuspec"
       ]
     },
@@ -25126,7 +25126,7 @@
       "Xamarin.Cognitive.BingSpeech >= 1.0.3",
       "Xamarin.Forms >= 2.3.4.224",
       "kphillpotts.Lamp.Plugin >= 1.0.0.1",
-      "sqlite-net-pcl >= 1.4.118"
+      "sqlite-net-pcl >= 1.5.166-beta"
     ],
     "UAP,Version=v10.0.10586": []
   },
@@ -25169,7 +25169,7 @@
       "Plugin.AudioRecorder": "0.8.0",
       "Plugin.MediaManager": "0.4.5",
       "Plugin.MediaManager.Forms": "0.4.5",
-      "sqlite-net-pcl": "1.4.118",
+      "sqlite-net-pcl": "1.5.166-beta",
       "Xam.Plugin.Geolocator": "3.0.3",
       "Xam.Plugins.TextToSpeech": "3.0.1",
       "Xamarin.Cognitive.BingSpeech": "1.0.3",
