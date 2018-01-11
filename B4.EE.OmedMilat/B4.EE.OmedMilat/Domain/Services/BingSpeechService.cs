@@ -30,6 +30,11 @@ namespace B4.EE.OmedMilat.Domain.Services
             Task.Run(() => bingSpeechClient.Authenticate());
         }
 
+        public async Task StopRecording()
+        {
+            await recorder.StopRecording();
+        }
+
         public async Task RecordAudio()
         {
             try
@@ -43,7 +48,7 @@ namespace B4.EE.OmedMilat.Domain.Services
                     bingSpeechClient.RecognitionMode = RecognitionMode.Interactive;
                     bingSpeechClient.ProfanityMode = ProfanityMode.Raw;
 
-                    var audioFile = await audioRecordTask;
+                    var audioFile = await audioRecordTask; 
 
                     //if we're not streaming the audio as we're recording, we'll use the file-based STT API here
                     if (audioFile != null)

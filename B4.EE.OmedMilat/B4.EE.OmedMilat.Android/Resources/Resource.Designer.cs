@@ -3365,44 +3365,44 @@ namespace B4.EE.OmedMilat.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f08004a
-			public const int abc_background_cache_hint_selector_material_dark = 2131230794;
-			
-			// aapt resource value: 0x7f08004b
-			public const int abc_background_cache_hint_selector_material_light = 2131230795;
-			
-			// aapt resource value: 0x7f08004c
-			public const int abc_btn_colored_borderless_text_material = 2131230796;
-			
 			// aapt resource value: 0x7f08004d
-			public const int abc_btn_colored_text_material = 2131230797;
+			public const int abc_background_cache_hint_selector_material_dark = 2131230797;
 			
 			// aapt resource value: 0x7f08004e
-			public const int abc_color_highlight_material = 2131230798;
+			public const int abc_background_cache_hint_selector_material_light = 2131230798;
 			
 			// aapt resource value: 0x7f08004f
-			public const int abc_hint_foreground_material_dark = 2131230799;
+			public const int abc_btn_colored_borderless_text_material = 2131230799;
 			
 			// aapt resource value: 0x7f080050
-			public const int abc_hint_foreground_material_light = 2131230800;
+			public const int abc_btn_colored_text_material = 2131230800;
+			
+			// aapt resource value: 0x7f080051
+			public const int abc_color_highlight_material = 2131230801;
+			
+			// aapt resource value: 0x7f080052
+			public const int abc_hint_foreground_material_dark = 2131230802;
+			
+			// aapt resource value: 0x7f080053
+			public const int abc_hint_foreground_material_light = 2131230803;
 			
 			// aapt resource value: 0x7f080005
 			public const int abc_input_method_navigation_guard = 2131230725;
 			
-			// aapt resource value: 0x7f080051
-			public const int abc_primary_text_disable_only_material_dark = 2131230801;
-			
-			// aapt resource value: 0x7f080052
-			public const int abc_primary_text_disable_only_material_light = 2131230802;
-			
-			// aapt resource value: 0x7f080053
-			public const int abc_primary_text_material_dark = 2131230803;
-			
 			// aapt resource value: 0x7f080054
-			public const int abc_primary_text_material_light = 2131230804;
+			public const int abc_primary_text_disable_only_material_dark = 2131230804;
 			
 			// aapt resource value: 0x7f080055
-			public const int abc_search_url_text = 2131230805;
+			public const int abc_primary_text_disable_only_material_light = 2131230805;
+			
+			// aapt resource value: 0x7f080056
+			public const int abc_primary_text_material_dark = 2131230806;
+			
+			// aapt resource value: 0x7f080057
+			public const int abc_primary_text_material_light = 2131230807;
+			
+			// aapt resource value: 0x7f080058
+			public const int abc_search_url_text = 2131230808;
 			
 			// aapt resource value: 0x7f080006
 			public const int abc_search_url_text_normal = 2131230726;
@@ -3413,32 +3413,35 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f080008
 			public const int abc_search_url_text_selected = 2131230728;
 			
-			// aapt resource value: 0x7f080056
-			public const int abc_secondary_text_material_dark = 2131230806;
-			
-			// aapt resource value: 0x7f080057
-			public const int abc_secondary_text_material_light = 2131230807;
-			
-			// aapt resource value: 0x7f080058
-			public const int abc_tint_btn_checkable = 2131230808;
-			
 			// aapt resource value: 0x7f080059
-			public const int abc_tint_default = 2131230809;
+			public const int abc_secondary_text_material_dark = 2131230809;
 			
 			// aapt resource value: 0x7f08005a
-			public const int abc_tint_edittext = 2131230810;
+			public const int abc_secondary_text_material_light = 2131230810;
 			
 			// aapt resource value: 0x7f08005b
-			public const int abc_tint_seek_thumb = 2131230811;
+			public const int abc_tint_btn_checkable = 2131230811;
 			
 			// aapt resource value: 0x7f08005c
-			public const int abc_tint_spinner = 2131230812;
+			public const int abc_tint_default = 2131230812;
 			
 			// aapt resource value: 0x7f08005d
-			public const int abc_tint_switch_thumb = 2131230813;
+			public const int abc_tint_edittext = 2131230813;
 			
 			// aapt resource value: 0x7f08005e
-			public const int abc_tint_switch_track = 2131230814;
+			public const int abc_tint_seek_thumb = 2131230814;
+			
+			// aapt resource value: 0x7f08005f
+			public const int abc_tint_spinner = 2131230815;
+			
+			// aapt resource value: 0x7f080060
+			public const int abc_tint_switch_thumb = 2131230816;
+			
+			// aapt resource value: 0x7f080061
+			public const int abc_tint_switch_track = 2131230817;
+			
+			// aapt resource value: 0x7f08004c
+			public const int accent = 2131230796;
 			
 			// aapt resource value: 0x7f080009
 			public const int accent_material_dark = 2131230729;
@@ -3497,8 +3500,8 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f08003f
 			public const int design_bottom_navigation_shadow_color = 2131230783;
 			
-			// aapt resource value: 0x7f08005f
-			public const int design_error = 2131230815;
+			// aapt resource value: 0x7f080062
+			public const int design_error = 2131230818;
 			
 			// aapt resource value: 0x7f080040
 			public const int design_fab_shadow_end_color = 2131230784;
@@ -3530,8 +3533,8 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f080049
 			public const int design_textinput_error_color_light = 2131230793;
 			
-			// aapt resource value: 0x7f080060
-			public const int design_tint_password_toggle = 2131230816;
+			// aapt resource value: 0x7f080063
+			public const int design_tint_password_toggle = 2131230819;
 			
 			// aapt resource value: 0x7f080017
 			public const int dim_foreground_disabled_material_dark = 2131230743;
@@ -3602,6 +3605,12 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f08002c
 			public const int notification_material_background_media_default_color = 2131230764;
 			
+			// aapt resource value: 0x7f08004a
+			public const int primary = 2131230794;
+			
+			// aapt resource value: 0x7f08004b
+			public const int primaryDark = 2131230795;
+			
 			// aapt resource value: 0x7f08002d
 			public const int primary_dark_material_dark = 2131230765;
 			
@@ -3650,11 +3659,11 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f08003c
 			public const int switch_thumb_disabled_material_light = 2131230780;
 			
-			// aapt resource value: 0x7f080061
-			public const int switch_thumb_material_dark = 2131230817;
+			// aapt resource value: 0x7f080064
+			public const int switch_thumb_material_dark = 2131230820;
 			
-			// aapt resource value: 0x7f080062
-			public const int switch_thumb_material_light = 2131230818;
+			// aapt resource value: 0x7f080065
+			public const int switch_thumb_material_light = 2131230821;
 			
 			// aapt resource value: 0x7f08003d
 			public const int switch_thumb_normal_material_dark = 2131230781;
@@ -4963,11 +4972,11 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f020114
 			public const int notification_icon_background = 2130837780;
 			
-			// aapt resource value: 0x7f02011a
-			public const int notification_template_icon_bg = 2130837786;
+			// aapt resource value: 0x7f02011c
+			public const int notification_template_icon_bg = 2130837788;
 			
-			// aapt resource value: 0x7f02011b
-			public const int notification_template_icon_low_bg = 2130837787;
+			// aapt resource value: 0x7f02011d
+			public const int notification_template_icon_low_bg = 2130837789;
 			
 			// aapt resource value: 0x7f020115
 			public const int notification_tile_bg = 2130837781;
@@ -4983,6 +4992,12 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0x7f020119
 			public const int roundedbgdark = 2130837785;
+			
+			// aapt resource value: 0x7f02011a
+			public const int splash = 2130837786;
+			
+			// aapt resource value: 0x7f02011b
+			public const int splashlogo = 2130837787;
 			
 			static Drawable()
 			{
@@ -6148,8 +6163,8 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f070170
 			public const int Animation_Design_BottomSheetDialog = 2131165552;
 			
-			// aapt resource value: 0x7f070190
-			public const int AppCompatDialogStyle = 2131165584;
+			// aapt resource value: 0x7f070191
+			public const int AppCompatDialogStyle = 2131165585;
 			
 			// aapt resource value: 0x7f0700b2
 			public const int Base_AlertDialog_AppCompat = 2131165362;
@@ -6640,11 +6655,11 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f07018d
 			public const int ExoMediaButton_Rewind = 2131165581;
 			
-			// aapt resource value: 0x7f07018e
-			public const int MainTheme = 2131165582;
-			
 			// aapt resource value: 0x7f07018f
-			public const int MainTheme_Base = 2131165583;
+			public const int MainTheme = 2131165583;
+			
+			// aapt resource value: 0x7f070190
+			public const int MainTheme_Base = 2131165584;
 			
 			// aapt resource value: 0x7f07002d
 			public const int Platform_AppCompat = 2131165229;
@@ -6729,6 +6744,9 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0x7f07004d
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131165261;
+			
+			// aapt resource value: 0x7f07018e
+			public const int SplashTheme = 2131165582;
 			
 			// aapt resource value: 0x7f0700dd
 			public const int TextAppearance_AppCompat = 2131165405;

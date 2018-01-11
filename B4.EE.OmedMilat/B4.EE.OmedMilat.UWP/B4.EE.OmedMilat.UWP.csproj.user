@@ -2,5 +2,7 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
+    <AppIconSource>C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\jarvislogo.png</AppIconSource>
+    <SplashScreenSource>C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\offlinejarvislogo.png</SplashScreenSource>
   </PropertyGroup>
 </Project>

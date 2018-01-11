@@ -8,44 +8,24 @@ using Windows.System;
 using System.Threading.Tasks;
 using System;
 using Windows.Storage;
+using System.Diagnostics;
 
 namespace B4.EE.OmedMilat.UWP.Services
 {
     public class OpenAppUWP : IOpenApp
     {
-        //private static readonly Uri dummyUri = new Uri("mailto:dummy@seznam.cz");
-
-        //public static async Task<bool> IsAppInstalledAsync(string packageName)
-        //{
-        //    try
-        //    {
-        //        bool appInstalled;
-        //        LaunchQuerySupportStatus result = await Launcher.QueryUriSupportAsync(dummyUri, LaunchQuerySupportType.Uri, packageName);
-        //        switch (result)
-        //        {
-        //            case LaunchQuerySupportStatus.Available:
-        //            case LaunchQuerySupportStatus.NotSupported:
-        //                appInstalled = true;
-        //                break;
-        //            //case LaunchQuerySupportStatus.AppNotInstalled:
-        //            //case LaunchQuerySupportStatus.AppUnavailable:
-        //            //case LaunchQuerySupportStatus.Unknown:
-        //            default:
-        //                appInstalled = false;
-        //                break;
-        //        }
-
-        //        Debug.WriteLine($"App {packageName}, query status: {result}, installed: {appInstalled}");
-        //        return appInstalled;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Debug.WriteLine($"Error checking if app {packageName} is installed. Error: {ex}");
-        //        return false;
-        //    }
-        //}
-
-
+        public List<InstalledAppsInfo> Applinks()
+        {
+            List<InstalledAppsInfo> installedAppsInfo = new List<InstalledAppsInfo>();
+            installedAppsInfo.Add(new InstalledAppsInfo { Name = "Instagram", PackageName = "https://www.instagram.com/" });
+            installedAppsInfo.Add(new InstalledAppsInfo { Name = "Facebook", PackageName = "https://www.facebook.com/" });
+            installedAppsInfo.Add(new InstalledAppsInfo { Name = "Netflix", PackageName = "https://www.netflix.com/" });
+            installedAppsInfo.Add(new InstalledAppsInfo { Name = "Youtube", PackageName = "https://www.youtube.com/" });
+            installedAppsInfo.Add(new InstalledAppsInfo { Name = "Google", PackageName = "https://www.google.be/" });
+            installedAppsInfo.Add(new InstalledAppsInfo { Name = "Maps", PackageName = "https://www.google.be/maps/" });
+            return installedAppsInfo;
+        }
+        
         public async Task OpenExternalApp(string appname)
         {
             await Launcher.LaunchUriAsync(new Uri(appname));
@@ -53,18 +33,15 @@ namespace B4.EE.OmedMilat.UWP.Services
 
         List<InstalledAppsInfo> IOpenApp.AppInfo()
         {
-            //PackageManager packageManager = new PackageManager();
-
-            //IEnumerable<Package> apps = packageManager.FindPackages().ToList();
             List<InstalledAppsInfo> appInfo = new List<InstalledAppsInfo>();
-            //for (int i = 0; i < apps.Count(); i++)
-            //{
-            //    appInfo.Add(new InstalledAppsInfo
-            //    {
-            //        Name = apps.ElementAt(i).DisplayName,
-            //        PackageName = apps.ElementAt(i).Id.FullName
-            //    });
-            //}
+            for (int i = 0; i < Applinks().Count; i++)
+            {
+                appInfo.Add(new InstalledAppsInfo
+                {
+                    Name = Applinks()[i].Name,
+                    PackageName = Applinks()[i].PackageName
+                });
+            }
             return appInfo;
         }
     }

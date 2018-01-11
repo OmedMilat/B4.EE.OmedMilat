@@ -139,18 +139,6 @@ namespace B4.EE.OmedMilat.Domain.Services
                 }
             }
         }
-        //public async Task OpenApp(string name)
-        //{
-        //    if (Device.RuntimePlatform == Device.Android)
-        //    {
-        //        await DependencyService.Get<IOpenApp>().OpenExternalApp(name);
-        //    }
-        //    else if (Device.RuntimePlatform == Device.Windows)
-        //    {
-        //        //Device.OpenUri(new Uri(link));
-        //    }
-
-        //}
 
         public async Task GetWeather()
         {

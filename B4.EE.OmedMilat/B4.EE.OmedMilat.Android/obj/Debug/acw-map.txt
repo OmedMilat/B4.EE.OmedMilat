@@ -10,6 +10,10 @@ B4.EE.OmedMilat.Droid.OpenAppAndroid, B4.EE.OmedMilat.Android;md58069c65dc941f3e
 B4.EE.OmedMilat.Droid.OpenAppAndroid, B4.EE.OmedMilat.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58069c65dc941f3e7bbf5ce9950498087.OpenAppAndroid
 B4.EE.OmedMilat.Droid.OpenAppAndroid;md58069c65dc941f3e7bbf5ce9950498087.OpenAppAndroid
 b4.ee.omedmilat.droid.OpenAppAndroid;md58069c65dc941f3e7bbf5ce9950498087.OpenAppAndroid
+B4.EE.OmedMilat.Droid.SplashActivity, B4.EE.OmedMilat.Android;md58069c65dc941f3e7bbf5ce9950498087.SplashActivity
+B4.EE.OmedMilat.Droid.SplashActivity, B4.EE.OmedMilat.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58069c65dc941f3e7bbf5ce9950498087.SplashActivity
+B4.EE.OmedMilat.Droid.SplashActivity;md58069c65dc941f3e7bbf5ce9950498087.SplashActivity
+b4.ee.omedmilat.droid.SplashActivity;md58069c65dc941f3e7bbf5ce9950498087.SplashActivity
 B4.EE.OmedMilat.Droid.Services.SystemSetting, B4.EE.OmedMilat.Android;md54fbadf704a96a26cb70379ca5ed625bd.SystemSetting
 B4.EE.OmedMilat.Droid.Services.SystemSetting, B4.EE.OmedMilat.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54fbadf704a96a26cb70379ca5ed625bd.SystemSetting
 B4.EE.OmedMilat.Droid.Services.SystemSetting;md54fbadf704a96a26cb70379ca5ed625bd.SystemSetting

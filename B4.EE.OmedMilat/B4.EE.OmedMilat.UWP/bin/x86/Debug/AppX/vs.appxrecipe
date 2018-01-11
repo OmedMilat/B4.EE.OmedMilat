@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0524C3A79BEC63BD06B4AB83FBEE3CBD4FAFA9C8C13761A16B54819352C44E7B</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>B3D83697B4614073A942AC9EA6733C427E425C482799C330013DC442AEC193EC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e2c6d46f-b9cd-471c-ab32-8e33860accb8_1.0.0.0_x86__0ycztjkbc6nce</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e2c6d46f-b9cd-471c-ab32-8e33860accb8_0ycztjkbc6nce!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e2c6d46f-b9cd-471c-ab32-8e33860accb8</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-05T18:46:53.186</Modified>
+      <Modified>2018-01-11T14:55:35.288</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\B4.EE.OmedMilat.UWP.exe">
       <PackagePath>entrypoint\B4.EE.OmedMilat.UWP.exe</PackagePath>
-      <Modified>2018-01-05T18:46:47.560</Modified>
+      <Modified>2018-01-11T14:55:34.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Acr.UserDialogs\6.5.1\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
@@ -633,7 +633,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat.dll">
       <PackagePath>B4.EE.OmedMilat.dll</PackagePath>
-      <Modified>2018-01-05T18:33:15.031</Modified>
+      <Modified>2018-01-11T14:55:32.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat.dll.config">
+      <PackagePath>B4.EE.OmedMilat.dll.config</PackagePath>
+      <Modified>2018-01-05T21:38:22.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.21.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -651,9 +655,40 @@
       <PackagePath>Assets\hall9000.mp3</PackagePath>
       <Modified>2017-12-30T16:44:24.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\jarvisbg.jpg">
-      <PackagePath>jarvisbg.jpg</PackagePath>
-      <Modified>2017-12-19T14:06:46.974</Modified>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-06T19:57:34.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-06T19:57:34.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-06T19:43:18.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-06T19:43:18.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-06T19:43:18.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-06T19:43:18.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-01-06T19:43:18.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\jarvislogo.png">
       <PackagePath>jarvislogo.png</PackagePath>
@@ -661,7 +696,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\offlinejarvislogo.png">
       <PackagePath>offlinejarvislogo.png</PackagePath>
-      <Modified>2017-12-29T17:39:53.842</Modified>
+      <Modified>2017-12-29T17:39:34.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -683,30 +718,10 @@
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
       <Modified>2017-12-15T15:26:18.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-100.png">
-      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.770</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-125.png">
-      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.771</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-150.png">
-      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.772</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.781</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.782</Modified>
+      <Modified>2018-01-06T19:57:34.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
@@ -736,52 +751,52 @@
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.790</Modified>
+      <Modified>2018-01-06T19:43:18.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.791</Modified>
+      <Modified>2018-01-06T19:43:18.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.792</Modified>
+      <Modified>2018-01-06T19:43:18.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.793</Modified>
+      <Modified>2018-01-06T19:43:18.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.795</Modified>
+      <Modified>2018-01-06T19:43:18.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.796</Modified>
+      <Modified>2018-01-06T19:43:18.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.797</Modified>
+      <Modified>2018-01-06T19:43:18.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.800</Modified>
+      <Modified>2018-01-06T19:43:18.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.801</Modified>
+      <Modified>2018-01-06T19:43:18.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T15:26:18.798</Modified>
+      <Modified>2018-01-06T19:43:18.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -812,6 +827,10 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-15T15:26:18.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\jarvisbg.jpg">
+      <PackagePath>jarvisbg.jpg</PackagePath>
+      <Modified>2017-12-19T14:06:46.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -868,11 +887,11 @@
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-05T18:46:51.891</Modified>
+      <Modified>2018-01-06T19:57:40.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\B4.EE.OmedMilat.UWP.exe">
       <PackagePath>B4.EE.OmedMilat.UWP.exe</PackagePath>
-      <Modified>2018-01-05T18:46:53.155</Modified>
+      <Modified>2018-01-11T14:55:35.278</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
