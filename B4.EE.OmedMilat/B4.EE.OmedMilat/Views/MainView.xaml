@@ -16,7 +16,7 @@
         <StackLayout x:Name="SplashStack" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
             <Image x:Name="logo" Source="{Binding Jarvislogo}">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding RecordAudio}" NumberOfTapsRequired="1"/>
+                    <TapGestureRecognizer Command="{Binding RecordAudio}" />
                     <TapGestureRecognizer Command="{Binding VisualInfo}" NumberOfTapsRequired="2"/>
                 </Image.GestureRecognizers>
             </Image>

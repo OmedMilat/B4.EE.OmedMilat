@@ -13,7 +13,7 @@
     "Xam.Plugin.Media": "3.1.2",
     "Xam.Plugins.TextToSpeech": "3.0.1",
     "Xamarin.Cognitive.BingSpeech": "1.0.3",
-    "Xamarin.Forms": "2.3.4.224"
+    "Xamarin.Forms": "2.5.0.122203"
   },
   "frameworks": {
     "uap10.0.10586": {}

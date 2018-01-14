@@ -1,2 +1,0 @@
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\B4.EE.OmedMilat.UWP.csproj;x86
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.csproj;neutral

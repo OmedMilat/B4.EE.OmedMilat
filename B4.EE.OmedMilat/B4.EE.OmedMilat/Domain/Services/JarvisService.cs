@@ -10,7 +10,6 @@ using Plugin.Geolocator;
 using System;
 using Newtonsoft.Json;
 using Acr.UserDialogs;
-using Splat;
 
 namespace B4.EE.OmedMilat.Domain.Services
 {
