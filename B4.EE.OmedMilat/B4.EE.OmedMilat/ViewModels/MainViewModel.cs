@@ -19,13 +19,15 @@ namespace B4.EE.OmedMilat.ViewModels
         public JarvisService jarvisService;
         Stopwatch testo = new Stopwatch();
         INavigation navigation;
+        bool FirstTime;
 
         public MainViewModel(INavigation navigation)
         {
             this.navigation = navigation;
-            jarvislogo = "jarvislogo.png";
             bingSpeechService = new BingSpeechService();
             jarvisService = new JarvisService();
+            FirstTime = true;
+            Jarvislogo = "jarvislogo.png";
         }
         public void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
@@ -52,19 +54,38 @@ namespace B4.EE.OmedMilat.ViewModels
         {
             testo.Start();
             await bingSpeechService.RecordAudio();
-            while (BingSpeechService.Result() == null && testo.Elapsed.Seconds <15)
+            while (BingSpeechService.Result() == null && testo.Elapsed.Seconds < 15)
             {
-                if (testo.Elapsed.Seconds>14)
+                if (testo.Elapsed.Seconds > 14)
                 {
                     testo.Restart();
                     await bingSpeechService.StopRecording();
                     await bingSpeechService.RecordAudio();
                 }
             }
-                await jarvisService.Commands();
-
-
+            await jarvisService.Commands();
         }
+        public ICommand AppearingCommand => new Command(
+            async () =>
+            {
+                if (FirstTime == true)
+                {
+                    Jarvislogo = "offlinejarvislogo.png";
+                    await Task.Delay(2700);
+                    Jarvislogo = "jarvislogo.png";
+                    FirstTime = false;
+                }
+            });
+
+        public ICommand VisualInfo => new Command(
+            async () =>
+            {
+                try
+                {
+                    await jarvisService.VisualInfo();
+                }
+                catch { }
+            });
 
         public ICommand RecordAudio => new Command(
              async () =>

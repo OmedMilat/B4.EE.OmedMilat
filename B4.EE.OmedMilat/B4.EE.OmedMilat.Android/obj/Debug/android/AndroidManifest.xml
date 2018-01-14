@@ -14,6 +14,8 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <application android:label="B4.EE.OmedMilat.Android" android:name="md58069c65dc941f3e7bbf5ce9950498087.MainApplication" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:theme="@style/MainTheme" android:name="md58069c65dc941f3e7bbf5ce9950498087.MainActivity" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Jarvis" android:noHistory="true" android:theme="@style/SplashTheme" android:name="md58069c65dc941f3e7bbf5ce9950498087.SplashActivity">
@@ -22,6 +24,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:configChanges="orientation|screenSize" android:name="md55b01af31820394fbfb172542d1258596.MediaPickerActivity" />
     <service android:name="md5cb45d68da0a4a063a9a2b86b6adab38d.MediaPlayerService">
       <intent-filter>
         <action android:name="com.xamarin.action.PLAY" />

@@ -8,24 +8,31 @@ using Xamarin.Forms;
 using OpenWeatherMap;
 using Plugin.Geolocator;
 using System;
-using B4.EE.OmedMilat.ViewModels;
-using B4.EE.OmedMilat.Views;
+using Newtonsoft.Json;
+using Acr.UserDialogs;
+using Splat;
 
 namespace B4.EE.OmedMilat.Domain.Services
 {
     public class JarvisService
     {
+        BingVisionService bingVisionService = new BingVisionService();
         List<InstalledAppsInfo> apps = DependencyService.Get<IOpenApp>().AppInfo();
-        Task<List<JarvisCommands>> jokes =  App.Database.GetAllCommads();
+        Task<List<JarvisCommands>> jokes = App.Database.GetAllCommads();
         Random random = new Random();
-        
+        ToastConfig Toast;
+
         public static bool videobool;
         public static string videolink;
 
         public async Task JarvisTalk(string message)
         {
+            Toast = new ToastConfig(message);
+            Toast.SetDuration(3300);
+            Toast.SetBackgroundColor(System.Drawing.Color.FromArgb(10, 110, 144));
+            Toast.SetMessageTextColor(System.Drawing.Color.White);
+            UserDialogs.Instance.Toast(Toast);
             await CrossTextToSpeech.Current.Speak(message);
-             
         }
 
         public async Task Commands()
@@ -87,10 +94,32 @@ namespace B4.EE.OmedMilat.Domain.Services
                     case "tell me a joke":
                         await JarvisTalk(GetRandomJokes());
                         break;
+                    case "what do you see":
+                        await VisualInfo();
+                        break;
                 }
         }
 
-        #region Tasks   
+        #region Tasks&Methodes
+        public async Task VisualInfo()
+        {
+            await bingVisionService.GetVisualInfo(await bingVisionService.TakePhoto());
+            var result = JsonConvert.DeserializeObject<BingVisionResult>(BingVisionService.ResponseString);
+            if (result.Faces.Count == 0 || result.Faces.Count > 1 )
+                await JarvisTalk($"I see {result.Description.Captions[0].Text}");
+
+            else if (result.Faces[0].Gender == "Female")
+            {
+                await JarvisTalk($"I see {result.Description.Captions[0].Text}. She looks " +
+                    $"like {result.Faces[0].Age} years old");
+            }  
+            else
+            {
+                await JarvisTalk($"I see {result.Description.Captions[0].Text}. He looks " +
+                  $"like {result.Faces[0].Age} years old");
+            }
+        }
+
         public string GetRandomJokes()
         {
             int rondom = random.Next(0, jokes.Result.Count);

@@ -116,6 +116,8 @@ class MonoPackageManager_Resources {
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.Abstractions.dll",
 		"Plugin.Geolocator.dll",
+		"Plugin.Media.Abstractions.dll",
+		"Plugin.Media.dll",
 		"Plugin.MediaManager.Abstractions.dll",
 		"Plugin.MediaManager.dll",
 		"Plugin.MediaManager.Forms.Android.dll",

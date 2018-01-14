@@ -60,3 +60,9 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Deb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.Views.VideoView.xaml.g.cs
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\obj\Debug\B4.EE.OmedMilat.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Plugin.Media.Abstractions.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Plugin.Media.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Plugin.Media.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Plugin.Media.xml
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Plugin.Media.Abstractions.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\Plugin.Media.Abstractions.xml

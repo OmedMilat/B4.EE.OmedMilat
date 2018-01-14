@@ -3,7 +3,6 @@ using B4.EE.OmedMilat.Domain.Interface;
 using Android.Media;
 using Android.Views;
 using Plugin.CurrentActivity;
-using Plugin.MediaManager.Forms.Android;
 
 //[assembly: Dependency(typeof(B4.EE.OmedMilat.Droid.Services.OpenMedia))]
 namespace B4.EE.OmedMilat.Droid.Services

@@ -25,6 +25,7 @@ namespace B4.EE.OmedMilat.ViewModels
         async () =>
            {
                await CrossMediaManager.Current.Play(VideoLink, MediaFileType.Video);
+
            });
 
         public ICommand DisappearingCommand => new Command(

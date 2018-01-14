@@ -118,6 +118,12 @@
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Plugin.MediaManager.Forms\0.4.5\lib\uap10.0\Plugin.MediaManager.Forms.dll">
       <PackagePath>Plugin.MediaManager.Forms.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Plugin.Permissions\2.2.1\lib\UAP10\Plugin.Permissions.Abstractions.dll">
+      <PackagePath>Plugin.Permissions.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Plugin.Permissions\2.2.1\lib\UAP10\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
     </AppxPackagedFile>
@@ -450,6 +456,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Xam.Plugin.Geolocator\3.0.3\lib\UAP10\Plugin.Geolocator.dll">
       <PackagePath>Plugin.Geolocator.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Xam.Plugin.Media\3.1.2\lib\UAP10\Plugin.Media.Abstractions.dll">
+      <PackagePath>Plugin.Media.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Xam.Plugin.Media\3.1.2\lib\UAP10\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Xam.Plugins.TextToSpeech\3.0.1\lib\UAP10\Plugin.TextToSpeech.Abstractions.dll">
       <PackagePath>Plugin.TextToSpeech.Abstractions.dll</PackagePath>

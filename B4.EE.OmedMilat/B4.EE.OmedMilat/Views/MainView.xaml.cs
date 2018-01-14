@@ -13,20 +13,31 @@ namespace B4.EE.OmedMilat.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainView : ContentPage
     {
+        bool FirstTime;
         public MainView()
         {
             InitializeComponent();
+            FirstTime = true;
             BindingContext = new MainViewModel(this.Navigation);
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            await Task.Delay(500);
+            if (FirstTime == true)
+            {
 
-            await Task.Delay(2000);
+                await Task.WhenAll(
+                logo.FadeTo(0.4, 1000),
+                logo.ScaleTo(10, 1000, Easing.CubicIn));
 
-            //await Task.WhenAll(
-            //    SplashGrid.FadeTo(0, 2000),
-            //    logo.ScaleTo(10, 2000));
+                await Task.WhenAll(
+                logo.FadeTo(1, 1000),
+                logo.ScaleTo(1, 1000));
+
+                FirstTime = false;
+            }
+
         }
     }
 }

@@ -2,20 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="B4.EE.OmedMilat.Views.MainView"
+             xmlns:cor="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors"
              NavigationPage.HasNavigationBar="False"
              BackgroundImage="jarvisbg.jpg">
-
+    
+    <cor:Interaction.Behaviors>
+        <cor:BehaviorCollection>
+            <cor:EventToCommand EventName="Appearing" Command="{Binding AppearingCommand}" />
+        </cor:BehaviorCollection>
+    </cor:Interaction.Behaviors>
+    
     <ContentPage.Content>
-        <!--<Grid x:Name="SplashGrid">
-            <Image x:Name="logo" HorizontalOptions="Center" VerticalOptions="Center" 
-                   Source="splashlogo">
-                
-            </Image>
-        </Grid>-->
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
-            <Image Source="{Binding Jarvislogo}">
+        <StackLayout x:Name="SplashStack" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
+            <Image x:Name="logo" Source="{Binding Jarvislogo}">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding RecordAudio}"/>
+                    <TapGestureRecognizer Command="{Binding RecordAudio}" NumberOfTapsRequired="1"/>
+                    <TapGestureRecognizer Command="{Binding VisualInfo}" NumberOfTapsRequired="2"/>
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>

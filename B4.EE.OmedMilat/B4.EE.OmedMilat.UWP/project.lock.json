@@ -449,6 +449,17 @@
           "lib/uap10.0/Plugin.MediaManager.Forms.dll": {}
         }
       },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        }
+      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2441,6 +2452,20 @@
           "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugin.Media/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1"
+        },
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.TextToSpeech/3.0.1": {
         "type": "package",
         "compile": {
@@ -2881,6 +2906,17 @@
         "runtime": {
           "lib/uap10.0/Plugin.MediaManager.Forms.UWP.dll": {},
           "lib/uap10.0/Plugin.MediaManager.Forms.dll": {}
+        }
+      },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -5030,6 +5066,20 @@
           "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugin.Media/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1"
+        },
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.TextToSpeech/3.0.1": {
         "type": "package",
         "compile": {
@@ -5471,6 +5521,17 @@
         "runtime": {
           "lib/uap10.0/Plugin.MediaManager.Forms.UWP.dll": {},
           "lib/uap10.0/Plugin.MediaManager.Forms.dll": {}
+        }
+      },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -7655,6 +7716,20 @@
           "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugin.Media/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1"
+        },
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.TextToSpeech/3.0.1": {
         "type": "package",
         "compile": {
@@ -8098,6 +8173,17 @@
         "runtime": {
           "lib/uap10.0/Plugin.MediaManager.Forms.UWP.dll": {},
           "lib/uap10.0/Plugin.MediaManager.Forms.dll": {}
+        }
+      },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -10253,6 +10339,20 @@
           "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugin.Media/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1"
+        },
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.TextToSpeech/3.0.1": {
         "type": "package",
         "compile": {
@@ -10697,6 +10797,17 @@
         "runtime": {
           "lib/uap10.0/Plugin.MediaManager.Forms.UWP.dll": {},
           "lib/uap10.0/Plugin.MediaManager.Forms.dll": {}
+        }
+      },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -12887,6 +12998,20 @@
           "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugin.Media/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1"
+        },
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.TextToSpeech/3.0.1": {
         "type": "package",
         "compile": {
@@ -13330,6 +13455,17 @@
         "runtime": {
           "lib/uap10.0/Plugin.MediaManager.Forms.UWP.dll": {},
           "lib/uap10.0/Plugin.MediaManager.Forms.dll": {}
+        }
+      },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -15485,6 +15621,20 @@
           "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugin.Media/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1"
+        },
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.TextToSpeech/3.0.1": {
         "type": "package",
         "compile": {
@@ -15929,6 +16079,17 @@
         "runtime": {
           "lib/uap10.0/Plugin.MediaManager.Forms.UWP.dll": {},
           "lib/uap10.0/Plugin.MediaManager.Forms.dll": {}
+        }
+      },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -18119,6 +18280,20 @@
           "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugin.Media/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1"
+        },
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.TextToSpeech/3.0.1": {
         "type": "package",
         "compile": {
@@ -18760,6 +18935,41 @@
         "lib/xamarinios/Plugin.MediaManager.Forms.iOS.dll",
         "plugin.mediamanager.forms.0.4.5.nupkg.sha512",
         "plugin.mediamanager.forms.nuspec"
+      ]
+    },
+    "Plugin.Permissions/2.2.1": {
+      "sha512": "ixEdsOBokh6eIofokJmru0u18hZKUODkvJZeest0CsHiiuRcO38yiTr+2Nq6Pg9hm0fhyavFQydhbldfHOp44Q==",
+      "type": "package",
+      "path": "plugin.permissions/2.2.1",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Permissions.XML",
+        "lib/MonoAndroid10/Plugin.Permissions.dll",
+        "lib/MonoAndroid10/Plugin.Permissions.pdb",
+        "lib/UAP10/Plugin.Permissions.Abstractions.dll",
+        "lib/UAP10/Plugin.Permissions.Abstractions.pdb",
+        "lib/UAP10/Plugin.Permissions.Abstractions.xml",
+        "lib/UAP10/Plugin.Permissions.XML",
+        "lib/UAP10/Plugin.Permissions.dll",
+        "lib/UAP10/Plugin.Permissions.pdb",
+        "lib/UAP10/Plugin.Permissions.pri",
+        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Permissions.XML",
+        "lib/Xamarin.iOS10/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Permissions.deps.json",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.xml",
+        "plugin.permissions.2.2.1.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -24904,6 +25114,47 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
+    "Xam.Plugin.Media/3.1.2": {
+      "sha512": "LwThKbUnBLOYWubl+bq9bkn9HQ0+9W15FV9pC7M3PMIQ1o4dKmkaA5Ub2CJzXCeUHveyv4d6pX976J857rg6eA==",
+      "type": "package",
+      "path": "xam.plugin.media/3.1.2",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Media.dll",
+        "lib/MonoAndroid10/Plugin.Media.pdb",
+        "lib/MonoAndroid10/Plugin.Media.xml",
+        "lib/UAP10/Plugin.Media.Abstractions.dll",
+        "lib/UAP10/Plugin.Media.Abstractions.pdb",
+        "lib/UAP10/Plugin.Media.Abstractions.xml",
+        "lib/UAP10/Plugin.Media.XML",
+        "lib/UAP10/Plugin.Media.dll",
+        "lib/UAP10/Plugin.Media.pdb",
+        "lib/UAP10/Plugin.Media.pri",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Media.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.xml",
+        "lib/netstandard1.0/Plugin.Media.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Media.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Media.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Media.deps.json",
+        "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.pdb",
+        "lib/netstandard1.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.Abstractions.dll",
+        "lib/tizen40/Plugin.Media.Abstractions.pdb",
+        "lib/tizen40/Plugin.Media.Abstractions.xml",
+        "lib/tizen40/Plugin.Media.deps.json",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
+        "readme.txt",
+        "xam.plugin.media.3.1.2.nupkg.sha512",
+        "xam.plugin.media.nuspec"
+      ]
+    },
     "Xam.Plugins.TextToSpeech/3.0.1": {
       "sha512": "1+Jq6YPSJRfHemMhVckS6xyXBtuyml6uhXURXFabJ0nILHg57izqaLeNhUeMNf2b76BG1E4WDI0y9lAJYSizvw==",
       "type": "package",
@@ -25122,6 +25373,7 @@
       "Plugin.MediaManager >= 0.4.5",
       "Plugin.MediaManager.Forms >= 0.4.5",
       "Xam.Plugin.Geolocator >= 3.0.3",
+      "Xam.Plugin.Media >= 3.1.2",
       "Xam.Plugins.TextToSpeech >= 3.0.1",
       "Xamarin.Cognitive.BingSpeech >= 1.0.3",
       "Xamarin.Forms >= 2.3.4.224",
@@ -25171,6 +25423,7 @@
       "Plugin.MediaManager.Forms": "0.4.5",
       "sqlite-net-pcl": "1.5.166-beta",
       "Xam.Plugin.Geolocator": "3.0.3",
+      "Xam.Plugin.Media": "3.1.2",
       "Xam.Plugins.TextToSpeech": "3.0.1",
       "Xamarin.Cognitive.BingSpeech": "1.0.3",
       "Xamarin.Forms": "2.3.4.224"

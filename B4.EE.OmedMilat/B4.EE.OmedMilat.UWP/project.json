@@ -10,6 +10,7 @@
     "Plugin.MediaManager.Forms": "0.4.5",
     "sqlite-net-pcl": "1.5.166-beta",
     "Xam.Plugin.Geolocator": "3.0.3",
+    "Xam.Plugin.Media": "3.1.2",
     "Xam.Plugins.TextToSpeech": "3.0.1",
     "Xamarin.Cognitive.BingSpeech": "1.0.3",
     "Xamarin.Forms": "2.3.4.224"
