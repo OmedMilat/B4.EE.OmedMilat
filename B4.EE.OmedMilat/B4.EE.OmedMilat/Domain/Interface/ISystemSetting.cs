@@ -10,5 +10,7 @@ namespace B4.EE.OmedMilat.Domain.Interface
     {
         void ChangeVolume(int volume);
         void ChangeBrightness(int brightness);
+        void Vibrate(int ms);
+        void CloseApp();
     }
 }

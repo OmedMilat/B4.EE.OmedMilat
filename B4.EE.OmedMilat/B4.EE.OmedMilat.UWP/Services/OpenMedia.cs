@@ -9,13 +9,23 @@ namespace B4.EE.OmedMilat.UWP.Services
 {
     public class OpenMedia : IMedia
     {
-        public async Task Playaudio()
+        StorageFile file;
+        public async Task Playaudio(string which)
         {
-            StorageFolder folder = await Windows.ApplicationModel.Package
-               .Current.InstalledLocation.GetFolderAsync("Assets");
-            var file = await folder.GetFileAsync("hall9000.mp3"); 
-            await CrossMediaManager.Current.Play(file.Path,MediaFileType.Audio);
-            CrossMediaManager.Current.MediaFinished += Current_MediaFinished;           
+            if (which == "hall9000")
+            {
+                StorageFolder folder = await Windows.ApplicationModel.Package
+                   .Current.InstalledLocation.GetFolderAsync("Assets");
+                file = await folder.GetFileAsync("hall9000.mp3");
+            }
+            else if (which == "what")
+            {
+                StorageFolder folder = await Windows.ApplicationModel.Package
+                   .Current.InstalledLocation.GetFolderAsync("Assets");
+                file = await folder.GetFileAsync("what.wav");
+            }
+            await CrossMediaManager.Current.Play(file.Path, MediaFileType.Audio);
+            CrossMediaManager.Current.MediaFinished += Current_MediaFinished;
         }
 
         private void Current_MediaFinished(object sender, Plugin.MediaManager.Abstractions.EventArguments.MediaFinishedEventArgs e)

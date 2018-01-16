@@ -29,7 +29,7 @@ namespace B4.EE.OmedMilat.Domain.Services
             MediaFile photoMediaFile = null;
             byte[] photoByteArray = null;
 
-            if (CrossMedia.Current.IsCameraAvailable)
+            try
             {
                 var mediaOptions = new StoreCameraMediaOptions
                 {
@@ -40,17 +40,16 @@ namespace B4.EE.OmedMilat.Domain.Services
                 photoMediaFile = await CrossMedia.Current.TakePhotoAsync(mediaOptions);
                 photoByteArray = MediaFileToByteArray(photoMediaFile);
                 await GetVisualInfo(photoByteArray);
-            }         
-            else
+            }
+            catch
             {
-                prompt = new PromptConfig
+                var result = await UserDialogs.Instance.PromptAsync(prompt = new PromptConfig
                 {
                     Title = "Error",
                     Message = "No camera found, would you like to choose a photo from the gallery?",
                     OkText = "Yes",
                     CancelText = "No"
-                };
-                var result = await UserDialogs.Instance.PromptAsync(prompt);
+                });
                 if (result.Ok)
                 {
                     await PhotoFromGallery();
@@ -74,14 +73,14 @@ namespace B4.EE.OmedMilat.Domain.Services
             }
             catch
             {
-                DisplayAlert = new AlertConfig
+                UserDialogs.Instance.Alert(DisplayAlert = new AlertConfig
                 {
                     Title = "Error",
                     Message = "Error choosing photo from gallery",
                     OkText = "Ok"
-                };
+                });
             }
-            
+
         }
 
         byte[] MediaFileToByteArray(MediaFile photoMediaFile)

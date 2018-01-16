@@ -10,12 +10,21 @@ namespace B4.EE.OmedMilat.Droid.Services
     public class OpenMedia : IMedia
     {
         Window window = CrossCurrentActivity.Current.Activity.Window;
-        MediaPlayer _mediaPlayer;
-        public Task Playaudio()
+        MediaPlayer mediaPlayer;
+        public Task Playaudio(string which)
         {
-            _mediaPlayer = MediaPlayer
-                .Create(global::Android.App.Application.Context, Resource.Drawable.hall9000);
-            _mediaPlayer.Start();
+            if (which == "hall9000")
+            {
+                mediaPlayer = MediaPlayer
+                .Create(Android.App.Application.Context, Resource.Drawable.hall9000);
+            }
+            else if(which=="what")
+            {
+                mediaPlayer = MediaPlayer
+                .Create(Android.App.Application.Context, Resource.Drawable.what);
+            }
+            mediaPlayer.Start();
+
             return Task.Delay(0);
         }
     }

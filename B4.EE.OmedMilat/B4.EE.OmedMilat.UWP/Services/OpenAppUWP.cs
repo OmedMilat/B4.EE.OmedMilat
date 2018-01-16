@@ -1,14 +1,9 @@
 ﻿using B4.EE.OmedMilat.Domain.Interface;
 using B4.EE.OmedMilat.Domain.Models;
 using System.Collections.Generic;
-using Windows.Management.Deployment;
-using Windows.ApplicationModel;
-using System.Linq;
 using Windows.System;
 using System.Threading.Tasks;
 using System;
-using Windows.Storage;
-using System.Diagnostics;
 
 namespace B4.EE.OmedMilat.UWP.Services
 {
@@ -27,7 +22,8 @@ namespace B4.EE.OmedMilat.UWP.Services
             };
             return installedAppsInfo;
         }
-        
+
+
         public async Task OpenExternalApp(string appname)
         {
             await Launcher.LaunchUriAsync(new Uri(appname));

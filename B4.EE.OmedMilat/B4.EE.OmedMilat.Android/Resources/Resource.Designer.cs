@@ -4981,11 +4981,11 @@ namespace B4.EE.OmedMilat.Droid
 			// aapt resource value: 0x7f020114
 			public const int notification_icon_background = 2130837780;
 			
-			// aapt resource value: 0x7f02011c
-			public const int notification_template_icon_bg = 2130837788;
-			
 			// aapt resource value: 0x7f02011d
-			public const int notification_template_icon_low_bg = 2130837789;
+			public const int notification_template_icon_bg = 2130837789;
+			
+			// aapt resource value: 0x7f02011e
+			public const int notification_template_icon_low_bg = 2130837790;
 			
 			// aapt resource value: 0x7f020115
 			public const int notification_tile_bg = 2130837781;
@@ -5007,6 +5007,9 @@ namespace B4.EE.OmedMilat.Droid
 			
 			// aapt resource value: 0x7f02011b
 			public const int splashlogo = 2130837787;
+			
+			// aapt resource value: 0x7f02011c
+			public const int what = 2130837788;
 			
 			static Drawable()
 			{

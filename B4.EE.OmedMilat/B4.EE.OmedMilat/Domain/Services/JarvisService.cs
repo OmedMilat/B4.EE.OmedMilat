@@ -81,6 +81,10 @@ namespace B4.EE.OmedMilat.Domain.Services
                     case "raise the volume":
                         await ChangeVolume(1);
                         break;
+                    case "mute the volume":
+                        await ChangeVolume(3);
+                        await JarvisTalk("Okay i set it to the lowest level");
+                        break;
 
                     case "turn down the brightness":
                     case "lower the brightness":
@@ -94,7 +98,7 @@ namespace B4.EE.OmedMilat.Domain.Services
                         break;
 
                     case "can you go away":
-                        await Hall9000();
+                        await Sound("hall9000");
                         break;
 
                     case "play video":
@@ -111,14 +115,34 @@ namespace B4.EE.OmedMilat.Domain.Services
                         await VisualInfo();
                         break;
                     case "i want to show you something":
-                        await JarvisTalk("Ok then show it me!");
+                        await JarvisTalk("Ok then show it to me!");
                         FromCamera = false;
                         await VisualInfo();
+                        break;
+
+                    case "you need to go":
+                        await ExitCurrentApp();
+                        break;
+
+                    case "tell me about yourself":
+                        await JarvisTalk("My name is Jarvis, i am 1 month old. I was once an boring empty xamarin application, " +
+                            "till my creator got an assignment from school to make something unique. So here am i inspired from the movie" +
+                            "Iron Man, i am far from good but with the time as i get older my creator will make me better",false);
+                        break;
+
+                    case "what":
+                        await Sound("what");
                         break;
                 }
         }
 
         #region Tasks&Methodes
+        public async Task ExitCurrentApp()
+        {
+            await JarvisTalk("Thanks for listening class of Milat. It was a pleasure being here. I wish you all best of luck with the exams.",false);
+            DependencyService.Get<ISystemSetting>().Vibrate(1500);
+            DependencyService.Get<ISystemSetting>().CloseApp();
+        }
         public async Task VisualInfo()
         {
             if (FromCamera)
@@ -155,21 +179,24 @@ namespace B4.EE.OmedMilat.Domain.Services
             videolink = "https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4";
             return videobool;
         }
-        public async Task Hall9000()
+        public async Task Sound(string which)
         {
-            //https://ia800806.us.archive.org/15/items/Mp3Playlist_555/AaronNeville-CrazyLove.mp3
-            await DependencyService.Get<IMedia>().Playaudio();
+            await DependencyService.Get<IMedia>().Playaudio(which);
         }
 
         public async Task ChangeScreenBrightness(int brightness)
         {
+           
             await Task.Delay(0);
+            //0 = lower, 1 = raise,
             DependencyService.Get<ISystemSetting>().ChangeBrightness(brightness);
         }
 
         public async Task ChangeVolume(int volume)
         {
+            
             await Task.Delay(0);
+            //0 = lower, 1 = raise, 3 = mute
             DependencyService.Get<ISystemSetting>().ChangeVolume(volume);
         }
 

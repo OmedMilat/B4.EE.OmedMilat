@@ -9,6 +9,7 @@ namespace B4.EE.OmedMilat.UWP
             this.InitializeComponent();
             Xamarin.Forms.DependencyService.Register<OpenAppUWP>();
             Xamarin.Forms.DependencyService.Register<OpenMedia>();
+            Xamarin.Forms.DependencyService.Register<SystemSetting>();
             LoadApplication(new OmedMilat.App());
         }
     }

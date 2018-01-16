@@ -3185,8 +3185,8 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f020112;
         public static final int notification_bg_normal_pressed=0x7f020113;
         public static final int notification_icon_background=0x7f020114;
-        public static final int notification_template_icon_bg=0x7f02011c;
-        public static final int notification_template_icon_low_bg=0x7f02011d;
+        public static final int notification_template_icon_bg=0x7f02011d;
+        public static final int notification_template_icon_low_bg=0x7f02011e;
         public static final int notification_tile_bg=0x7f020115;
         public static final int notify_panel_notification_icon_bg=0x7f020116;
         public static final int offlinejarvislogo=0x7f020117;
@@ -3194,6 +3194,7 @@ containing a value of this type.
         public static final int roundedbgdark=0x7f020119;
         public static final int splash=0x7f02011a;
         public static final int splashlogo=0x7f02011b;
+        public static final int what=0x7f02011c;
     }
     public static final class id {
         public static final int action0=0x7f0800b1;

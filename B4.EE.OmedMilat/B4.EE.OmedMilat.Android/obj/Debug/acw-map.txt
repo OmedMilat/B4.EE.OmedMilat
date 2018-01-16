@@ -242,6 +242,10 @@ Plugin.MediaManager.Forms.Android.VideoViewRenderer, Plugin.MediaManager.Forms.A
 Plugin.MediaManager.Forms.Android.VideoViewRenderer, Plugin.MediaManager.Forms.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5283fee9ae989e743d2c97b9142f85b27.VideoViewRenderer
 Plugin.MediaManager.Forms.Android.VideoViewRenderer;md5283fee9ae989e743d2c97b9142f85b27.VideoViewRenderer
 plugin.mediamanager.forms.android.VideoViewRenderer;md5283fee9ae989e743d2c97b9142f85b27.VideoViewRenderer
+Plugin.Notifications.AlarmBroadcastReceiver, Plugin.Notifications;md55ab63ad0e5f25d71fa7c0644558bb56c.AlarmBroadcastReceiver
+Plugin.Notifications.AlarmBroadcastReceiver, Plugin.Notifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55ab63ad0e5f25d71fa7c0644558bb56c.AlarmBroadcastReceiver
+Plugin.Notifications.AlarmBroadcastReceiver;md55ab63ad0e5f25d71fa7c0644558bb56c.AlarmBroadcastReceiver
+plugin.notifications.AlarmBroadcastReceiver;md55ab63ad0e5f25d71fa7c0644558bb56c.AlarmBroadcastReceiver
 Plugin.TextToSpeech.TextToSpeech, Plugin.TextToSpeech;md50885d9cb34d6be2c92273875978a17d0.TextToSpeech
 Plugin.TextToSpeech.TextToSpeech, Plugin.TextToSpeech, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null;md50885d9cb34d6be2c92273875978a17d0.TextToSpeech
 Plugin.TextToSpeech.TextToSpeech;md50885d9cb34d6be2c92273875978a17d0.TextToSpeech

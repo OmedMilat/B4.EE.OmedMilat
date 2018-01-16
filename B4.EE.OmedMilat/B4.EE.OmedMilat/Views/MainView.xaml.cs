@@ -29,7 +29,7 @@ namespace B4.EE.OmedMilat.Views
 
                 await Task.WhenAll(
                 logo.FadeTo(0.4, 1000),
-                logo.ScaleTo(10, 1000, Easing.CubicIn));
+                logo.ScaleTo(10, 1000, Easing.CubicOut));
 
                 await Task.WhenAll(
                 logo.FadeTo(1, 1000),

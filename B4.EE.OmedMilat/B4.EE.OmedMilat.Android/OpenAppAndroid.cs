@@ -5,7 +5,6 @@ using Xamarin.Forms;
 using Android.Content.PM;
 using System.Collections.Generic;
 using B4.EE.OmedMilat.Domain.Models;
-using Android.Media;
 using System.Threading.Tasks;
 
 namespace B4.EE.OmedMilat.Droid
@@ -47,6 +46,6 @@ namespace B4.EE.OmedMilat.Droid
                 });
             }
             return appInfo;
-        }
+        } 
     }
 }

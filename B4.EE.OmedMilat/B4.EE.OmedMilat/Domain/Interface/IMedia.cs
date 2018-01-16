@@ -9,6 +9,6 @@ namespace B4.EE.OmedMilat.Domain.Interface
 {
     public interface IMedia
     {
-        Task Playaudio();
+        Task Playaudio(string which);
     }
 }

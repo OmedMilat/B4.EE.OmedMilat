@@ -1,6 +1,7 @@
 ﻿using B4.EE.OmedMilat.Domain.Interface;
 using B4.EE.OmedMilat.Domain.Services;
 using B4.EE.OmedMilat.Views;
+using Plugin.Notifications;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -80,11 +81,7 @@ namespace B4.EE.OmedMilat.ViewModels
         public ICommand VisualInfo => new Command(
             async () =>
             {
-                try
-                {
-                    await jarvisService.VisualInfo();
-                }
-                catch { }
+                await jarvisService.VisualInfo();
             });
 
         public ICommand RecordAudio => new Command(

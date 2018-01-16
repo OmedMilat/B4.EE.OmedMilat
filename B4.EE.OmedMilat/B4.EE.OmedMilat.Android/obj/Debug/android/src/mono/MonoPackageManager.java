@@ -122,6 +122,8 @@ class MonoPackageManager_Resources {
 		"Plugin.MediaManager.dll",
 		"Plugin.MediaManager.Forms.Android.dll",
 		"Plugin.MediaManager.Forms.dll",
+		"Plugin.Notifications.Abstractions.dll",
+		"Plugin.Notifications.dll",
 		"Plugin.Permissions.Abstractions.dll",
 		"Plugin.Permissions.dll",
 		"Plugin.TextToSpeech.Abstractions.dll",
@@ -154,6 +156,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"XamarinShortcutBadger.dll",
 		"B4.EE.OmedMilat.dll",
 	};
 	public static final String[] Dependencies = new String[]{
