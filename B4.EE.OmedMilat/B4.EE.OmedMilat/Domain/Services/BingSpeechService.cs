@@ -10,7 +10,6 @@ namespace B4.EE.OmedMilat.Domain.Services
 {
     public class BingSpeechService
     {
-        string BingSpeechApiKey = "c1c38bbe75f14ee3b293cc774997a5e6";
         static string SpeechResult = null;
         AudioRecorderService recorder;
         BingSpeechApiClient bingSpeechClient;
@@ -25,7 +24,7 @@ namespace B4.EE.OmedMilat.Domain.Services
                 TotalAudioTimeout = TimeSpan.FromSeconds(15)
             };
 
-            bingSpeechClient = new BingSpeechApiClient(BingSpeechApiKey);
+            bingSpeechClient = new BingSpeechApiClient(ApiConstants.BingSpeechApiKey);
 
             Task.Run(() => bingSpeechClient.Authenticate());
         }

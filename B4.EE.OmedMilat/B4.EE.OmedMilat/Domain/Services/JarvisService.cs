@@ -10,6 +10,7 @@ using Plugin.Geolocator;
 using System;
 using Newtonsoft.Json;
 using Acr.UserDialogs;
+using System.Diagnostics;
 
 namespace B4.EE.OmedMilat.Domain.Services
 {
@@ -23,14 +24,19 @@ namespace B4.EE.OmedMilat.Domain.Services
 
         public static bool videobool;
         public static string videolink;
+        public bool FromCamera = true;
+        public bool Forecast = false;
 
-        public async Task JarvisTalk(string message)
+        public async Task JarvisTalk(string message, bool toast = true)
         {
-            Toast = new ToastConfig(message);
-            Toast.SetDuration(3300);
-            Toast.SetBackgroundColor(System.Drawing.Color.FromArgb(10, 110, 144));
-            Toast.SetMessageTextColor(System.Drawing.Color.White);
-            UserDialogs.Instance.Toast(Toast);
+            if (toast)
+            {
+                Toast = new ToastConfig(message);
+                Toast.SetDuration(3300);
+                Toast.SetBackgroundColor(System.Drawing.Color.FromArgb(10, 110, 144));
+                Toast.SetMessageTextColor(System.Drawing.Color.White);
+                UserDialogs.Instance.Toast(Toast);
+            }
             await CrossTextToSpeech.Current.Speak(message);
         }
 
@@ -51,6 +57,10 @@ namespace B4.EE.OmedMilat.Domain.Services
                         break;
 
                     case "what's the weather like":
+                        await GetWeather();
+                        break;
+                    case "what's the weather tomorrow":
+                        Forecast = true;
                         await GetWeather();
                         break;
 
@@ -75,10 +85,12 @@ namespace B4.EE.OmedMilat.Domain.Services
                     case "turn down the brightness":
                     case "lower the brightness":
                         await ChangeScreenBrightness(0);
+                        await JarvisTalk("No Problem. i've lowered the brightness.");
                         break;
                     case "turn up the brightness":
                     case "raise the brightness":
                         await ChangeScreenBrightness(1);
+                        await JarvisTalk("Got it. I increased the display brightness for you.");
                         break;
 
                     case "can you go away":
@@ -93,7 +105,14 @@ namespace B4.EE.OmedMilat.Domain.Services
                     case "tell me a joke":
                         await JarvisTalk(GetRandomJokes());
                         break;
-                    case "what do you see":
+
+                    case "you need to see something":
+                        await JarvisTalk("Alright, lets take a picture.");
+                        await VisualInfo();
+                        break;
+                    case "i want to show you something":
+                        await JarvisTalk("Ok then show it me!");
+                        FromCamera = false;
                         await VisualInfo();
                         break;
                 }
@@ -102,16 +121,23 @@ namespace B4.EE.OmedMilat.Domain.Services
         #region Tasks&Methodes
         public async Task VisualInfo()
         {
-            await bingVisionService.GetVisualInfo(await bingVisionService.TakePhoto());
+            if (FromCamera)
+                await bingVisionService.TakePhoto();
+            else
+            {
+                await bingVisionService.PhotoFromGallery();
+                FromCamera = true;
+            }
+
             var result = JsonConvert.DeserializeObject<BingVisionResult>(BingVisionService.ResponseString);
-            if (result.Faces.Count == 0 || result.Faces.Count > 1 )
+            if (result.Faces.Count == 0 || result.Faces.Count > 1)
                 await JarvisTalk($"I see {result.Description.Captions[0].Text}");
 
             else if (result.Faces[0].Gender == "Female")
             {
                 await JarvisTalk($"I see {result.Description.Captions[0].Text}. She looks " +
                     $"like {result.Faces[0].Age} years old");
-            }  
+            }
             else
             {
                 await JarvisTalk($"I see {result.Description.Captions[0].Text}. He looks " +
@@ -156,12 +182,12 @@ namespace B4.EE.OmedMilat.Domain.Services
 
         public async Task OpenApp()
         {
-            await Task.Delay(0);
             string openapp = BingSpeechService.Result().TrimStart("open ".ToCharArray());
             for (int i = 0; i < apps.Count; i++)
             {
                 if (apps[i].Name.ToLower() == openapp)
                 {
+                    await JarvisTalk($"Opening {openapp}");
                     await DependencyService.Get<IOpenApp>().OpenExternalApp(apps[i].PackageName);
                     break;
                 }
@@ -172,15 +198,37 @@ namespace B4.EE.OmedMilat.Domain.Services
         {
             var locator = CrossGeolocator.Current;
             locator.DesiredAccuracy = 20;
-            var position = await locator.GetPositionAsync(timeoutMilliseconds: 15000);
 
-            OpenWeatherMapClient client = new OpenWeatherMapClient("200510b1716274cf3afd3f5b71b0b73b");
-            var weather = await client.CurrentWeather.GetByCoordinates(
-                new Coordinates { Latitude = position.Latitude, Longitude = position.Longitude }, MetricSystem.Metric);
+            if (!locator.IsGeolocationEnabled)
+                await JarvisTalk("Looks like your gps is currently off. Make sure to turn on the gps.");
+            else
+            {
+                await JarvisTalk("Hold on i am searching your current location.");
+                var position = await locator.GetPositionAsync(timeoutMilliseconds: 15000);
+                OpenWeatherMapClient client = new OpenWeatherMapClient(ApiConstants.OpenWeatherMapApi);
 
-            await JarvisTalk($"The sky in {weather.City.Name} is {weather.Clouds.Name}. The temperature is {weather.Temperature.Value} " +
-                $"celcius, the temperature today can go up to {weather.Temperature.Max} celcius. The sun will set at {weather.City.Sun.Set.Hour}:" +
-                $"{weather.City.Sun.Set.Minute}");
+                if (!Forecast)
+                {
+                    var weather = await client.CurrentWeather.GetByCoordinates(
+                        new Coordinates { Latitude = position.Latitude, Longitude = position.Longitude }, MetricSystem.Metric);
+
+                    await JarvisTalk($"Looks like there is a {weather.Clouds.Name} in {weather.City.Name}. The current temperature is {weather.Temperature.Value} " +
+                    $"celcius, the temperature today can go up to {weather.Temperature.Max} celcius and go down as to {weather.Temperature.Min} celcius. " +
+                    $"The sun will set at {weather.City.Sun.Set.Hour}:{weather.City.Sun.Set.Minute}",false);
+                }
+                else
+                {
+                    var weather = await client.Forecast.GetByCoordinates(
+                    new Coordinates { Latitude = position.Latitude, Longitude = position.Longitude }, false, MetricSystem.Metric);
+
+                    await JarvisTalk($"Tomorrow it Looks like there will be a {weather.Forecast[7].Clouds} in {weather.Location.Name}. " +
+                    $"The temperature will be {weather.Forecast[7].Temperature.Max} The sun will set at {weather.Sun.Set.Hour}:{weather.Sun.Set.Minute}",false);
+
+                    Forecast = false;
+
+                }
+
+            }
         }
     }
 }

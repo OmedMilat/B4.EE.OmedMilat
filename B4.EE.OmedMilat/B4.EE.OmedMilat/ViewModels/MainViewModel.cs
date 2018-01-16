@@ -71,7 +71,7 @@ namespace B4.EE.OmedMilat.ViewModels
                 if (FirstTime == true)
                 {
                     Jarvislogo = "offlinejarvislogo.png";
-                    await Task.Delay(2700);
+                    await Task.Delay(2900);
                     Jarvislogo = "jarvislogo.png";
                     FirstTime = false;
                 }

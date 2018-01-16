@@ -14,17 +14,17 @@ namespace B4.EE.OmedMilat.Domain.Services
 {
     public class BingVisionService
     {
-        string BingVisionApiKey = "4cafbf62054940a49bca279f07ca96c9";
         public static string ResponseString;
         HttpClient visionApiClient;
+        PromptConfig prompt;
         AlertConfig DisplayAlert;
-        
+
         public BingVisionService()
-        {  
+        {
             visionApiClient = new HttpClient();
-            visionApiClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", BingVisionApiKey);
+            visionApiClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", ApiConstants.BingVisionApi);
         }
-        public async Task<byte[]> TakePhoto()
+        public async Task TakePhoto()
         {
             MediaFile photoMediaFile = null;
             byte[] photoByteArray = null;
@@ -35,26 +35,58 @@ namespace B4.EE.OmedMilat.Domain.Services
                 {
                     PhotoSize = PhotoSize.Medium,
                     AllowCropping = true,
-                    SaveToAlbum = false,      
+                    SaveToAlbum = false,
                 };
                 photoMediaFile = await CrossMedia.Current.TakePhotoAsync(mediaOptions);
                 photoByteArray = MediaFileToByteArray(photoMediaFile);
-            }
+                await GetVisualInfo(photoByteArray);
+            }         
             else
+            {
+                prompt = new PromptConfig
+                {
+                    Title = "Error",
+                    Message = "No camera found, would you like to choose a photo from the gallery?",
+                    OkText = "Yes",
+                    CancelText = "No"
+                };
+                var result = await UserDialogs.Instance.PromptAsync(prompt);
+                if (result.Ok)
+                {
+                    await PhotoFromGallery();
+                }
+            }
+        }
+
+        public async Task PhotoFromGallery()
+        {
+            MediaFile photoMediaFile = null;
+            byte[] photoByteArray = null;
+
+            try
+            {
+                photoMediaFile = await CrossMedia.Current.PickPhotoAsync(new PickMediaOptions
+                {
+                    PhotoSize = PhotoSize.Medium,
+                });
+                photoByteArray = MediaFileToByteArray(photoMediaFile);
+                await GetVisualInfo(photoByteArray);
+            }
+            catch
             {
                 DisplayAlert = new AlertConfig
                 {
                     Title = "Error",
-                    Message = "No camera found",
+                    Message = "Error choosing photo from gallery",
                     OkText = "Ok"
                 };
             }
-            return photoByteArray;
+            
         }
 
         byte[] MediaFileToByteArray(MediaFile photoMediaFile)
         {
-            using (var memStream = new MemoryStream())
+            using (MemoryStream memStream = new MemoryStream())
             {
                 photoMediaFile.GetStream().CopyTo(memStream);
                 return memStream.ToArray();
@@ -69,12 +101,12 @@ namespace B4.EE.OmedMilat.Domain.Services
                 // "application/octet-stream" defines an image represented 
                 // as a byte array
                 content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
-                response = await visionApiClient.PostAsync(@"https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/analyze?visualFeatures=Categories,Description,Faces&language=en", content);
+                response = await visionApiClient.PostAsync(ApiConstants.BingVisionEndpointUrl, content);
                 ResponseString = await response.Content.ReadAsStringAsync();
-               
+
                 //De Json result in output laten zien.
-                JObject json = JObject.Parse(ResponseString);
-                Debug.WriteLine(JsonPrettyPrint(ResponseString));              
+                //JObject json = JObject.Parse(ResponseString);
+                //Debug.WriteLine(JsonPrettyPrint(ResponseString));
             }
         }
         static string JsonPrettyPrint(string json)
