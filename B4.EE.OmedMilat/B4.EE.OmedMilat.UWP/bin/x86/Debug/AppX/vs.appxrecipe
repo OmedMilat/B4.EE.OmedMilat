@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-16T23:15:13.617</Modified>
+      <Modified>2018-01-17T15:17:35.407</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\B4.EE.OmedMilat.UWP.exe">
       <PackagePath>entrypoint\B4.EE.OmedMilat.UWP.exe</PackagePath>
-      <Modified>2018-01-16T23:15:12.561</Modified>
+      <Modified>2018-01-17T15:17:29.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Acr.UserDialogs\6.5.1\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
@@ -119,10 +119,6 @@
       <PackagePath>System.dll</PackagePath>
       <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Microsoft.Toolkit.Uwp.Notifications\1.4.1\lib\uap10.0\Microsoft.Toolkit.Uwp.Notifications.dll">
-      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
-      <Modified>2017-04-04T14:54:38.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Microsoft.VisualBasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
       <Modified>2016-06-11T21:13:10.000</Modified>
@@ -163,14 +159,6 @@
       <PackagePath>Plugin.MediaManager.Forms.dll</PackagePath>
       <Modified>2017-10-10T20:10:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Plugin.Notifications\4.0.0\lib\uap10\Plugin.Notifications.Abstractions.dll">
-      <PackagePath>Plugin.Notifications.Abstractions.dll</PackagePath>
-      <Modified>2017-07-03T18:18:56.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Plugin.Notifications\4.0.0\lib\uap10\Plugin.Notifications.dll">
-      <PackagePath>Plugin.Notifications.dll</PackagePath>
-      <Modified>2017-07-03T18:18:56.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Plugin.Permissions\2.2.1\lib\UAP10\Plugin.Permissions.Abstractions.dll">
       <PackagePath>Plugin.Permissions.Abstractions.dll</PackagePath>
       <Modified>2018-01-04T10:49:12.000</Modified>
@@ -179,117 +167,113 @@
       <PackagePath>Plugin.Permissions.dll</PackagePath>
       <Modified>2018-01-04T10:49:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\QueryString.NET\1.0.0\lib\dotnet\QueryString.NETCore.dll">
-      <PackagePath>QueryString.NETCore.dll</PackagePath>
-      <Modified>2015-09-11T11:10:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Collections\4.3.0\lib\netcore50\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2016-11-05T03:55:36.000</Modified>
+      <Modified>2016-06-11T21:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Diagnostics.Tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Diagnostics.Tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2016-11-05T03:55:54.000</Modified>
+      <Modified>2016-06-11T21:13:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Diagnostics.Tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Diagnostics.Tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2016-11-05T03:55:56.000</Modified>
+      <Modified>2016-06-11T21:13:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Globalization\4.3.0\lib\netcore50\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Globalization\4.0.11\lib\netcore50\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2016-11-05T03:56:02.000</Modified>
+      <Modified>2016-06-11T21:13:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Globalization.Calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Globalization.Calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2016-11-05T03:55:58.000</Modified>
+      <Modified>2016-06-11T21:13:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.IO\4.3.0\lib\netcore50\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.IO\4.1.0\lib\netcore50\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2016-11-05T03:56:14.000</Modified>
+      <Modified>2016-06-11T21:13:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Reflection\4.3.0\lib\netcore50\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Reflection\4.1.0\lib\netcore50\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2016-11-05T03:56:48.000</Modified>
+      <Modified>2016-06-11T21:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Reflection.Extensions\4.3.0\lib\netcore50\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Reflection.Extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2016-11-05T03:56:40.000</Modified>
+      <Modified>2016-06-11T21:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Reflection.Primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Reflection.Primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2016-11-05T03:56:44.000</Modified>
+      <Modified>2016-06-11T21:14:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Resources.ResourceManager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Resources.ResourceManager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2016-11-05T03:56:50.000</Modified>
+      <Modified>2016-06-11T21:14:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Runtime\4.3.0\lib\netcore50\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Runtime\4.1.0\lib\netcore50\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2016-11-05T03:57:02.000</Modified>
+      <Modified>2016-06-11T21:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Runtime.Handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Runtime.Handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2016-11-05T03:56:52.000</Modified>
+      <Modified>2016-06-11T21:14:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Runtime.InteropServices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Runtime.InteropServices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2016-11-05T03:56:52.000</Modified>
+      <Modified>2016-06-11T21:14:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Text.Encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Text.Encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2016-11-05T03:57:22.000</Modified>
+      <Modified>2016-06-11T21:14:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Text.Encoding.Extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Text.Encoding.Extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2016-11-05T03:57:16.000</Modified>
+      <Modified>2016-06-11T21:14:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Threading.Tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Threading.Tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2016-11-05T03:57:24.000</Modified>
+      <Modified>2016-06-11T21:14:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Threading.Timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.any.System.Threading.Timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2016-11-05T03:57:30.000</Modified>
+      <Modified>2016-06-11T21:14:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.Microsoft.Win32.Primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.Microsoft.Win32.Primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2016-11-05T03:55:32.000</Modified>
+      <Modified>2016-06-11T21:13:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Console\4.3.0\runtimes\win\lib\netcore50\System.Console.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Console\4.0.0\runtimes\win\lib\netcore50\System.Console.dll">
       <PackagePath>System.Console.dll</PackagePath>
-      <Modified>2016-11-05T03:55:46.000</Modified>
+      <Modified>2016-06-11T21:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Diagnostics.Debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Diagnostics.Debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2016-11-05T03:55:48.000</Modified>
+      <Modified>2016-06-11T21:13:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.IO.FileSystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.IO.FileSystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2016-11-05T03:56:06.000</Modified>
+      <Modified>2016-06-11T21:13:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Net.Primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Net.Primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2016-11-05T03:56:24.000</Modified>
+      <Modified>2016-06-11T21:14:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Net.Sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Net.Sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2016-11-05T03:56:28.000</Modified>
+      <Modified>2016-06-11T21:14:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Runtime.Extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win.System.Runtime.Extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2016-11-05T03:56:48.000</Modified>
+      <Modified>2016-06-11T21:14:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win7-x86.Microsoft.NETCore.Jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
       <PackagePath>clrjit.dll</PackagePath>
       <Modified>2016-06-13T16:27:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win7-x86.runtime.native.System.IO.Compression\4.3.0\runtimes\win7-x86\native\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win7-x86.runtime.native.System.IO.Compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
-      <Modified>2016-11-05T03:34:10.000</Modified>
+      <Modified>2016-06-13T19:51:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win7.System.Private.Uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\runtime.win7.System.Private.Uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2016-11-05T03:56:36.000</Modified>
+      <Modified>2016-07-01T13:48:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Splat\2.0.0\lib\Portable-Win81+Wpa81\Splat.dll">
       <PackagePath>Splat.dll</PackagePath>
@@ -319,17 +303,17 @@
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2017-08-03T12:51:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.AppContext\4.3.0\lib\netcore50\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.AppContext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2016-11-05T03:55:34.000</Modified>
+      <Modified>2016-06-11T21:13:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
-      <Modified>2016-11-05T03:55:30.000</Modified>
+      <Modified>2016-06-11T21:13:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Collections.Concurrent\4.3.0\lib\netcore50\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Collections.Concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2016-11-05T03:55:32.000</Modified>
+      <Modified>2016-06-11T21:13:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Collections.Immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
@@ -359,13 +343,13 @@
       <PackagePath>System.Data.Common.dll</PackagePath>
       <Modified>2016-06-11T21:13:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Diagnostics.Contracts\4.3.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Diagnostics.Contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2016-11-05T03:55:50.000</Modified>
+      <Modified>2016-06-11T21:13:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Diagnostics.DiagnosticSource\4.3.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Diagnostics.DiagnosticSource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
-      <Modified>2016-11-05T03:55:52.000</Modified>
+      <Modified>2016-06-11T21:13:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Diagnostics.StackTrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
@@ -379,17 +363,17 @@
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
       <Modified>2016-06-11T21:13:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.IO.Compression\4.3.0\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.IO.Compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2016-11-05T03:56:08.000</Modified>
+      <Modified>2016-07-01T13:48:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.IO.Compression.ZipFile\4.3.0\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.IO.Compression.ZipFile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2016-11-05T03:56:04.000</Modified>
+      <Modified>2016-06-11T21:13:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.IO.FileSystem.Primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.IO.FileSystem.Primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2016-11-05T03:56:08.000</Modified>
+      <Modified>2016-06-11T21:13:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.IO.IsolatedStorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
@@ -399,13 +383,13 @@
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
       <Modified>2016-06-11T21:13:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Linq\4.3.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2016-11-05T03:56:20.000</Modified>
+      <Modified>2016-06-11T21:14:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Linq.Expressions\4.3.0\lib\netcore50\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Linq.Expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2016-11-05T03:56:24.000</Modified>
+      <Modified>2016-06-11T21:13:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Linq.Parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
@@ -415,17 +399,17 @@
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
       <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Net.Http\4.3.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Net.Http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2016-11-05T03:56:30.000</Modified>
+      <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Net.Http.Rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
       <Modified>2016-06-11T21:13:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Net.NameResolution\4.3.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Net.NameResolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
-      <Modified>2016-11-05T03:56:26.000</Modified>
+      <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Net.NetworkInformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
@@ -455,9 +439,9 @@
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
       <Modified>2016-06-11T21:14:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.ObjectModel\4.3.0\lib\netcore50\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.ObjectModel\4.0.12\lib\netcore50\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2016-11-05T03:56:40.000</Modified>
+      <Modified>2016-06-11T21:14:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Private.DataContractSerialization\4.1.1\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
@@ -479,33 +463,33 @@
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
       <Modified>2016-06-11T21:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Reflection.Emit.ILGeneration\4.3.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Reflection.Emit.ILGeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2016-11-05T03:56:40.000</Modified>
+      <Modified>2016-06-11T21:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Reflection.Emit.Lightweight\4.3.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Reflection.Emit.Lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2016-11-05T03:56:42.000</Modified>
+      <Modified>2016-06-11T21:14:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Reflection.Metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
       <Modified>2016-06-11T21:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Reflection.TypeExtensions\4.3.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Reflection.TypeExtensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2016-11-05T03:56:48.000</Modified>
+      <Modified>2016-06-11T21:14:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.3.0\runtimes\win\lib\netcore50\System.Runtime.InteropServices.RuntimeInformation.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.0.0\runtimes\win\lib\netcore50\System.Runtime.InteropServices.RuntimeInformation.dll">
       <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
-      <Modified>2016-11-05T03:57:00.000</Modified>
+      <Modified>2016-06-11T21:14:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.InteropServices.WindowsRuntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
       <Modified>2016-06-11T21:14:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.Numerics\4.3.0\lib\netcore50\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.Numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2016-11-05T03:57:00.000</Modified>
+      <Modified>2016-06-11T21:14:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.Serialization.Json\4.0.2\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
@@ -519,9 +503,9 @@
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
       <Modified>2016-06-11T21:14:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.WindowsRuntime\4.3.0\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.WindowsRuntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-11-05T03:57:02.000</Modified>
+      <Modified>2016-06-11T21:14:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Runtime.WindowsRuntime.UI.Xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
@@ -531,25 +515,25 @@
       <PackagePath>System.Security.Claims.dll</PackagePath>
       <Modified>2016-06-11T21:14:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Algorithms\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
-      <Modified>2016-11-05T03:57:14.000</Modified>
+      <Modified>2016-06-11T21:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Cng\4.3.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
       <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
-      <Modified>2016-11-05T03:57:10.000</Modified>
+      <Modified>2016-06-11T21:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Encoding\4.3.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
       <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
-      <Modified>2016-11-05T03:57:08.000</Modified>
+      <Modified>2016-06-11T21:14:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Primitives\4.3.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.Primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
       <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
-      <Modified>2016-11-05T03:57:18.000</Modified>
+      <Modified>2016-06-11T21:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.X509Certificates\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Cryptography.X509Certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
-      <Modified>2016-11-05T03:57:18.000</Modified>
+      <Modified>2016-06-11T21:14:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Security.Principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
@@ -579,37 +563,37 @@
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
       <Modified>2016-06-11T21:14:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Text.RegularExpressions\4.3.0\lib\netcore50\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Text.RegularExpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2016-11-05T03:57:24.000</Modified>
+      <Modified>2016-06-11T21:14:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading\4.3.0\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading\4.0.11\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2016-11-05T03:57:30.000</Modified>
+      <Modified>2016-06-11T21:15:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading.Overlapped\4.3.0\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading.Overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2016-11-05T03:57:26.000</Modified>
+      <Modified>2016-06-11T21:14:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading.Tasks.Dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
       <Modified>2016-06-11T21:14:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading.Tasks.Extensions\4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading.Tasks.Extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
       <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
-      <Modified>2016-11-05T03:57:24.000</Modified>
+      <Modified>2016-06-11T21:14:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Threading.Tasks.Parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
       <Modified>2016-06-11T21:14:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Xml.ReaderWriter\4.3.0\lib\netcore50\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Xml.ReaderWriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2016-11-05T03:57:36.000</Modified>
+      <Modified>2016-06-11T21:15:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Xml.XDocument\4.3.0\lib\netcore50\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Xml.XDocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2016-11-05T03:57:34.000</Modified>
+      <Modified>2016-06-11T21:15:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\System.Xml.XmlDocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
@@ -665,7 +649,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat.dll">
       <PackagePath>B4.EE.OmedMilat.dll</PackagePath>
-      <Modified>2018-01-16T23:09:06.052</Modified>
+      <Modified>2018-01-17T14:25:24.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.21.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -682,6 +666,14 @@
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\hall9000.mp3">
       <PackagePath>Assets\hall9000.mp3</PackagePath>
       <Modified>2017-12-30T16:44:24.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\startup.mp3">
+      <PackagePath>Assets\startup.mp3</PackagePath>
+      <Modified>2018-01-17T10:13:25.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\startup2.mp3">
+      <PackagePath>Assets\startup2.mp3</PackagePath>
+      <Modified>2018-01-17T10:24:22.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -915,11 +907,11 @@
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-16T23:15:00.276</Modified>
+      <Modified>2018-01-17T15:17:33.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\B4.EE.OmedMilat.UWP.exe">
       <PackagePath>B4.EE.OmedMilat.UWP.exe</PackagePath>
-      <Modified>2018-01-16T23:15:13.558</Modified>
+      <Modified>2018-01-17T15:17:35.357</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

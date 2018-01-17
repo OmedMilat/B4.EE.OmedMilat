@@ -34,8 +34,6 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.Xml.Serialization.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.Xml.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.dll
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Microsoft.VisualBasic.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\OpenWeatherMap.dll
@@ -49,16 +47,10 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.MediaManager.Forms.UWP.pdb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.MediaManager.Forms.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.MediaManager.Forms.pdb
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Notifications.Abstractions.dll
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Notifications.Abstractions.pdb
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Notifications.dll
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Notifications.pdb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Permissions.Abstractions.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Permissions.Abstractions.pdb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Permissions.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Plugin.Permissions.pdb
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\QueryString.NETCore.dll
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\QueryString.NETCore.pdb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.Collections.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.Diagnostics.Tools.dll
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\System.Diagnostics.Tracing.dll
@@ -282,7 +274,6 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj\x86\Debug\Coding4Fun.Toolkit.Controls.pri.xml
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj\x86\Debug\Coding4Fun.Toolkit.pri.xml
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj\x86\Debug\Plugin.MediaManager.Forms.UWP.pri.xml
-C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj\x86\Debug\Plugin.Notifications.pri.xml
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj\x86\Debug\Plugin.Permissions.pri.xml
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj\x86\Debug\Plugin.Media.pri.xml
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\obj\x86\Debug\Plugin.TextToSpeech.pri.xml

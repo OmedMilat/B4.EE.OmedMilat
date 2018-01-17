@@ -12,17 +12,23 @@ namespace B4.EE.OmedMilat.UWP.Services
         StorageFile file;
         public async Task Playaudio(string which)
         {
-            if (which == "hall9000")
+            if (which == "startup")
             {
                 StorageFolder folder = await Windows.ApplicationModel.Package
                    .Current.InstalledLocation.GetFolderAsync("Assets");
-                file = await folder.GetFileAsync("hall9000.mp3");
+                file = await folder.GetFileAsync("startup.mp3");
             }
             else if (which == "what")
             {
                 StorageFolder folder = await Windows.ApplicationModel.Package
                    .Current.InstalledLocation.GetFolderAsync("Assets");
                 file = await folder.GetFileAsync("what.wav");
+            }
+            else if(which == "hall9000")
+            {
+                StorageFolder folder = await Windows.ApplicationModel.Package
+                   .Current.InstalledLocation.GetFolderAsync("Assets");
+                file = await folder.GetFileAsync("hall9000.mp3");
             }
             await CrossMediaManager.Current.Play(file.Path, MediaFileType.Audio);
             CrossMediaManager.Current.MediaFinished += Current_MediaFinished;
