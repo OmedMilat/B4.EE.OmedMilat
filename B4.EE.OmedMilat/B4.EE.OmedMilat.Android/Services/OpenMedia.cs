@@ -4,7 +4,6 @@ using Android.Media;
 using Android.Views;
 using Plugin.CurrentActivity;
 
-//[assembly: Dependency(typeof(B4.EE.OmedMilat.Droid.Services.OpenMedia))]
 namespace B4.EE.OmedMilat.Droid.Services
 {
     public class OpenMedia : IMedia
@@ -13,15 +12,20 @@ namespace B4.EE.OmedMilat.Droid.Services
         MediaPlayer mediaPlayer;
         public Task Playaudio(string which)
         {
-            if (which == "hall9000")
+            if (which == "startup")
             {
                 mediaPlayer = MediaPlayer
-                .Create(Android.App.Application.Context, Resource.Drawable.hall9000);
+                .Create(Android.App.Application.Context, Resource.Drawable.startup);
             }
             else if(which=="what")
             {
                 mediaPlayer = MediaPlayer
                 .Create(Android.App.Application.Context, Resource.Drawable.what);
+            }
+            else if(which == "hall9000")
+            {
+                mediaPlayer = MediaPlayer
+                .Create(Android.App.Application.Context, Resource.Drawable.hall9000);
             }
             mediaPlayer.Start();
 

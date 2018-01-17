@@ -1,6 +1,5 @@
 ﻿{
   "dependencies": {
-    "Acr.Notifications": "4.0.0",
     "Acr.UserDialogs": "6.5.1",
     "Corcav.Behaviors": "2.3.7",
     "kphillpotts.Lamp.Plugin": "1.0.0.1",

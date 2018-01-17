@@ -46,7 +46,6 @@
     <Compile Include="Domain\Models\BingVisionResult.cs" />
     <Compile Include="Domain\Models\InstalledAppsInfo.cs" />
     <Compile Include="Domain\Models\JarvisCommands.cs" />
-    <Compile Include="Domain\Models\JarvisUI.cs" />
     <Compile Include="Domain\Services\BingSpeechService.cs" />
     <Compile Include="Domain\Services\BingVisionService.cs" />
     <Compile Include="Domain\Services\JarvisService.cs" />

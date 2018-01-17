@@ -101,7 +101,8 @@ namespace B4.EE.OmedMilat.Domain.Services
                         await Sound("hall9000");
                         break;
 
-                    case "play video":
+                    case "what are the risks of AI":
+                        await JarvisTalk("Let me show a short video of 1 minute what the risks are of artificial intelligence.");
                         videobool = true;
                         Video();
                         break;
@@ -133,12 +134,23 @@ namespace B4.EE.OmedMilat.Domain.Services
                     case "what":
                         await Sound("what");
                         break;
+                    case "you don't sound like jarvis":
+                        await JarvisTalk("Did you just assume my gender?");
+                        break;
                 }
         }
 
         #region Tasks&Methodes
+        public async Task Startup()
+        {
+            await JarvisTalk($"Good after noon today is the {DateTime.Now:d MMMM}. I am online and ready awaiting for commands.", false);
+           
+        }
         public async Task ExitCurrentApp()
         {
+            await Sound("hall9000");
+            await Task.Delay(3800);
+            await JarvisTalk("haha just kidding.",false);
             await JarvisTalk("Thanks for listening class of Milat. It was a pleasure being here. I wish you all best of luck with the exams.",false);
             DependencyService.Get<ISystemSetting>().Vibrate(1500);
             DependencyService.Get<ISystemSetting>().CloseApp();
@@ -176,7 +188,7 @@ namespace B4.EE.OmedMilat.Domain.Services
         }
         public bool Video()
         {
-            videolink = "https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4";
+            videolink = "https://goo.gl/WqsPbC"; 
             return videobool;
         }
         public async Task Sound(string which)

@@ -4,7 +4,7 @@
              x:Class="B4.EE.OmedMilat.Views.MainView"
              xmlns:cor="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors"
              NavigationPage.HasNavigationBar="False"
-             BackgroundImage="jarvisbg.jpg">
+             BackgroundImage = "jarvisbg.jpg">
     
     <cor:Interaction.Behaviors>
         <cor:BehaviorCollection>

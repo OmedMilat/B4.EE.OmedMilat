@@ -20,24 +20,24 @@ namespace B4.EE.OmedMilat.Views
             FirstTime = true;
             BindingContext = new MainViewModel(this.Navigation);
         }
+
+        //Splash animatie met "Task.Whenall()"
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            await Task.Delay(500);
+            await Task.Delay(700);
             if (FirstTime == true)
-            {
 
+            { 
                 await Task.WhenAll(
-                logo.FadeTo(0.4, 1000),
-                logo.ScaleTo(10, 1000, Easing.CubicOut));
-
+                logo.FadeTo(0.4, 1200),
+                logo.ScaleTo(10, 1200, Easing.SpringOut));
+                
                 await Task.WhenAll(
-                logo.FadeTo(1, 1000),
-                logo.ScaleTo(1, 1000));
-
+                logo.FadeTo(1, 1200),
+                logo.ScaleTo(1, 1200));
                 FirstTime = false;
             }
-
         }
     }
 }

@@ -80,7 +80,6 @@ namespace B4.EE.OmedMilat.Domain.Services
                     OkText = "Ok"
                 });
             }
-
         }
 
         byte[] MediaFileToByteArray(MediaFile photoMediaFile)
@@ -96,9 +95,6 @@ namespace B4.EE.OmedMilat.Domain.Services
             HttpResponseMessage response = null;
             using (var content = new ByteArrayContent(photo))
             {
-                // The media type of the body sent to the API. 
-                // "application/octet-stream" defines an image represented 
-                // as a byte array
                 content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
                 response = await visionApiClient.PostAsync(ApiConstants.BingVisionEndpointUrl, content);
                 ResponseString = await response.Content.ReadAsStringAsync();

@@ -162,3 +162,5 @@ C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\Plugin.Notifications.dll.mdb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\android\assets\XamarinShortcutBadger.dll.mdb
 C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\res\drawable\what.wav
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\res\drawable\startup.mp3
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.Android\obj\Debug\res\drawable\startup2.mp3

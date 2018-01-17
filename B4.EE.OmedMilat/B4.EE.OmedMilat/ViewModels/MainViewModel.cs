@@ -1,7 +1,5 @@
-﻿using B4.EE.OmedMilat.Domain.Interface;
-using B4.EE.OmedMilat.Domain.Services;
+﻿using B4.EE.OmedMilat.Domain.Services;
 using B4.EE.OmedMilat.Views;
-using Plugin.Notifications;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -18,7 +16,6 @@ namespace B4.EE.OmedMilat.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
         public BingSpeechService bingSpeechService;
         public JarvisService jarvisService;
-        Stopwatch testo = new Stopwatch();
         INavigation navigation;
         bool FirstTime;
 
@@ -51,37 +48,27 @@ namespace B4.EE.OmedMilat.ViewModels
             await navigation.PushAsync(new VideoView(JarvisService.videolink));
         }
 
-        async Task Test()
-        {
-            testo.Start();
-            await bingSpeechService.RecordAudio();
-            while (BingSpeechService.Result() == null && testo.Elapsed.Seconds < 15)
-            {
-                if (testo.Elapsed.Seconds > 14)
-                {
-                    testo.Restart();
-                    await bingSpeechService.StopRecording();
-                    await bingSpeechService.RecordAudio();
-                }
-            }
-            await jarvisService.Commands();
-        }
         public ICommand AppearingCommand => new Command(
             async () =>
             {
                 if (FirstTime == true)
                 {
                     Jarvislogo = "offlinejarvislogo.png";
-                    await Task.Delay(2900);
+                    await jarvisService.Sound("startup");
+                    await jarvisService.JarvisTalk("Starting up the system..",false);
+                    await Task.Delay(1000);
                     Jarvislogo = "jarvislogo.png";
                     FirstTime = false;
+                    await jarvisService.Startup();
                 }
             });
 
         public ICommand VisualInfo => new Command(
             async () =>
             {
+                Jarvislogo = "offlinejarvislogo.png";
                 await jarvisService.VisualInfo();
+                Jarvislogo = "jarvislogo.png";
             });
 
         public ICommand RecordAudio => new Command(
@@ -107,7 +94,5 @@ namespace B4.EE.OmedMilat.ViewModels
                 }
                 Jarvislogo = "jarvislogo.png";
             });
-
-
     }
 }

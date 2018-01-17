@@ -14,10 +14,6 @@ namespace B4.EE.OmedMilat
             database = new SQLiteAsyncConnection(dbPath);
             database.CreateTableAsync<JarvisCommands>().Wait();
         }
-        public Task CreateTest(JarvisCommands jarvisCommands)
-        {      
-           return database.InsertAsync(jarvisCommands);           
-        }
         public Task<List<JarvisCommands>> GetAllCommads()
         {
             return database.Table<JarvisCommands>().ToListAsync();

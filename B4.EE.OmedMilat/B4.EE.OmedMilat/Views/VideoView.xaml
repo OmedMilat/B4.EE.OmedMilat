@@ -14,7 +14,7 @@
     
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <forms:VideoView x:Name="videoView" HeightRequest="360" WidthRequest="640" />
+            <forms:VideoView x:Name="videoView" HeightRequest="288" WidthRequest="512" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

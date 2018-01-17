@@ -38,28 +38,23 @@ namespace B4.EE.OmedMilat.Domain.Services
         {
             try
             {
-                if (!recorder.IsRecording) //Record button clicked
+                if (!recorder.IsRecording) 
                 {
-                    //start recording audio
                     var audioRecordTask = await recorder.StartRecording();
 
-                    //set the selected recognition mode & profanity mode
                     bingSpeechClient.RecognitionMode = RecognitionMode.Interactive;
                     bingSpeechClient.ProfanityMode = ProfanityMode.Raw;
 
                     var audioFile = await audioRecordTask; 
 
-                    //if we're not streaming the audio as we're recording, we'll use the file-based STT API here
                     if (audioFile != null)
                     {
                         var resultText = await SpeechToText(audioFile);
-                        //ResultsLabel.Text = resultText ?? "No Results!";
                     }
                 }
 
-                else //Stop button clicked
+                else 
                 {
-                    //stop the recording...
                     SpeechResult = null;
                     await recorder.StopRecording();
                 }
