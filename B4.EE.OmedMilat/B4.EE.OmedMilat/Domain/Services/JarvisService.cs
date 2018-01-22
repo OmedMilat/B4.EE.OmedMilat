@@ -143,15 +143,25 @@ namespace B4.EE.OmedMilat.Domain.Services
         #region Tasks&Methodes
         public async Task Startup()
         {
-            await JarvisTalk($"Good after noon today is the {DateTime.Now:d MMMM}. I am online and ready awaiting for commands.", false);
-           
+            int TimeOfDay = Convert.ToInt32("" + DateTime.Now.ToString("HHmm"));
+            string CorrectGreeting="day";
+            if (TimeOfDay >= 0500 && TimeOfDay <= 1159) 
+                CorrectGreeting = "morning"; 
+            else if (TimeOfDay >= 1200 && TimeOfDay <= 1729) 
+                CorrectGreeting = "afternoon";
+            else if (TimeOfDay >= 1730 && TimeOfDay <= 2059)  
+                CorrectGreeting = "evening";
+            else if (TimeOfDay <= 2100 && TimeOfDay >= 0499)
+                CorrectGreeting = "night";
+
+            await JarvisTalk($"Good {CorrectGreeting} today is the {DateTime.Now:d MMMM}. I am online and ready awaiting for commands.", false);
         }
         public async Task ExitCurrentApp()
         {
             await Sound("hall9000");
             await Task.Delay(3800);
             await JarvisTalk("haha just kidding.",false);
-            await JarvisTalk("Thanks for listening class of Milat. It was a pleasure being here. I wish you all best of luck with the exams.",false);
+            await JarvisTalk("See ya",false);
             DependencyService.Get<ISystemSetting>().Vibrate(1500);
             DependencyService.Get<ISystemSetting>().CloseApp();
         }

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-17T15:17:35.407</Modified>
+      <Modified>2018-01-22T16:31:23.088</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\B4.EE.OmedMilat.UWP.exe">
       <PackagePath>entrypoint\B4.EE.OmedMilat.UWP.exe</PackagePath>
-      <Modified>2018-01-17T15:17:29.350</Modified>
+      <Modified>2018-01-22T16:31:22.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\.nuget\packages\Acr.UserDialogs\6.5.1\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
@@ -649,7 +649,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat.dll">
       <PackagePath>B4.EE.OmedMilat.dll</PackagePath>
-      <Modified>2018-01-17T14:25:24.047</Modified>
+      <Modified>2018-01-22T16:31:19.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.21.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -911,7 +911,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\qais187\Desktop\B4.EE.OmedMilat\B4.EE.OmedMilat\B4.EE.OmedMilat.UWP\bin\x86\Debug\Core\B4.EE.OmedMilat.UWP.exe">
       <PackagePath>B4.EE.OmedMilat.UWP.exe</PackagePath>
-      <Modified>2018-01-17T15:17:35.357</Modified>
+      <Modified>2018-01-22T16:31:23.079</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
