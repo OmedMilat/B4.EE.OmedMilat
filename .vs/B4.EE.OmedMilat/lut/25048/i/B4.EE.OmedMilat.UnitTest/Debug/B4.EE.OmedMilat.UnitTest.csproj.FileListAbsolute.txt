@@ -1,0 +1,8 @@
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\b\B4.EE.OmedMilat.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\b\B4.EE.OmedMilat.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\b\B4.EE.OmedMilat.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\b\B4.EE.OmedMilat.UnitTest\bin\Debug\B4.EE.OmedMilat.UnitTest.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\b\B4.EE.OmedMilat.UnitTest\bin\Debug\B4.EE.OmedMilat.UnitTest.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat.UnitTest\Debug\B4.EE.OmedMilat.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat.UnitTest\Debug\B4.EE.OmedMilat.UnitTest.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat.UnitTest\Debug\B4.EE.OmedMilat.UnitTest.pdb

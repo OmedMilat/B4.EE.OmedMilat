@@ -1,0 +1,9 @@
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\b\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat\B4.EE.OmedMilat.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\b\B4.EE.OmedMilat\B4.EE.OmedMilat\bin\Debug\B4.EE.OmedMilat\B4.EE.OmedMilat.pdb
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat\Debug\B4.EE.OmedMilat.csprojResolveAssemblyReference.cache
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat\Debug\B4.EE.OmedMilat.csproj.CoreCompileInputs.cache
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat\Debug\B4.EE.OmedMilat.App.xaml.g.cs
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat\Debug\B4.EE.OmedMilat.Views.MainView.xaml.g.cs
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat\Debug\B4.EE.OmedMilat.Views.VideoView.xaml.g.cs
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat\Debug\B4.EE.OmedMilat.dll
+C:\Users\qais187\Desktop\B4.EE.OmedMilat\.vs\B4.EE.OmedMilat\lut\0\i\B4.EE.OmedMilat\Debug\B4.EE.OmedMilat.pdb
